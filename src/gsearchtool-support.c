@@ -658,7 +658,7 @@ gsearchtool_pixmap_file (const gchar * partial_path)
 {
 	gchar * path;
 
-	path = g_build_filename (DATADIR "/pixmaps/gsearchtool", partial_path, NULL);
+	path = g_build_filename (DATADIR "/pixmaps/csearchtool", partial_path, NULL);
 	if (g_file_test (path, G_FILE_TEST_EXISTS)) {
 		return path;
 	}

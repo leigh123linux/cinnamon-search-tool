@@ -1,4 +1,4 @@
-icondir = $(datadir)/pixmaps/gsearchtool
+icondir = $(datadir)/pixmaps/csearchtool
 icon_DATA = thumbnail_frame.png 
 
 man_MANS = cinnamon-search-tool.1
