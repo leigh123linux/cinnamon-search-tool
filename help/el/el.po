@@ -1,0 +1,1169 @@
+# translation of gsearchtool.gnome-2-26.po to Ελληνικά
+# Sterios Prosiniklis <steriosprosiniklis@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gsearchtool.gnome-2-26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-22 01:31+0000\n"
+"PO-Revision-Date: 2012-08-22 11:02+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"Language-Team: Greek <team@gnome.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+#| msgid "translator-credits"
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα GNOME\n"
+" Στέργιος Προσινικλής <steriosprosiniklis@gmail.com>, 2009\n"
+"Για περισσότερα δείτε http://gnome.gr/"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:240(imagedata)
+#| msgid ""
+#| "@@image: 'figures/gnome-search-tool_window.png'; "
+#| "md5=bb0f097535682e53e6bd43c66f0373c7"
+msgctxt "_"
+msgid ""
+"external ref='figures/gnome-search-tool_window.png' "
+"md5='bb0f097535682e53e6bd43c66f0373c7'"
+msgstr ""
+"external ref='figures/gnome-search-tool_window.png' "
+"md5='bb0f097535682e53e6bd43c66f0373c7'"
+
+#: C/index.docbook:23(articleinfo/title)
+msgid "Search for Files Manual"
+msgstr "Οδηγός χρήσης «Αναζήτησης αρχείων»"
+
+#: C/index.docbook:26(abstract/para)
+msgid "A search tool to find files, folders and documents on your computer."
+msgstr ""
+"Ένα εργαλείο αναζήτησης για την εύρεση αρχείων, φακέλων και εγγράφων στον "
+"υπολογιστή σας."
+
+#: C/index.docbook:31(articleinfo/copyright)
+msgid "<year>2005</year> <holder>Dennis Cranston</holder>"
+msgstr "<year>2005</year> <holder>Dennis Cranston</holder>"
+
+#: C/index.docbook:35(articleinfo/copyright)
+msgid ""
+"<year>2002</year> <year>2003</year> <year>2004</year> <holder>Sun "
+"Microsystems</holder>"
+msgstr ""
+"<year>2002</year> <year>2003</year> <year>2004</year> <holder>Sun "
+"Microsystems</holder>"
+
+#: C/index.docbook:41(articleinfo/copyright)
+msgid "<year>2000</year> <holder>Alexander Kirillov</holder>"
+msgstr "<year>2000</year> <holder>Alexander Kirillov</holder>"
+
+#: C/index.docbook:54(publisher/publishername)
+#: C/index.docbook:133(revdescription/para)
+#: C/index.docbook:141(revdescription/para)
+#: C/index.docbook:149(revdescription/para)
+#: C/index.docbook:157(revdescription/para)
+#: C/index.docbook:165(revdescription/para)
+#: C/index.docbook:175(revdescription/para)
+msgid "GNOME Documentation Project"
+msgstr "Έργο τεκμηρίωσης GNOME"
+
+#: C/index.docbook:2(legalnotice/para)
+#| msgid ""
+#| "Permission is granted to copy, distribute and/or modify this document "
+#| "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
+#| "or any later version published by the Free Software Foundation with no "
+#| "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
+#| "can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl"
+#| "\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in "
+"the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Δίνεται άδεια για αντιγραφή, διανομή και/ή τροποποίηση του εγγράφου υπό τους "
+"όρους της Ελεύθερης Άδειας Τεκμηρίωσης GNU (GFDL), Έκδοση 1.1 ή "
+"μεταγενέστερη εκδιδόμενη από το Ίδρυμα Ελεύθερου Λογισμικού χωρίς Σταθερά "
+"Εδάφια, χωρίς Εξώφυλλα Κειμένου, και χωρίς Οπισθόφυλλα Κειμένου. Μπορείτε να "
+"βρείτε ένα αντίγραφο της GFDL σε αυτόν τον <ulink type=\"help\" url=\"help:"
+"fdl\">σύνδεσμο</ulink> ή στο αρχείο COPYING-DOCS που διανεμήθηκε με αυτόν "
+"τον οδηγό."
+
+#: C/index.docbook:12(legalnotice/para) C/legal.xml:12(legalnotice/para)
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Αυτή η τεκμηρίωση είναι μέρος της συλλογής τεκμηρίωσης του GNOME όπως "
+"διανέμεται υπό τους όρους του GFDL. Εάν επιθυμείτε να διανείμετε αυτή την "
+"τεκμηρίωση ξεχωριστά από την συλλογή, μπορείτε να το κάνετε εάν η τεκμηρίωση "
+"συνοδεύεται από αντίγραφο της άδειας (GFDL) όπως περιγράφεται στον τομέα 6 "
+"της άδειας."
+
+#: C/index.docbook:19(legalnotice/para) C/legal.xml:19(legalnotice/para)
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Πολλές από τις ονομασίες που χρησιμοποιούνται από εταιρείες για τη "
+"διαφοροποίηση των προϊόντων και υπηρεσιών τους έχουν καταχωρηθεί ως εμπορικά "
+"σήματα. Οπουδήποτε στην τεκμηρίωση του GNOME εμφανίζονται αυτές οι "
+"ονομασίες, και εφόσον τα μέλη του Έργου τεκμηρίωσης του GNOME έχουν λάβει "
+"γνώση αυτών των εμπορικών σημάτων, οι ονομασίες αυτές θα γράφονται με "
+"κεφαλαίους χαρακτήρες ή με κεφαλαίους τους αρχικούς χαρακτήρες."
+
+#: C/index.docbook:35(listitem/para) C/legal.xml:35(listitem/para)
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"Η ΤΕΚΜΗΡΙΩΣΗ ΑΥΤΗ ΠΑΡΕΧΕΤΑΙ \"ΩΣ ΕΧΕΙ\", ΧΩΡΙΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ ΟΤΙ ΜΠΟΡΕΙ ΝΑ "
+"ΕΞΥΠΗΡΕΤΗΣΕΙ ΚΑΠΟΙΟ ΣΚΟΠΟ Η ΟΤΙ ΕΙΝΑΙ ΧΩΡΙΣ ΣΦΑΛΜΑ. ΟΛΟΚΛΗΡΗ Η ΕΥΘΥΝΗ ΓΙΑ "
+"ΤΗΝ ΠΟΙΟΤΗΤΑ, ΑΚΡΙΒΕΙΑ ΚΑΙ ΛΕΙΤΟΥΡΓΙΚΟΤΗΤΑ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ Ή ΠΑΡΑΛΛΑΓΩΝ "
+"ΑΥΤΗΣ ΑΝΗΚΕΙ ΣΕ ΕΣΑΣ. ΕΑΝ Η ΤΕΚΜΗΡΙΩΣΗ ΑΥΤΗ Ή ΠΑΡΑΛΛΑΓΗ ΑΥΤΗΣ ΕΙΝΑΙ ΛΑΘΟΣ "
+"ΚΑΤΑ ΚΑΠΟΙΟ ΤΡΟΠΟ ΕΣΕΙΣ ΑΝΑΛΑΜΒΑΝΕΤΕ ΤΗΝ ΕΥΘΥΝΗ ΤΗΣ ΔΙΟΡΘΩΣΗΣ. Η ΑΠΑΛΛΑΓΗ "
+"ΕΥΘΥΝΗΣ ΠΟΥ ΣΥΝΟΔΕΥΕΙ ΑΥΤΗ ΤΗΝ ΤΕΚΜΗΡΙΩΣΗ ΕΙΝΑΙ ΑΝΑΠΟΣΠΑΣΤΟ ΚΟΜΜΑΤΙ ΑΥΤΗΣ. "
+"ΚΑΜΙΑ ΧΡΗΣΗ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ Ή ΠΑΡΑΛΛΑΓΩΝ ΑΥΤΗΣ ΔΕΝ ΕΠΙΤΡΕΠΕΤΑΙ ΠΑΡΑ ΜΟΝΟ ΕΑΝ "
+"ΣΥΝΟΔΕΥΕΤΑΙ ΑΠΟ ΤΗΝ ΑΠΑΛΛΑΓΗ ΕΥΘΥΝΗΣ."
+
+#: C/index.docbook:55(listitem/para) C/legal.xml:55(listitem/para)
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"ΣΕ ΚΑΜΙΑ ΠΕΡΙΠΤΩΣΗ ΚΑΙ ΥΠΟ ΚΑΜΙΑ ΝΟΜΙΚΗ ΣΥΝΘΗΚΗ, ΕΙΤΕ ΜΕΣΩ ΣΥΜΒΟΛΑΙΩΝ Ή "
+"ΑΛΛΙΩΣ, ΔΕΝ ΕΥΘΥΝΟΝΤΑΙ Ο ΣΥΓΓΡΑΦΕΑΣ, Ο ΔΙΑΝΟΜΕΑΣ, Η ΑΛΛΟΣ ΣΥΝΥΠΕΥΘΥΝΟΣ ΓΙΑ "
+"ΤΗΝ ΣΥΓΓΡΑΦΗ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ, ΓΙΑ ΕΜΜΕΣΕΣ Η ΑΜΕΣΕΣ, ΤΥΧΑΙΕΣ Ή ΜΗ ΖΗΜΙΕΣ "
+"ΠΑΝΤΩΣ ΦΥΣΕΩΣ ΠΟΥ ΠΡΟΕΡΧΟΝΤΑΙ ΑΠΟ ΤΗΝ ΧΡΗΣΗ ΤΗΣ ΤΕΚΜΗΡΙΩΣΗΣ ΚΑΙ/Ή ΠΑΡΑΛΛΑΓΩΝ "
+"ΑΥΤΗΣ ΑΚΟΜΑ ΚΑΙ ΕΑΝ ΕΧΕΙ ΥΠΑΡΞΕΙ ΠΡΟΕΙΔΟΠΟΙΗΣΗ ΓΙΑ ΤΗΝ ΠΙΘΑΝΟΤΗΤΑ ΥΠΑΡΞΗΣ "
+"ΤΕΤΟΙΩΝ ΖΗΜΙΩΝ."
+
+#: C/index.docbook:28(legalnotice/para) C/legal.xml:28(legalnotice/para)
+#| msgid ""
+#| "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE "
+#| "TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER "
+#| "UNDERSTANDING THAT: <placeholder-1/>"
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<_:orderedlist-1/>"
+msgstr ""
+"ΤΟ ΈΓΓΡΑΦΟ ΚΑΙ ΤΡΟΠΟΠΟΙΗΜΕΝΕΣ ΕΚΔΟΣΕΙΣ ΑΥΤΟΥ ΠΑΡΕΧΟΝΤΑΙ ΥΠΟ ΤΟΥΣ ΟΡΟΥΣ ΤΗΣ "
+"ΑΔΕΙΑΣ GNU FREE DOCUMENTATION ΜΕ ΤΗΝ ΠΕΡΑΙΤΕΡΩ ΔΙΕΥΚΡΙΝΙΣΗ ΟΤΙ: <_:"
+"orderedlist-1/>"
+
+#: C/index.docbook:65(affiliation/address)
+#, no-wrap
+msgid "dennis_cranston@yahoo.com"
+msgstr "dennis_cranston@yahoo.com"
+
+#: C/index.docbook:60(authorgroup/author)
+msgid ""
+"<firstname>Dennis</firstname> <surname>Cranston</surname> <affiliation> "
+"<orgname>Search for Files Maintainer</orgname> <_:address-1/> </affiliation>"
+msgstr ""
+"<firstname>Dennis</firstname> <surname>Cranston</surname> <affiliation> "
+"<orgname>Συντηρητής του Αναζήτηση για αρχεία</orgname> <_:address-1/> </"
+"affiliation>"
+
+#: C/index.docbook:68(authorgroup/author)
+msgid ""
+"<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
+"<affiliation> <orgname>Sun Microsystems</orgname> <_:address-1/> </"
+"affiliation>"
+msgstr ""
+"<firstname>Sun</firstname> <surname>Ομάδα τεκμηρίωσης GNOME</surname> "
+"<affiliation> <orgname>Sun Microsystems</orgname> <_:address-1/> </"
+"affiliation>"
+
+#: C/index.docbook:76(authorgroup/author)
+msgid ""
+"<firstname>Alexander</firstname> <surname>Kirillov</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> <address> "
+"<email>kirillov@math.sunysb.edu</email> </address> </affiliation>"
+msgstr ""
+"<firstname>Alexander</firstname> <surname>Kirillov</surname> <affiliation> "
+"<orgname>Έργο τεκμηρίωσης GNOME</orgname> <address> <email>kirillov@math."
+"sunysb.edu</email> </address> </affiliation>"
+
+#: C/index.docbook:112(revdescription/para)
+msgid "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
+msgstr "Joachim Noreiko<email>jnoreiko@yahoo.com</email>"
+
+#: C/index.docbook:115(revdescription/para)
+#: C/index.docbook:125(revdescription/para)
+msgid "Search for Files Maintainer"
+msgstr "Συντήρηση της εφαρμογής Αναζήτηση αρχείων"
+
+#: C/index.docbook:108(revhistory/revision)
+msgid ""
+"<revnumber>Search for Files Manual V2.7</revnumber> <date>June 2005</date> "
+"<_:revdescription-1/>"
+msgstr ""
+"<revnumber>Εγχειρίδιο του Αναζήτηση για αρχεία V2.7</revnumber> "
+"<date>Ιούνιος 2005</date> <_:revdescription-1/>"
+
+#: C/index.docbook:122(revdescription/para)
+msgid "Dennis Cranston <email>dennis_cranston@yahoo.com</email>"
+msgstr "Dennis Cranston <email>dennis_cranston@yahoo.com</email>"
+
+#: C/index.docbook:118(revhistory/revision)
+msgid ""
+"<revnumber>Search for Files Manual V2.6</revnumber> <date>January 2005</"
+"date> <_:revdescription-1/>"
+msgstr ""
+"<revnumber>Εγχειρίδιο του Αναζήτηση για αρχεία V2.6</revnumber> "
+"<date>Ιανουάριος 2005</date> <_:revdescription-1/>"
+
+#: C/index.docbook:132(revdescription/para)
+#: C/index.docbook:140(revdescription/para)
+#: C/index.docbook:148(revdescription/para)
+#: C/index.docbook:156(revdescription/para)
+#: C/index.docbook:164(revdescription/para)
+msgid "Sun GNOME Documentation Team"
+msgstr "Ομάδα τεκμηρίωσης GNOME της Sun"
+
+#: C/index.docbook:128(revhistory/revision)
+msgid ""
+"<revnumber>Search for Files Manual V2.4</revnumber> <date>February 2004</"
+"date> <_:revdescription-1/>"
+msgstr ""
+"<revnumber>Εγχειρίδιο του Αναζήτηση για αρχεία V2.4</revnumber> "
+"<date>Φεβρουάριος 2004</date> <_:revdescription-1/>"
+
+#: C/index.docbook:136(revhistory/revision)
+msgid ""
+"<revnumber>Search for Files Manual V2.3</revnumber> <date>September 2002</"
+"date> <_:revdescription-1/>"
+msgstr ""
+"<revnumber>Search for Files Manual V2.3</revnumber> <date>Σεπτέμβριος 2002</"
+"date> <_:revdescription-1/>"
+
+#: C/index.docbook:144(revhistory/revision)
+msgid ""
+"<revnumber>Search for Filesl Manual V2.2</revnumber> <date>August 2002</"
+"date> <_:revdescription-1/>"
+msgstr ""
+"<revnumber>Εγχειρίδιο του Αναζήτηση για αρχεία V2.2</revnumber> "
+"<date>Αύγουστος 2002</date> <_:revdescription-1/>"
+
+#: C/index.docbook:152(revhistory/revision)
+msgid ""
+"<revnumber>Search for Files Manual V2.1</revnumber> <date>July 2002</date> "
+"<_:revdescription-1/>"
+msgstr ""
+"<revnumber>Εγχειρίδιο του Αναζήτηση για αρχεία V2.1</revnumber> "
+"<date>Ιούλιος 2002</date> <_:revdescription-1/>"
+
+#: C/index.docbook:160(revhistory/revision)
+msgid ""
+"<revnumber>Search for Files Manual V2.0</revnumber> <date>May 2002</date> <_:"
+"revdescription-1/>"
+msgstr ""
+"<revnumber>Εγχειρίδιο του Αναζήτηση για αρχεία V2.0</revnumber> <date>Μάιος "
+"2002</date> <_:revdescription-1/>"
+
+#: C/index.docbook:172(revdescription/para)
+msgid "Alexander Kirillov <email>kirillov@math.sunysb.edu</email>"
+msgstr "Alexander Kirillov<email>kirillov@math.sunysb.edu</email>"
+
+#: C/index.docbook:168(revhistory/revision)
+msgid ""
+"<revnumber>Search for Files Manual</revnumber> <date>2000</date> <_:"
+"revdescription-1/>"
+msgstr ""
+"<revnumber>Εγχειρίδιο του Αναζήτηση για αρχεία</revnumber> <date>2000</date> "
+"<_:revdescription-1/>"
+
+#: C/index.docbook:180(articleinfo/releaseinfo)
+msgid "This manual describes version 2.26 of Search for Files."
+msgstr "Αυτό το εγχειρίδιο περιγράφει την έκδοση 2.26 της Αναζήτησης αρχείων."
+
+#: C/index.docbook:183(legalnotice/title)
+msgid "Feedback"
+msgstr "Ανάδραση"
+
+#: C/index.docbook:184(legalnotice/para)
+#| msgid ""
+#| "To report a bug or make a suggestion regarding the Search for Files "
+#| "application or this manual, follow the directions in the <ulink url="
+#| "\"ghelp:gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
+msgid ""
+"To report a bug or make a suggestion regarding the Search for Files "
+"application or this manual, follow the directions in the <ulink url=\"help:"
+"gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
+msgstr ""
+"Για να αναφέρετε κάποιο σφάλμα ή να κάνετε υποδείξεις που αφορούν την "
+"εφαρμογή «Αναζήτηση αρχείων» ή αυτό το εγχειρίδιο, ακολουθήστε τις οδηγίες "
+"στην σελίδα <ulink url=\"help:gnome-feedback\" type=\"help\">GNOME Feedback "
+"Page</ulink>."
+
+#: C/index.docbook:190(article/indexterm)
+msgid "<primary>Search Tool</primary>"
+msgstr "<primary>Εργαλείο αναζήτησης</primary>"
+
+#: C/index.docbook:198(sect1/title)
+msgid "Introduction"
+msgstr "Εισαγωγή"
+
+#: C/index.docbook:199(sect1/para)
+msgid ""
+"The <application>Search for Files</application> application enables you to "
+"search for files on your system. To perform a basic search, you can type a "
+"filename or a partial filename, with or without wildcards. To refine your "
+"search, you can apply additional search options."
+msgstr ""
+"Η εφαρμογή <application>Αναζήτηση αρχείων</application> σας επιτρέπει να "
+"αναζητείτε αρχεία στο σύστημα σας. Για να εκτελέσετε βασική αναζήτηση, "
+"μπορείτε να πληκτρολογήσετε το όνομα του αρχείου ολόκληρο ή εν μέρει, με ή "
+"χωρίς χαρακτήρες μπαλαντέρ (wildcards). Για να βελτιώσετε την αναζήτηση, "
+"μπορείτε να εφαρμόσετε πρόσθετα κριτήρια."
+
+#: C/index.docbook:200(sect1/para)
+msgid ""
+"<application>Search for Files</application> uses the <command>find</"
+"command>, <command>grep</command>, and <command>locate</command> UNIX "
+"commands. By default, when performing a basic search <application>Search for "
+"Files</application> first uses the <command>locate</command> command, and "
+"then uses the slower but more thorough <command>find</command> command."
+msgstr ""
+"Η <application>Αναζήτηση αρχείων</application> χρησιμοποιεί τις εντολές UNIX "
+"<command>find</command>, <command>grep</command> και <command>locate</"
+"command>. Από προεπιλογή, όταν η <application>Αναζήτηση αρχείων</"
+"application> εκτελεί αναζήτηση πρώτα χρησιμοποιεί την εντολή "
+"<command>locate</command> και στην συνέχεια κάνει χρήση της πιο αργής αλλά "
+"και πιο λεπτομερούς εντολής <command>find</command>."
+
+#: C/index.docbook:201(sect1/para)
+msgid ""
+"The case sensitivity of the search depends on your operating system. For "
+"example, on Linux, the <command>find</command>, <command>grep</command>, and "
+"<command>locate</command> commands support the <literal>-i</literal> option, "
+"so all searches are case-insensitive."
+msgstr ""
+"Το ευαίσθητο ή όχι στα κεφαλαία-μικρά της γραμματοσειράς εξαρτάται από το "
+"λειτουργικό σύστημα σας. Για παράδειγμα, στο Linux, οι εντολές "
+"<command>find</command>, <command>grep</command> και <command>locate</"
+"command> υποστηρίζουν την επιλογή <literal>-i</literal>, έτσι όλες οι "
+"αναζητήσεις δεν είναι ευαίσθητες στα κεφαλαία-μικρά της γραμματοσειράς."
+
+#: C/index.docbook:205(sect1/title)
+msgid "Getting Started"
+msgstr "Ξεκινώντας"
+
+#: C/index.docbook:207(sect1/para)
+msgid ""
+"You can start <application>Search for Files</application> in the following "
+"ways:"
+msgstr ""
+"Μπορείτε να εκκινήσετε την εφαρμογή <application>Αναζήτηση αρχείων</"
+"application> με τους εξής τρόπους:"
+
+#: C/index.docbook:211(varlistentry/term)
+msgid "From a <guimenu>Menu Bar</guimenu> on a panel"
+msgstr "Από την <guimenu>Εργαλειοθήκη μενού</guimenu> στον πίνακα εφαρμογών"
+
+#: C/index.docbook:213(listitem/para)
+msgid ""
+"Choose <menuchoice><guisubmenu>Places</guisubmenu><guimenuitem>Search for "
+"Files...</guimenuitem></menuchoice>"
+msgstr ""
+"Επιλέξτε <menuchoice><guisubmenu>Τοποθεσίες</"
+"guisubmenu><guimenuitem>Αναζήτηση για αρχεία...</guimenuitem></menuchoice>"
+
+#: C/index.docbook:217(varlistentry/term)
+msgid "From a <guimenu>Main Menu</guimenu> on a panel"
+msgstr "Από το <guimenu>Κύριο μενού</guimenu> στον πίνακα εφαρμογών"
+
+#: C/index.docbook:219(listitem/para)
+msgid ""
+"Choose <menuchoice><guimenuitem>Search for Files...</guimenuitem></"
+"menuchoice>"
+msgstr ""
+"Επιλέξτε <menuchoice><guimenuitem>Αναζήτηση για αρχεία...</guimenuitem></"
+"menuchoice>"
+
+#: C/index.docbook:223(varlistentry/term)
+msgid "From a command line"
+msgstr "Από την γραμμή εντολών"
+
+#: C/index.docbook:225(listitem/para)
+msgid "Execute the following command: <command>gnome-search-tool</command>"
+msgstr "Εκτελέστε την εξής εντολή: <command>gnome-search-tool</command>"
+
+#: C/index.docbook:232(sect1/para)
+msgid ""
+"When you start <application>Search for Files</application>, the following "
+"window is displayed."
+msgstr ""
+"Όταν εκκινείται η <application>Αναζήτηση αρχείων</application>, προβάλλεται "
+"το παρακάτω παράθυρο."
+
+#: C/index.docbook:236(figure/title)
+msgid "Search for Files Window"
+msgstr "Παράθυρο Αναζήτησης αρχείων"
+
+#: C/index.docbook:238(screenshot/mediaobject)
+msgid ""
+"<imageobject><imagedata fileref=\"figures/gnome-search-tool_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows Search for Files "
+"main window. </phrase> </textobject>"
+msgstr ""
+"<imageobject><imagedata fileref=\"figures/gnome-search-tool_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Εμφανίζει το κύριο "
+"παράθυρο του Αναζήτηση για αρχεία. </phrase> </textobject>"
+
+#: C/index.docbook:255(sect1/title)
+msgid "Usage"
+msgstr "Χρήση"
+
+#: C/index.docbook:258(sect2/title)
+msgid "To Perform a Basic Search"
+msgstr "Εκτέλεση βασικής αναζήτησης"
+
+#: C/index.docbook:260(sect2/para)
+msgid ""
+"To perform a basic search for a file on the system, perform the following "
+"steps:"
+msgstr ""
+"Για να κάνετε βασική αναζήτηση για ένα αρχείο στο σύστημα, εκτελέστε τις "
+"παρακάτω ενέργειες:"
+
+#: C/index.docbook:262(listitem/para)
+msgid ""
+"Enter the search text in the <guilabel>Name contains</guilabel> field. The "
+"search text can be a filename or partial filename, with or without "
+"wildcards, as shown in the following table:"
+msgstr ""
+"Εισάγετε το κείμενο αναζήτησης στο πεδίο <guilabel>Όνομα περιέχει</"
+"guilabel>. Το κείμενο αναζήτησης μπορεί να είναι ένα όνομα αρχείου ολόκληρο "
+"ή όχι, με ή χωρίς χαρακτήρες μπαλαντέρ, όπως στον παρακάτω πίνακα:"
+
+#: C/index.docbook:272(entry/para)
+msgid "Name Contains Text"
+msgstr "Κείμενο πεδίου Όνομα περιέχει"
+
+#: C/index.docbook:274(entry/para)
+msgid "Example"
+msgstr "Παράδειγμα"
+
+#: C/index.docbook:276(entry/para)
+msgid "Result"
+msgstr "Αποτέλεσμα"
+
+#: C/index.docbook:282(entry/para)
+msgid "Full or partial filename"
+msgstr "Πλήρες ή μερικό όνομα αρχείου"
+
+#: C/index.docbook:286(entry/para)
+msgid "<userinput>myfile.txt</userinput>"
+msgstr "<userinput>myfile.txt</userinput>"
+
+#: C/index.docbook:290(entry/para)
+msgid ""
+"<application>Search for Files</application> searches for all files that "
+"contain the text <userinput>myfile.txt</userinput> in the filename."
+msgstr ""
+"Η <application>Αναζήτηση αρχείων</application> ψάχνει για όλα αρχεία που "
+"έχουν το κείμενο <userinput>myfile.txt</userinput> στο όνομα τους."
+
+#: C/index.docbook:296(entry/para)
+msgid "Partial filename combined with wildcards (*, [, ])"
+msgstr "Μερικό όνομα αρχείου συνδυασμένο με χαρακτήρες μπαλαντέρ (*, [, ])"
+
+#: C/index.docbook:300(entry/para)
+msgid "<userinput>*.[ch]</userinput>"
+msgstr "<userinput>*.[ch]</userinput>"
+
+#: C/index.docbook:304(entry/para)
+msgid ""
+"<application>Search for Files</application> searches for all files that have "
+"extension <userinput>.c</userinput> or <userinput>.h</userinput>."
+msgstr ""
+"Η <application>Αναζήτηση αρχείων</application> ψάχνει για όλα τα αρχεία που "
+"έχουν επέκταση <userinput>.c</userinput> ή <userinput>.h</userinput>."
+
+#: C/index.docbook:312(listitem/para)
+msgid ""
+"In the <guilabel>Look in folder</guilabel> field, select the folder or "
+"device from which you want <application>Search for Files</application> to "
+"begin the search."
+msgstr ""
+"Στο πεδίο <guilabel>Αναζήτηση στο φάκελο</guilabel>, επιλέξτε τον φάκελο ή "
+"την συσκευή από όπου θέλετε να αρχίσει την έρευνα η <application> Αναζήτηση "
+"αρχείων</application>."
+
+#: C/index.docbook:314(listitem/para)
+msgid "Click <guibutton>Find</guibutton> to perform the search."
+msgstr ""
+"Με αριστερό κλικ στο πλήκτρο <guibutton>Εύρεση</guibutton> εκτελείται η "
+"αναζήτηση."
+
+#: C/index.docbook:317(sect2/para)
+msgid ""
+"<application>Search for Files</application> searches in the directory that "
+"you specify and the subdirectories of the directory. <application>Search for "
+"Files</application> displays the results of the search in the "
+"<guilabel>Search results</guilabel> list box. If <application>Search for "
+"Files</application> does not find any files that match the search criteria, "
+"the application displays the message \"No files found\" in the "
+"<guilabel>Search results</guilabel> list box."
+msgstr ""
+"Η <application>Αναζήτηση αρχείων</application> ερευνά τον φάκελο που "
+"προσδιορίσατε και τους υποφακέλους του. Η <application>Αναζήτηση αρχείων</"
+"application> προβάλλει το αποτέλεσμα της έρευνας στο πλαίσιο λίστας "
+"<guilabel>Αποτελέσματα αναζήτησης</guilabel>. Αν η <application>Αναζήτηση "
+"αρχείων</application> δεν βρει αρχεία που πληρούν τα κριτήρια αναζήτησης, η "
+"εφαρμογή προβάλλει το μήνυμα \"Δεν βρέθηκαν αρχεία\" στο πλαίσιο λίστας "
+"<guilabel>Αποτελέσματα αναζήτησης</guilabel>."
+
+#: C/index.docbook:321(sect2/para)
+msgid ""
+"By default, <application>Search for Files</application> will perform a quick "
+"search using the <command>locate</command> command followed by a more "
+"thorough second search using the <command>find</command> command. The "
+"<command>locate</command> command is faster because it uses a database of "
+"information about files. If this database is more than a week old, "
+"<application>Search for Files</application> could warn you that the search "
+"results may be out of date and give you the option of disabling the quick "
+"search. To update the database, run the command <command>updatedb</command> "
+"as the root user."
+msgstr ""
+"Από προεπιλογή η <application>Αναζήτηση αρχείων</application> θα εκτελέσει "
+"γρήγορη έρευνα χρησιμοποιώντας την εντολή <command>locate</command> που "
+"ακολουθείται από μία πιο λεπτομερή με χρήση της εντολής <command>find</"
+"command>. Η εντολή <command>locate</command> είναι γρηγορότερη επειδή "
+"χρησιμοποιεί μία βάση δεδομένων με πληροφορίες για τα αρχεία. Αν αυτή η βάση "
+"δεδομένων είναι παλιότερη από μία εβδομάδα, η <application>Αναζήτηση "
+"αρχείων</application> ενδέχεται να σας προειδοποιήσει ότι τα αποτελέσματα "
+"αναζήτησης μπορεί να είναι παρωχημένα και να σας δώσει την επιλογή να "
+"απενεργοποιήσετε την γρήγορη αναζήτηση. Για να ενημερώσετε την βάση "
+"δεδομένων, εκτελέστε την εντολή <command>updatedb</command> σαν υπερχρήστης "
+"(root)."
+
+#: C/index.docbook:325(sect2/title)
+msgid "To Add Search Options"
+msgstr "Προσθήκη κριτηρίων αναζήτησης"
+
+#: C/index.docbook:326(sect2/para)
+msgid ""
+"You can add additional options to search for a file on the system. To add "
+"search options, perform the following steps:"
+msgstr ""
+"Μπορείτε να προσθέσετε κριτήρια αναζήτησης για ένα αρχείο στο σύστημα. Για "
+"να προσθέσετε κριτήρια αναζήτησης, εκτελέστε τις εξής ενέργειες:"
+
+#: C/index.docbook:328(listitem/para)
+msgid "Click on the <guilabel>Select more options</guilabel> text."
+msgstr "Κάντε κλικ στο κείμενο <guilabel>Περισσότερες επιλογές</guilabel>."
+
+#: C/index.docbook:329(listitem/para)
+msgid "Click on the <guilabel>Available options</guilabel> drop-down list."
+msgstr ""
+"Κάντε κλικ στην αναπτυσσόμενη λίστα <guilabel>Διαθέσιμες επιλογές</guilabel>."
+
+#: C/index.docbook:330(listitem/para)
+msgid "Select the search option that you want to apply."
+msgstr "Επιλέξτε το κριτήριο αναζήτησης που θέλετε να εφαρμόσετε."
+
+#: C/index.docbook:331(listitem/para)
+msgid "Click <guibutton>Add</guibutton>."
+msgstr "Κάντε κλικ στο πλήκτρο <guibutton>Προσθήκη</guibutton>."
+
+#: C/index.docbook:332(listitem/para)
+msgid ""
+"Specify the required search information for the search option, as described "
+"in <xref linkend=\"tbl-search-rules\"/>."
+msgstr ""
+"Ορίστε τις αναγκαίες πληροφορίες για το κριτήριο αναζήτησης, όπως "
+"περιγράφεται στο <xref linkend=\"tbl-search-rules\"/>."
+
+#: C/index.docbook:333(listitem/para)
+msgid "Repeat the above steps for each search option that you want to apply."
+msgstr ""
+"Επαναλάβετε τις παραπάνω ενέργειες για κάθε κριτήριο αναζήτησης που θέλετε "
+"να εφαρμόσετε."
+
+#: C/index.docbook:335(sect2/para)
+msgid ""
+"To remove a search option from the current search, click on the "
+"<guibutton>Remove</guibutton> button next to the option."
+msgstr ""
+"Για να αφαιρέσετε ένα κριτήριο αναζήτησης από την τρέχουσα έρευνα, κάντε "
+"κλικ στο πλήκτρο <guibutton>Αφαίρεση</guibutton> δίπλα στην επιλογή."
+
+#: C/index.docbook:336(sect2/para)
+msgid ""
+"To disable the search options from the current search, click on the "
+"<guilabel>Select more options</guilabel> text."
+msgstr ""
+"Για να απενεργοποιήσετε τα κριτήρια αναζήτησης από την τρέχουσα έρευνα, "
+"κάντε κλικ στο κείμενο <guilabel>Περισσότερα κριτήρια αναζήτησης</guilabel>."
+
+#: C/index.docbook:339(table/title)
+msgid "Search Options"
+msgstr "Κριτήρια αναζήτησης"
+
+#: C/index.docbook:346(entry/para)
+msgid "Option Name"
+msgstr "Όνομα κριτηρίου"
+
+#: C/index.docbook:348(entry/para)
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: C/index.docbook:354(entry/para)
+msgid "Contains the text"
+msgstr "Περιέχει το κείμενο"
+
+#: C/index.docbook:356(entry/para)
+msgid "Search for files of type plain text that contain the specified text."
+msgstr "Αναζήτηση για αρχεία κειμένου που περιέχουν το καθορισμένο κείμενο."
+
+#: C/index.docbook:360(entry/para)
+msgid "Date modified less than"
+msgstr "Ημερομηνία τροποποίησης μικρότερη από"
+
+#: C/index.docbook:362(entry/para)
+msgid ""
+"Search for files that are modified less than the period specified in days."
+msgstr ""
+"Αναζήτηση για αρχεία που τροποποιήθηκαν νωρίτερα από την προσδιορισμένη σε "
+"ημέρες περίοδο."
+
+#: C/index.docbook:366(entry/para)
+msgid "Date modified more than"
+msgstr "Ημερομηνία τροποποίησης μεγαλύτερη από"
+
+#: C/index.docbook:368(entry/para)
+msgid ""
+"Search for files that are modified longer than the period specified in days."
+msgstr ""
+"Αναζήτηση για αρχεία που τροποποιήθηκαν παλαιότερα από την προσδιορισμένη σε "
+"ημέρες περίοδο."
+
+#: C/index.docbook:372(entry/para)
+msgid "Size at least"
+msgstr "Μέγεθος τουλάχιστον"
+
+#: C/index.docbook:374(entry/para)
+msgid ""
+"Search for files that are equal to or larger than the size specified in "
+"kilobytes."
+msgstr ""
+"Αναζήτηση για αρχεία με μέγεθος σε kilobytes ίσο ή μεγαλύτερο από το "
+"προσδιορισμένο."
+
+#: C/index.docbook:378(entry/para)
+msgid "Size at most"
+msgstr "Μέγεθος το μέγιστο"
+
+#: C/index.docbook:380(entry/para)
+msgid ""
+"Search for files that are smaller than or equal to the size specified in "
+"kilobytes."
+msgstr ""
+"Αναζήτηση για αρχεία με μέγεθος σε kilobytes μικρότερο ή ίσο από το "
+"προσδιορισμένο."
+
+#: C/index.docbook:384(entry/para)
+msgid "File is empty"
+msgstr "Το αρχείο είναι κενό"
+
+#: C/index.docbook:386(entry/para)
+msgid "Search for empty files."
+msgstr "Αναζήτηση για κενά αρχεία."
+
+#: C/index.docbook:390(entry/para)
+msgid "Owned by user"
+msgstr "Ανήκει σε χρήστη"
+
+#: C/index.docbook:392(entry/para)
+msgid ""
+"Search for files that are owned by the user specified. Type the name of the "
+"user in the text box provided."
+msgstr ""
+"Αναζήτηση για αρχεία που ανήκουν στον καθορισμένο χρήστη. Πληκτρολογήστε το "
+"όνομα χρήστη στο πεδίο εισαγωγής που παρέχεται."
+
+#: C/index.docbook:396(entry/para)
+msgid "Owned by group"
+msgstr "Ανήκει σε ομάδα"
+
+#: C/index.docbook:398(entry/para)
+msgid ""
+"Search for files that are owned by the group specified. Type the name of the "
+"group in the text box provided."
+msgstr ""
+"Αναζήτηση για αρχεία που ανήκουν στην καθορισμένη ομάδα. Πληκτρολογήστε το "
+"όνομα της ομάδας στο πεδίο εισαγωγής που παρέχεται."
+
+#: C/index.docbook:402(entry/para)
+msgid "Owner is unrecognized"
+msgstr "Μη αναγνωρίσιμος ιδιοκτήτης"
+
+#: C/index.docbook:404(entry/para)
+msgid ""
+"Search for files that are owned by a user or group that is unknown to the "
+"system."
+msgstr ""
+"Αναζήτηση για αρχεία που ανήκουν σε χρήστη ή ομάδα που είναι άγνωστοι στο "
+"σύστημα."
+
+#: C/index.docbook:408(entry/para)
+msgid "Name does not contain"
+msgstr "Το όνομα δεν περιέχει"
+
+#: C/index.docbook:410(entry/para)
+msgid ""
+"Search for filenames that do not contain the string that you enter. Enter a "
+"full filename or a partial filename with wildcards in the field provided. "
+"Use * to indicate a sequence of characters. Use ? to indicate a single "
+"character. The search is case sensitive."
+msgstr ""
+"Αναζήτηση για ονόματα αρχείων που δεν περιέχουν το αλφαριθμητικό που "
+"εισάγετε. Εισάγετε ένα πλήρες ή μερικό όνομα αρχείου με χαρακτήρες μπαλαντέρ "
+"στο παρεχόμενο πεδίο. Χρησιμοποιήστε * για να δηλώσετε μία ακολουθία "
+"χαρακτήρων. Χρησιμοποιήστε ? για να δηλώσετε έναν μοναδικό χαρακτήρα. Η "
+"αναζήτηση είναι ευαίσθητη στα κεφαλαία-μικρά της γραμματοσειράς."
+
+#: C/index.docbook:414(entry/para)
+msgid "Name matches regular expression"
+msgstr "Ταίριασμα κανονικής έκφρασης"
+
+#: C/index.docbook:416(entry/para)
+msgid ""
+"Search for files that contain the specified regular expression in their "
+"directory path or filename. Type the regular expression in the text box "
+"provided."
+msgstr ""
+"Αναζήτηση για αρχεία που περιέχουν την προσδιορισμένη κανονική έκφραση στην "
+"διαδρομή φακέλου ή στο όνομα αρχείου τους. Πληκτρολογήστε την κανονική "
+"έκφραση στο πεδίο εισαγωγής που παρέχεται."
+
+#: C/index.docbook:420(entry/para)
+msgid "Show hidden and backup files"
+msgstr "Εμφάνιση κρυφών αρχείων και αρχείων ασφαλείας"
+
+#: C/index.docbook:422(entry/para)
+msgid "Include hidden and backup files in the search."
+msgstr "Περιλαμβάνει κρυφά αρχεία και αρχεία ασφαλείας στην αναζήτηση."
+
+#: C/index.docbook:426(entry/para)
+msgid "Follow symbolic links"
+msgstr "Ακολούθηση συμβολικών συνδέσμων"
+
+#: C/index.docbook:428(entry/para)
+msgid "Follow symbolic links when searching for files."
+msgstr "Ακολουθεί συμβολικούς δεσμούς κατά την αναζήτηση."
+
+#: C/index.docbook:432(entry/para)
+msgid "Exclude other filesystems"
+msgstr "Να μη συμπεριλαμβάνει άλλα συστήματα αρχείων"
+
+#: C/index.docbook:434(entry/para)
+msgid ""
+"Search in directories that are in the same filesystem as the start directory."
+msgstr ""
+"Αναζήτηση σε φακέλους που είναι στο ίδιο σύστημα αρχείων με τον φάκελο "
+"εκκίνησης."
+
+#: C/index.docbook:444(sect2/title)
+msgid "To Stop a Search"
+msgstr "Διακοπή αναζήτησης"
+
+#: C/index.docbook:445(sect2/para)
+msgid ""
+"Click <guibutton>Stop</guibutton> to stop a search before "
+"<application>Search for Files</application> completes the search."
+msgstr ""
+"Για διακόψετε μία αναζήτηση κάντε κλικ στο πλήκτρο <guibutton>Κλείσιμο</"
+"guibutton> πριν η <application>Αναζήτηση αρχείων</application> ολοκληρώσει "
+"την έρευνα."
+
+#: C/index.docbook:449(sect2/title)
+msgid "To Open a Displayed File"
+msgstr "Άνοιγμα προβαλλόμενου αρχείου"
+
+#: C/index.docbook:450(sect2/para)
+msgid ""
+"To open a file displayed in the <guilabel>Search results</guilabel> list "
+"box, perform one of the following steps:"
+msgstr ""
+"Για να ανοίξετε ένα αρχείο που προβάλλεται στο πλαίσιο λίστας "
+"<guilabel>Αποτελέσματα αναζήτησης</guilabel>, εκτελέστε μία από τις εξής "
+"ενέργειες:"
+
+#: C/index.docbook:452(listitem/para)
+msgid "Right-click on the file, then choose <guimenuitem>Open</guimenuitem>."
+msgstr ""
+"Κάντε δεξί κλικ στο αρχείο και επιλέξτε <guimenuitem>Άνοιγμα</guimenuitem>."
+
+#: C/index.docbook:453(listitem/para)
+msgid "Double-click on the file."
+msgstr "Διπλό κλικ στο αρχείο."
+
+#: C/index.docbook:455(sect2/para)
+msgid ""
+"To open the folder that contains a file displayed in the <guilabel>Search "
+"results</guilabel> list box, right-click on the file, then choose "
+"<guimenuitem>Open Containing Folder</guimenuitem>."
+msgstr ""
+"Για να ανοίξετε τον φάκελο που περιέχει το αρχείο που προβάλλεται στο "
+"πλαίσιο λίστας <guilabel>Αποτελέσματα αναζήτησης</guilabel>, κάντε δεξί κλικ "
+"στο αρχείο και επιλέξτε <guimenuitem>Άνοιγμα φακέλου που το περιέχει</"
+"guimenuitem>."
+
+#: C/index.docbook:459(sect2/title)
+msgid "To Delete a Displayed File"
+msgstr "Διαγραφή προβαλλόμενου αρχείου"
+
+#: C/index.docbook:460(sect2/para)
+msgid ""
+"To delete a file displayed in the <guilabel>Search results</guilabel> list "
+"box, right-click on the file, then choose <guimenuitem>Move to Trash</"
+"guimenuitem>."
+msgstr ""
+"Για να διαγράψετε ένα αρχείο που προβάλλεται στο πλαίσιο λίστας "
+"<guilabel>Αποτελέσματα αναζήτησης</guilabel>, κάντε δεξί κλικ στο αρχείο και "
+"επιλέξτε <guimenuitem>Μετακίνηση στα απορρίμματα</guimenuitem>."
+
+#: C/index.docbook:471(sect2/title)
+msgid "To Save the Search Results"
+msgstr "Αποθήκευση αποτελεσμάτων αναζήτησης"
+
+#: C/index.docbook:472(sect2/para)
+msgid ""
+"To save the results of the last search that <application>Search for Files</"
+"application> performed, right-click in the <guilabel>Search results</"
+"guilabel> list, then choose <guimenuitem>Save Results As</guimenuitem>. "
+"Enter the name of the file to which you want to save the results, then click "
+"Save."
+msgstr ""
+"Για να αποθηκεύσετε τα αποτελέσματα της τελευταίας αναζήτησης που "
+"πραγματοποιήσατε με την <application>Αναζήτηση αρχείων</application>, κάντε "
+"δεξί κλικ στο πλαίσιο λίστας <guilabel>Αποτελέσματα αναζήτησης</guilabel> "
+"και επιλέξτε <guimenuitem>Αποθήκευση αποτελεσμάτων ως...</guimenuitem>. "
+"Εισάγετε το όνομα του αρχείου στο οποίο θέλετε να αποθηκεύσετε τα "
+"αποτελέσματα και πατήστε «Αποθήκευση»."
+
+#: C/index.docbook:480(sect1/title)
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: C/index.docbook:482(sect1/para)
+msgid ""
+"<application>Search for Files</application> provides gsettings keys to "
+"modify some of its behavior. The gsettings values can be changed by starting "
+"the <application>Configuration Editor</application> in the following ways:"
+msgstr ""
+"Η <application>Αναζήτηση αρχείων</application> παρέχει κλειδιά gsettings για "
+"να είναι δυνατή η τροποποίηση της συμπεριφοράς της. Οι τιμές gsettings "
+"μπορούν να αλλαχθούν εκκινώντας τον <application>Επεξεργαστή ρυθμίσεων</"
+"application> με τους εξής τρόπους:"
+
+#: C/index.docbook:486(varlistentry/term)
+msgid "<guimenu>Applications</guimenu> menu"
+msgstr "Μενού <guimenu>Εφαρμογές</guimenu>"
+
+#: C/index.docbook:488(listitem/para)
+msgid ""
+"Choose <menuchoice><guisubmenu>System Tools</guisubmenu><guimenuitem>dconf "
+"Editor</guimenuitem></menuchoice>."
+msgstr ""
+"Επιλέξτε <menuchoice><guisubmenu>Εργαλεία συστήματος</"
+"guisubmenu><guimenuitem>Επεξεργαστής ρυθμίσεων</guimenuitem></menuchoice>."
+
+#: C/index.docbook:492(varlistentry/term)
+msgid "Command line"
+msgstr "Γραμμή εντολών"
+
+#: C/index.docbook:494(listitem/para)
+msgid "Execute the following command: <command>dconf-editor</command>"
+msgstr "Εκτελέστε την ακόλουθη εντολή: <command>dconf-editor</command>"
+
+#: C/index.docbook:500(sect2/title)
+msgid "Disable Quick Search"
+msgstr "Απενεργοποίηση γρήγορης αναζήτησης"
+
+#: C/index.docbook:501(sect2/para)
+msgid "Key name: org.gnome.gnome-search-tool.disable-quick-search"
+msgstr "Όνομα κλειδιού: org.gnome.gnome-search-tool.disable-quick-search"
+
+#: C/index.docbook:502(sect2/para) C/index.docbook:509(sect2/para)
+#: C/index.docbook:530(sect2/para)
+msgid "Default value: false"
+msgstr "Προεπιλεγμένη τιμή: false"
+
+#: C/index.docbook:503(sect2/para)
+msgid ""
+"<application>Search for Files</application> speeds up file name searches by "
+"using the <command>locate</command> command. <command>Locate</command> "
+"provides a secure way to index and quickly search for file names. Because "
+"<command>locate</command> relies on a file index, the <guilabel>Search "
+"results</guilabel> list may not always be up to date."
+msgstr ""
+"Η <application>Αναζήτηση αρχείων</application> επιταχύνει την έρευνα για "
+"ονόματα αρχείων χρησιμοποιώντας την εντολή <command>locate</command>. Το "
+"<command>locate</command> δίνει έναν σίγουρο τρόπο ευρετηρίασης και γρήγορης "
+"έρευνας για ονόματα αρχείων. Επειδή το <command>locate</command> βασίζεται "
+"σε ένα αρχείο ευρετηρίου, η λίστα <guilabel>Αποτελέσματα αναζήτησης</"
+"guilabel> μπορεί να μην είναι πάντοτε ενημερωμένη."
+
+#: C/index.docbook:507(sect2/title)
+msgid "Disable Quick Search Second Scan"
+msgstr "Απενεργοποίηση δευτερεύουσας σάρωσης γρήγορης αναζήτησης"
+
+#: C/index.docbook:508(sect2/para)
+msgid "Key name: org.gnome.gnome-search-tool.disable-quick-search-second-scan"
+msgstr ""
+"Όνομα κλειδιού: org.gnome.gnome-search-tool.disable-quick-search-second-scan"
+
+#: C/index.docbook:510(sect2/para)
+msgid ""
+"After completing a quick search, <application>Search for Files</application> "
+"will perform a thorough search using the <command>find</command> command. "
+"The purpose of this second scan is to find files that have not been indexed. "
+"Files that match the search criteria are added to the <guilabel>Search "
+"results</guilabel> list keeping the list up to date."
+msgstr ""
+"Μετά την ολοκλήρωση της γρήγορης αναζήτησης, η <application>Αναζήτηση "
+"αρχείων</application> θα εκτελέσει μία λεπτομερέστερη αναζήτηση "
+"χρησιμοποιώντας την εντολή <command>find</command>. Σκοπός της δεύτερης "
+"σάρωσης είναι να βρεθούν αρχεία που δεν έχουν κατηγοριοποιηθούν Τα αρχεία "
+"που πληρούν τα κριτήρια αναζήτησης προστίθενται στην λίστα "
+"<guilabel>Αποτελέσματα αναζήτησης</guilabel> κρατώντας την ενημερωμένη."
+
+#: C/index.docbook:514(sect2/title)
+msgid "Quick Search Excluded Paths"
+msgstr "Αποκλεισμένες διαδρομές για την γρήγορη αναζήτηση"
+
+#: C/index.docbook:515(sect2/para)
+msgid "Key name: org.gnome.gnome-search-tool.quick-search-excluded-paths"
+msgstr ""
+"Όνομα κλειδιού: org.gnome.gnome-search-tool.quick-search-excluded-paths"
+
+#: C/index.docbook:516(sect2/para)
+msgid "Default values: [/mnt/*,/media/*,/dev/*,/tmp/*,/proc/*,/var/*]"
+msgstr "Προεπιλεγμένες τιμές: [/mnt/*,/media/*,/dev/*,/tmp/*,/proc/*,/var/*]"
+
+#: C/index.docbook:517(sect2/para)
+msgid ""
+"<application>Search for Files</application> will not perform a quick search "
+"for paths defined by this key. File name searches in the defined paths will "
+"use the <command>find</command> command. The wildcards '*' and '?' are "
+"supported."
+msgstr ""
+"Η <application>Αναζήτηση αρχείων</application> δεν θα εκτελέσει γρήγορη "
+"αναζήτηση για διαδρομές που καθορίζονται από αυτό το κλειδί. Αναζητήσεις "
+"αρχείων στις ορισμένες διαδρομές θα χρησιμοποιήσουν την εντολή "
+"<command>find</command>. Οι χαρακτήρες μπαλαντέρ '*' και '?' υποστηρίζονται."
+
+#: C/index.docbook:521(sect2/title)
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "Αποκλεισμένες διαδρομές δευτερεύουσας σάρωσης της γρήγορης αναζήτησης"
+
+#: C/index.docbook:522(sect2/para)
+msgid ""
+"Key name: org.gnome.gnome-search-tool.quick-search-second-scan-excluded-paths"
+msgstr ""
+"Όνομα κλειδιού: org.gnome.gnome-search-tool.quick-search-second-scan-"
+"excluded-paths"
+
+#: C/index.docbook:523(sect2/para)
+msgid "Default values: [/]"
+msgstr "Προεπιλεγμένη τιμή: [/]"
+
+#: C/index.docbook:524(sect2/para)
+msgid ""
+"<application>Search for Files</application> will not perform a second scan "
+"after a quick search for the paths defined by this key. Quick searches in "
+"the defined paths will not be followed by a thorough search using the "
+"<command>find</command> command. The wildcards '*' and '?' are supported."
+msgstr ""
+"Η <application>Αναζήτηση αρχείων</application> δεν θα εκτελέσει δεύτερη "
+"σάρωση μετά από μία γρήγορη αναζήτηση για τις διαδρομές που ορίζονται από "
+"αυτό το κλειδί. Οι γρήγορες αναζητήσεις στις προσδιορισμένες διαδρομές δεν "
+"ακολουθούνται από λεπτομερέστερη έρευνα με χρήση της εντολής <command>find</"
+"command>. Οι χαρακτήρες μπαλαντέρ '*' και '?' υποστηρίζονται."
+
+#: C/index.docbook:528(sect2/title)
+msgid "Show Additional Options"
+msgstr "Εμφάνιση πρόσθετων επιλογών"
+
+#: C/index.docbook:529(sect2/para)
+msgid "Key name: org.gnome.gnome-search-tool.show-additional-options"
+msgstr "Όνομα κλειδιού: org.gnome.gnome-search-tool.show-additional-options"
+
+#: C/index.docbook:531(sect2/para)
+msgid ""
+"This key determines if the <guilabel>Select more options</guilabel> section "
+"is expanded when <application>Search for Files</application> is started."
+msgstr ""
+"Αυτό το κλειδί καθορίζει αν η ενότητα <guilabel>Περισσότερα κριτήρια "
+"αναζήτησης</guilabel> θα αναπτύσσεται όταν εκκινείται η "
+"<application>Αναζήτηση αρχείων</application>."
+
+#: C/legal.xml:9(para/ulink)
+msgid "link"
+msgstr "σύνδεσμο"
+
+#: C/legal.xml:2(legalnotice/para)
+#| msgid ""
+#| "Permission is granted to copy, distribute and/or modify this document "
+#| "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
+#| "or any later version published by the Free Software Foundation with no "
+#| "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
+#| "can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl"
+#| "\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+"with this manual."
+msgstr ""
+"Δίνεται άδεια για αντιγραφή, διανομή και/ή τροποποίηση του εγγράφου υπό τους "
+"όρους της Ελεύθερης Άδειας Τεκμηρίωσης GNU (GFDL), Έκδοση 1.1 ή "
+"μεταγενέστερη εκδιδόμενη από το Ίδρυμα Ελεύθερου Λογισμικού χωρίς Σταθερά "
+"Εδάφια, χωρίς Εξώφυλλα Κειμένου, και χωρίς Οπισθόφυλλα Κειμένου. Μπορείτε να "
+"βρείτε ένα αντίγραφο της GFDL σε αυτόν τον <_:ulink-1/> ή στο αρχείο COPYING-"
+"DOCS που διανεμήθηκε με αυτόν τον οδηγό."
+
+#~ msgid "2005"
+#~ msgstr "2005"
+
+#~ msgid "Dennis Cranston"
+#~ msgstr "Dennis Cranston"
+
+#~ msgid "2002"
+#~ msgstr "2002"
+
+#~ msgid "2003"
+#~ msgstr "2003"
+
+#~ msgid "2004"
+#~ msgstr "2004"
+
+#~ msgid "Sun Microsystems"
+#~ msgstr "Sun Microsystems"
+
+#~ msgid "2000"
+#~ msgstr "2000"
+
+#~ msgid "Alexander Kirillov"
+#~ msgstr "Alexander Kirillov"
+
+#~ msgid "Dennis"
+#~ msgstr "Dennis"
+
+#~ msgid "Cranston"
+#~ msgstr "Cranston"
+
+#~ msgid "Sun"
+#~ msgstr "Sun"
+
+#~ msgid "GNOME Documentation Team"
+#~ msgstr "Ομάδα τεκμηρίωσης GNOME"
+
+#~ msgid "Alexander"
+#~ msgstr "Alexander"
+
+#~ msgid "Kirillov"
+#~ msgstr "Kirillov"
+
+#~ msgid "kirillov@math.sunysb.edu"
+#~ msgstr "kirillov@math.sunysb.edu"
+
+#~ msgid "Search for Files Manual V2.7"
+#~ msgstr "Εγχειρίδιο της Αναζήτησης αρχείων V2.7"
+
+#~ msgid "June 2005"
+#~ msgstr "Ιούνιος 2005"
+
+#~ msgid "Search for Files Manual V2.6"
+#~ msgstr "Εγχειρίδιο της Αναζήτησης αρχείων V2.6"
+
+#~ msgid "January 2005"
+#~ msgstr "Ιανουάριος 2005"
+
+#~ msgid "Search for Files Manual V2.4"
+#~ msgstr "Εγχειρίδιο της Αναζήτησης αρχείων V2.4"
+
+#~ msgid "February 2004"
+#~ msgstr "Φεβρουάριος 2004"
+
+#~ msgid "Search for Files Manual V2.3"
+#~ msgstr "Εγχειρίδιο της Αναζήτησης αρχείων V2.3"
+
+#~ msgid "September 2002"
+#~ msgstr "Σεπτέμβριος 2002"
+
+#~ msgid "Search for Filesl Manual V2.2"
+#~ msgstr "Εγχειρίδιο της Αναζήτησης αρχείων V2.2"
+
+#~ msgid "August 2002"
+#~ msgstr "Αύγουστος 2002"
+
+#~ msgid "Search for Files Manual V2.1"
+#~ msgstr "Εγχειρίδιο της Αναζήτησης αρχείων V2.2"
+
+#~ msgid "July 2002"
+#~ msgstr "Ιούλιος 2002"
+
+#~ msgid "Search for Files Manual V2.0"
+#~ msgstr "Εγχειρίδιο της Αναζήτησης αρχείων V2.0"
+
+#~ msgid "May 2002"
+#~ msgstr "Μάιος 2002"
+
+#~ msgid "Search Tool"
+#~ msgstr "Εργαλείο αναζήτησης"
+
+#~ msgid "Shows Search for Files main window."
+#~ msgstr "Προβάλλει το κύριο παράθυρο της «Αναζήτησης αρχείων»."
+
+#~ msgid "myfile.txt"
+#~ msgstr "myfile.txt"
+
+#~ msgid "*.[ch]"
+#~ msgstr "*.[ch]"

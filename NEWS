@@ -1,0 +1,23 @@
+3.6.0
+=====
+
+* Translation updates
+
+3.5.5
+=====
+
+* Port to GSettings
+* Translation updates (Russian, Spanish, Greek, Gujarati,
+  Slovenian, Galician, Serbian)
+
+3.4.0
+=====
+
+ * Translation updates (Norwegian bokmål, Belarusian,
+   Telugu, Bulgarian, Crimean Tatar)
+
+3.3.1
+=====
+
+ * First unstable release.
+ * First release after the GNOME Utilities split.

@@ -1,0 +1,990 @@
+# Hungarian translation of gnome-search-tool.
+# Copyright (C) 1999 - 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-search-tool package.
+#
+# Szabolcs Ban <shooby at gnome dot hu>, 1999, 2000.
+# Gergely Nagy <greg at gnome dot hu>, 2001.
+# Andras Timar <timar at gnome dot hu>, 2001, 2002, 2003.
+# Gabor Sari <saga at gnome dot hu>, 2003, 2004.
+# Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+# Mate ORY <orymate at gmail d0t com>, 2006.
+# Balázs Úr <urbalazs at gmail dot com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-search-tool master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"search-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-01-20 20:10+0000\n"
+"PO-Revision-Date: 2013-03-16 19:17+0100\n"
+"Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
+"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: ../data/gnome-search-tool.desktop.in.h:1
+msgid "Search for Files..."
+msgstr "Fájlok keresése…"
+
+#: ../data/gnome-search-tool.desktop.in.h:2
+msgid "Locate documents and folders on this computer by name or content"
+msgstr ""
+"Dokumentumok és mappák keresése név vagy tartalom szerint a számítógépen"
+
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "keresés;találat;kutatás;tekerés;"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+msgid "Search history"
+msgstr "Keresési előzmények"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+msgid "This key defines the items which were searched for in the past."
+msgstr "A korábban keresett elemek listája."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+msgid "Show Additional Options"
+msgstr "További beállítások megjelenítése"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+msgid "Disable Quick Search"
+msgstr "Gyors keresés kikapcsolása"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a keresőeszköz kikapcsolja-e a locate parancs "
+"használatát a egyszerű fájlnévkeresések elvégzésekor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+msgid "Quick Search Excluded Paths"
+msgstr "A gyors keresésből kihagyott útvonalak"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. "
+"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr ""
+"Ez a kulcs megadja a gyors keresésből kihagyandó útvonalakat. A * és ? "
+"helyettesítő karakterek támogatottak. Az alapértelmezett értékek: /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, és /var/*."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+msgid "Disable Quick Search Second Scan"
+msgstr "Gyors keresés második körének kikapcsolása"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a keresőeszköz kikapcsolja-e a find parancs "
+"használatát a gyors keresés elvégzése után."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "A gyors keresés második köréből kihagyandó útvonalak"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan "
+"when performing a quick search. The second scan uses the find command to "
+"search for files. The purpose of the second scan is to find files that have "
+"not been indexed. The wildcards '*' and '?' are supported. The default value "
+"is /."
+msgstr ""
+"Ez a kulcs megadja a gyors keresésből kihagyandó útvonalakat. A második "
+"keresés a find parancsot használja fájlok keresésére. A második keresés "
+"célja a nem indexelt fájlok megtalálása.  A * és ? helyettesítő karakterek "
+"támogatottak. Az alapértelmezett érték: /."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+msgid "Search Result Columns Order"
+msgstr "Keresési eredmények oszlop sorrendje"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"Ez a kulcs meghatározza a keresési eredményeknél az oszlopok sorrendjét. Ez "
+"a kulcs nem módosítható a felhasználó által."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+msgid "Default Window Width"
+msgstr "Alapértelmezett ablakszélesség"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+msgid ""
+"This key defines the window width, and it's used to remember the size of the "
+"search tool between sessions. Setting it to -1 will make the search tool use "
+"the default width."
+msgstr ""
+"Ez a kulcs meghatározza az ablak szélességét, és arra használható, hogy "
+"megjegyezze a Kereső eszköz méretét a munkafolyamatok közt. A -1 érték "
+"megadása az alapértelmezett szélesség használatát váltja ki."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+msgid "Default Window Height"
+msgstr "Alapértelmezett ablakmagasság"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"Ez a kulcs meghatározza az ablak magasságát, és arra használható, hogy "
+"megjegyezze a Kereső eszköz méretét a munkafolyamatok közt. A -1 érték "
+"megadása az alapértelmezett magasság használatát váltja ki."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+msgid "Default Window Maximized"
+msgstr "Az alapértelmezett ablak teljes méretű"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a keresőeszköz teljes méretben induljon-e."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+msgid "Look in Folder"
+msgstr "Keresés mappában"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+msgid "This key defines the default value of the \"Look in Folder\" widget."
+msgstr ""
+"Ez a kulcs megadja a „Keresés mappában” felületi elem alapértelmezett "
+"értékét."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a „Tartalmazza ezt a szöveget” keresési "
+"lehetőség ki van-e választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a „Módosítva kevesebb mint” keresési lehetőség "
+"ki van-e választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a „Módosítva több mint” keresési lehetőség ki "
+"van-e választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a „Mérete legalább” keresési lehetőség ki van-"
+"e választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a „Mérete legfeljebb” keresési lehetőség ki "
+"van-e választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy az „A fájl üres” keresési lehetőség ki van-e "
+"választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy az „A következő felhasználó tulajdona” "
+"lehetőség feltétel ki van-e választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy az „A következő csoport tulajdona” keresési "
+"lehetőség ki van-e választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy az „A tulajdonos felismerhetetlen” keresési "
+"lehetőség ki van-e választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a „Név nem tartalmazza” keresési lehetőség ki "
+"van-e választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy az „A fájlnév illeszkedik erre a reguláris "
+"kifejezésre” keresési lehetőség ki van-e választva a keresőeszköz "
+"indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a „Rejtett fájlok és mappák mutatása” keresési "
+"lehetőség ki van-e választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a „Szimbolikus linkek követése” keresési "
+"lehetőség ki van-e választva a keresőeszköz indításakor."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Ez a kulcs meghatározza, hogy a „Más fájlrendszerek kizárása a keresésből” "
+"keresési lehetőség ki van-e választva a keresőeszköz indításakor."
+
+#: ../src/gsearchtool.c:81
+msgid "Contains the _text"
+msgstr "_Tartalmazza ezt a szöveget"
+
+#: ../src/gsearchtool.c:83
+msgid "_Date modified less than"
+msgstr "_Módosítva kevesebb mint"
+
+#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
+msgid "days"
+msgstr "napja"
+
+#: ../src/gsearchtool.c:84
+msgid "Date modified more than"
+msgstr "Módosítva több mint"
+
+#: ../src/gsearchtool.c:86
+msgid "S_ize at least"
+msgstr "_Mérete legalább"
+
+#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
+msgid "kilobytes"
+msgstr "kilobájt"
+
+#: ../src/gsearchtool.c:87
+msgid "Si_ze at most"
+msgstr "Mé_rete legfeljebb"
+
+#: ../src/gsearchtool.c:88
+msgid "File is empty"
+msgstr "A fájl üres"
+
+#: ../src/gsearchtool.c:90
+msgid "Owned by _user"
+msgstr "A _következő felhasználó tulajdona"
+
+#: ../src/gsearchtool.c:91
+msgid "Owned by _group"
+msgstr "A kö_vetkező csoport tulajdona"
+
+#: ../src/gsearchtool.c:92
+msgid "Owner is unrecognized"
+msgstr "A tulajdonos felismerhetetlen"
+
+#: ../src/gsearchtool.c:94
+msgid "Na_me does not contain"
+msgstr "Né_v nem tartalmazza"
+
+#: ../src/gsearchtool.c:95
+msgid "Name matches regular e_xpression"
+msgstr "A fájlnév illeszkedik erre a _reguláris kifejezésre"
+
+#: ../src/gsearchtool.c:97
+msgid "Show hidden and backup files"
+msgstr "Rejtett fájlok és biztonsági mentések megjelenítése"
+
+#: ../src/gsearchtool.c:98
+msgid "Follow symbolic links"
+msgstr "Szimbolikus linkek követése"
+
+#: ../src/gsearchtool.c:99
+msgid "Exclude other filesystems"
+msgstr "Más fájlrendszerek kizárása a keresésből"
+
+#: ../src/gsearchtool.c:157
+msgid "Show version of the application"
+msgstr "Az alkalmazás verziószámának megjelenítése"
+
+#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
+msgid "STRING"
+msgstr "KARAKTERLÁNC"
+
+#: ../src/gsearchtool.c:159
+msgid "PATH"
+msgstr "ÚTVONAL"
+
+#: ../src/gsearchtool.c:160
+msgid "VALUE"
+msgstr "ÉRTÉK"
+
+#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
+msgid "DAYS"
+msgstr "NAPOK"
+
+#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
+msgid "KILOBYTES"
+msgstr "KILOBÁJT"
+
+#: ../src/gsearchtool.c:169
+msgid "USER"
+msgstr "FELHASZNÁLÓ"
+
+#: ../src/gsearchtool.c:170
+msgid "GROUP"
+msgstr "CSOPORT"
+
+#: ../src/gsearchtool.c:173
+msgid "PATTERN"
+msgstr "MINTA"
+
+#: ../src/gsearchtool.c:384
+msgid "A locate database has probably not been created."
+msgstr "Valószínűleg nem jött létre locate adatbázis."
+
+#: ../src/gsearchtool.c:486
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr "A karakterkészlet-konverzió nem sikerült erre: „%s”"
+
+#: ../src/gsearchtool.c:506
+msgid "Searching..."
+msgstr "Keresés…"
+
+#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1019
+#: ../src/gsearchtool.c:2987
+msgid "Search for Files"
+msgstr "Fájlok keresése"
+
+#: ../src/gsearchtool.c:965 ../src/gsearchtool.c:994
+msgid "No files found"
+msgstr "Nincs találat"
+
+#: ../src/gsearchtool.c:987
+msgid "(stopped)"
+msgstr "(leállítva)"
+
+#: ../src/gsearchtool.c:993
+msgid "No Files Found"
+msgstr "Nincs találat"
+
+#: ../src/gsearchtool.c:998
+#, c-format
+msgid "%'d File Found"
+msgid_plural "%'d Files Found"
+msgstr[0] "%'d fájl található"
+msgstr[1] "%'d fájl található"
+
+#: ../src/gsearchtool.c:1002 ../src/gsearchtool.c:1040
+#, c-format
+msgid "%'d file found"
+msgid_plural "%'d files found"
+msgstr[0] "%d fájl található"
+msgstr[1] "%d fájl található"
+
+#: ../src/gsearchtool.c:1131
+msgid "Entry changed called for a non entry option!"
+msgstr "A beviteli mező változás hívódott meg egy nem beviteli mezőhöz!"
+
+#: ../src/gsearchtool.c:1296
+msgid "Set the text of \"Name contains\" search option"
+msgstr "A „Név tartalmazza” keresési lehetőség szövegének beállítása"
+
+#: ../src/gsearchtool.c:1297
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "A „Keresés ebben a mappában” keresési lehetőség szövegének beállítása"
+
+#: ../src/gsearchtool.c:1298
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr ""
+"Fájlok rendezése a következők egyike szerint: név, mappa, méret, típus vagy "
+"dátum"
+
+#: ../src/gsearchtool.c:1299
+msgid "Set sort order to descending, the default is ascending"
+msgstr "A rendezési sorrend csökkenőre állítása, az alapértelmezett a növekvő"
+
+#: ../src/gsearchtool.c:1300
+msgid "Automatically start a search"
+msgstr "Keresés automatikus indítása"
+
+#: ../src/gsearchtool.c:1306
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr "A(z) „%s” feltétel kiválasztása"
+
+#: ../src/gsearchtool.c:1309
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr "A(z) „%s” feltétel kiválasztása és beállítása"
+
+#: ../src/gsearchtool.c:1416
+msgid "Invalid option passed to sortby command line argument."
+msgstr "Érvénytelen beállítás lett átadva a sortby parancssori paraméternek."
+
+#: ../src/gsearchtool.c:1710
+msgid ""
+"\n"
+"... Too many errors to display ..."
+msgstr ""
+"\n"
+"… Túl sok hiba van, ennyit nem lehet megjeleníteni …"
+
+#: ../src/gsearchtool.c:1724
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr ""
+"A keresés eredménye érvénytelen. Hiba történt a keresés végrehajtása közben."
+
+#: ../src/gsearchtool.c:1733 ../src/gsearchtool.c:1774
+msgid "Show more _details"
+msgstr "Több _részlet megjelenítése"
+
+#: ../src/gsearchtool.c:1763
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+"A keresés eredménye elavult vagy érvénytelen. Ki szeretné kapcsolni a gyors "
+"keresés szolgáltatást?"
+
+#: ../src/gsearchtool.c:1785
+msgid "Disable _Quick Search"
+msgstr "_Gyors keresés kikapcsolása"
+
+#: ../src/gsearchtool.c:1812
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr ""
+"Nem sikerült beállítani a(z) %d gyermekfolyamat csoportazonosítóját: %s.\n"
+
+#: ../src/gsearchtool.c:1837
+msgid "Error parsing the search command."
+msgstr "Hiba történt a keresési parancs értelmezése közben."
+
+#: ../src/gsearchtool.c:1866
+msgid "Error running the search command."
+msgstr "Hiba történt a keresési parancs futtatása közben."
+
+#: ../src/gsearchtool.c:1982
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr "Adja meg a(z) „%s” keresési feltétel szövegének értékét."
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#: ../src/gsearchtool.c:1987
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "„%s” egysége: %s"
+
+#: ../src/gsearchtool.c:1989
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr "Adjon meg egy értéket ebben: %s a(z) „%s” keresési feltételhez."
+
+#: ../src/gsearchtool.c:2047
+#, c-format
+msgid "Remove \"%s\""
+msgstr "„%s” eltávolítása"
+
+#: ../src/gsearchtool.c:2048
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "Kattintson ide a(z) „%s” keresési feltétel eltávolításához."
+
+#: ../src/gsearchtool.c:2141
+msgid "A_vailable options:"
+msgstr "_Lehetséges beállítások:"
+
+#: ../src/gsearchtool.c:2170
+msgid "Available options"
+msgstr "Elérhető beállítások"
+
+#: ../src/gsearchtool.c:2171
+msgid "Select a search option from the drop-down list."
+msgstr "Válasszon egy keresési feltételt a legördülő listából."
+
+#: ../src/gsearchtool.c:2183
+msgid "Add search option"
+msgstr "Keresési beállítás hozzáadása"
+
+#: ../src/gsearchtool.c:2184
+msgid "Click to add the selected available search option."
+msgstr ""
+"Kattintson ide a kiválasztott rendelkezésre álló keresési feltétel "
+"hozzáadásához."
+
+#: ../src/gsearchtool.c:2273
+msgid "S_earch results:"
+msgstr "_Keresés eredménye:"
+
+#: ../src/gsearchtool.c:2317
+msgid "List View"
+msgstr "Listanézet"
+
+#: ../src/gsearchtool.c:2377
+msgid "Name"
+msgstr "Név"
+
+#: ../src/gsearchtool.c:2401
+msgid "Folder"
+msgstr "Mappa"
+
+#: ../src/gsearchtool.c:2414
+msgid "Size"
+msgstr "Méret"
+
+#: ../src/gsearchtool.c:2426
+msgid "Type"
+msgstr "Típus"
+
+#: ../src/gsearchtool.c:2438
+msgid "Date Modified"
+msgstr "Módosítás dátuma"
+
+#: ../src/gsearchtool.c:2757
+msgid "_Name contains:"
+msgstr "_Név tartalmazza:"
+
+#: ../src/gsearchtool.c:2771 ../src/gsearchtool.c:2772
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr ""
+"Adjon meg egy (részleges) fájlnevet helyettesítő karakterekkel vagy azok "
+"nélkül."
+
+#: ../src/gsearchtool.c:2772
+msgid "Name contains"
+msgstr "Név tartalmazza:"
+
+#: ../src/gsearchtool.c:2778
+msgid "_Look in folder:"
+msgstr "_Keresés ebben a mappában:"
+
+#: ../src/gsearchtool.c:2784
+msgid "Browse"
+msgstr "Tallózás"
+
+#: ../src/gsearchtool.c:2793
+msgid "Look in folder"
+msgstr "Keresés ebben a mappában"
+
+#: ../src/gsearchtool.c:2793
+msgid "Select the folder or device from which you want to begin the search."
+msgstr "Válassza ki a keresés kiindulópontjául szolgáló mappát vagy eszközt."
+
+#: ../src/gsearchtool.c:2811
+msgid "Select more _options"
+msgstr "Több _beállítási lehetőség"
+
+#: ../src/gsearchtool.c:2820
+msgid "Select more options"
+msgstr "Több beállítási lehetőség"
+
+#: ../src/gsearchtool.c:2820
+msgid "Click to expand or collapse the list of available options."
+msgstr ""
+"Kattintson ide a rendelkezésre álló keresési feltételek listájának "
+"kibontásához vagy összecsukásához."
+
+#: ../src/gsearchtool.c:2844
+msgid "Click to display the help manual."
+msgstr "Kattintson ide a súgó megjelenítéséhez."
+
+#: ../src/gsearchtool.c:2852
+msgid "Click to close \"Search for Files\"."
+msgstr "Kattintson ide a „Fájlok keresése” párbeszédablak bezárásához."
+
+#: ../src/gsearchtool.c:2878
+msgid "Click to perform a search."
+msgstr "Kattintson ide a keresés elvégzéséhez."
+
+#: ../src/gsearchtool.c:2879
+msgid "Click to stop a search."
+msgstr "Kattintson ide a keresés leállításához."
+
+#: ../src/gsearchtool.c:2972
+msgid "- the GNOME Search Tool"
+msgstr "– a GNOME keresőeszköze"
+
+#: ../src/gsearchtool.c:2981
+#, c-format
+msgid "Failed to parse command line arguments: %s\n"
+msgstr "A parancssori paraméterek feldolgozása meghiúsult: %s\n"
+
+#: ../src/gsearchtool-callbacks.c:197
+msgid "Could not open help document."
+msgstr "Nem nyitható meg a súgódokumentum."
+
+#: ../src/gsearchtool-callbacks.c:344
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "Biztosan meg akar nyitni %d dokumentumot?"
+msgstr[1] "Biztosan meg akar nyitni %d dokumentumot?"
+
+#: ../src/gsearchtool-callbacks.c:349 ../src/gsearchtool-callbacks.c:534
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "%d különálló ablak fog megnyílni."
+msgstr[1] "%d különálló ablak fog megnyílni."
+
+#: ../src/gsearchtool-callbacks.c:385
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "Nem nyitható meg a(z) „%s” dokumentum."
+
+#: ../src/gsearchtool-callbacks.c:410
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "Nem nyitható meg a(z) „%s” mappa."
+
+#: ../src/gsearchtool-callbacks.c:418
+msgid "The nautilus file manager is not running."
+msgstr "Nem fut a Nautilus fájlkezelő."
+
+#: ../src/gsearchtool-callbacks.c:491 ../src/gsearchtool-callbacks.c:814
+msgid "The document does not exist."
+msgstr "A dokumentum nem létezik."
+
+#: ../src/gsearchtool-callbacks.c:506
+msgid "There is no installed viewer capable of displaying the document."
+msgstr ""
+"Nincs olyan nézőprogram telepítve, amely képes lenne megjeleníteni a "
+"dokumentumot."
+
+#: ../src/gsearchtool-callbacks.c:529
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "Biztosan meg akar nyitni %d mappát?"
+msgstr[1] "Biztosan meg akar nyitni %d mappát?"
+
+#: ../src/gsearchtool-callbacks.c:678
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "„%s” nem helyezhető át a Kukába."
+
+#: ../src/gsearchtool-callbacks.c:705
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "Véglegesen törölni akarja a következőt: „%s”?"
+
+#: ../src/gsearchtool-callbacks.c:708
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr "Nem érhető el a Kuka. „%s” nem helyezhető át a Kukába."
+
+#: ../src/gsearchtool-callbacks.c:743
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "„%s” nem törölhető."
+
+#: ../src/gsearchtool-callbacks.c:850
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "„%s” törlése sikertelen: %s."
+
+#: ../src/gsearchtool-callbacks.c:862
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "„%s” áthelyezése sikertelen: %s."
+
+#. Popup menu item: Open
+#: ../src/gsearchtool-callbacks.c:990 ../src/gsearchtool-callbacks.c:1020
+msgid "_Open"
+msgstr "_Megnyitás"
+
+#. Popup menu item: Open with (default)
+#: ../src/gsearchtool-callbacks.c:1045
+#, c-format
+msgid "_Open with %s"
+msgstr "_Megnyitás ezzel: %s"
+
+#: ../src/gsearchtool-callbacks.c:1080
+#, c-format
+msgid "Open with %s"
+msgstr "Megnyitás ezzel: %s"
+
+#. Popup menu item: Open With
+#: ../src/gsearchtool-callbacks.c:1113
+msgid "Open Wit_h"
+msgstr "Megnyitás e_zzel"
+
+#. Popup menu item: Open Containing Folder
+#: ../src/gsearchtool-callbacks.c:1158
+msgid "Open Containing _Folder"
+msgstr "_Tartalmazó mappa megnyitása"
+
+#: ../src/gsearchtool-callbacks.c:1176
+msgid "Mo_ve to Trash"
+msgstr "Át_helyezés a Kukába"
+
+#: ../src/gsearchtool-callbacks.c:1198
+msgid "_Save Results As..."
+msgstr "_Eredmény mentése…"
+
+#: ../src/gsearchtool-callbacks.c:1580
+msgid "Save Search Results As..."
+msgstr "Keresés eredményének mentése…"
+
+#: ../src/gsearchtool-callbacks.c:1611
+msgid "Could not save document."
+msgstr "A dokumentum nem menthető."
+
+#: ../src/gsearchtool-callbacks.c:1612
+msgid "You did not select a document name."
+msgstr "Nem választott ki dokumentumnevet."
+
+#: ../src/gsearchtool-callbacks.c:1638
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "A(z) „%s” dokumentum nem menthető a(z) „%s” helyre."
+
+#: ../src/gsearchtool-callbacks.c:1668
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr "A(z) „%s” dokumentum már létezik. Lecseréli?"
+
+#: ../src/gsearchtool-callbacks.c:1672
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr "Ha lecserél egy létező fájlt, akkor annak tartalma felülíródik."
+
+#: ../src/gsearchtool-callbacks.c:1683
+msgid "_Replace"
+msgstr "_Csere"
+
+#: ../src/gsearchtool-callbacks.c:1733
+msgid "The document name you selected is a folder."
+msgstr "A kiválasztott dokumentumnév egy mappa."
+
+#: ../src/gsearchtool-callbacks.c:1771
+msgid "You may not have write permissions to the document."
+msgstr "Lehet, hogy nincs írási jogosultsága a dokumentumhoz."
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../src/gsearchtool-support.c:452
+msgid "today at %-I:%M %p"
+msgstr "ma, %-k.%M"
+
+#: ../src/gsearchtool-support.c:454
+msgid "yesterday at %-I:%M %p"
+msgstr "tegnap, %-k.%M"
+
+#: ../src/gsearchtool-support.c:456 ../src/gsearchtool-support.c:458
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%Y. %B %e., %A, %k.%M.%S"
+
+#: ../src/gsearchtool-support.c:645
+msgid "link (broken)"
+msgstr "link (törött)"
+
+#: ../src/gsearchtool-support.c:649
+#, c-format
+msgid "link to %s"
+msgstr "link erre: %s"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../src/gsearchtool-support.c:1268
+msgid " (copy)"
+msgstr " (másolat)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../src/gsearchtool-support.c:1270
+msgid " (another copy)"
+msgstr " (még egy másolat)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../src/gsearchtool-support.c:1273 ../src/gsearchtool-support.c:1275
+#: ../src/gsearchtool-support.c:1277 ../src/gsearchtool-support.c:1287
+msgid "th copy)"
+msgstr ". másolat)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../src/gsearchtool-support.c:1280
+msgid "st copy)"
+msgstr ". másolat)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../src/gsearchtool-support.c:1282
+msgid "nd copy)"
+msgstr ". másolat)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../src/gsearchtool-support.c:1284
+msgid "rd copy)"
+msgstr ". másolat)"
+
+#. localizers: appended to first file copy
+#: ../src/gsearchtool-support.c:1301
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (másolat)%s"
+
+#. localizers: appended to second file copy
+#: ../src/gsearchtool-support.c:1303
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (még egy másolat)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../src/gsearchtool-support.c:1306 ../src/gsearchtool-support.c:1308
+#: ../src/gsearchtool-support.c:1310 ../src/gsearchtool-support.c:1319
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (%d. másolat)%s"
+
+#. localizers: appended to x1st file copy
+#: ../src/gsearchtool-support.c:1313
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (%d. másolat)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../src/gsearchtool-support.c:1315
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (%d. másolat)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../src/gsearchtool-support.c:1317
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (%d. másolat)%s"
+
+#: ../src/gsearchtool-support.c:1364
+msgid " (invalid Unicode)"
+msgstr " (érvénytelen Unicode)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../src/gsearchtool-support.c:1453
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../src/gsearchtool-support.c:1461
+#, c-format
+msgid " (%d"
+msgstr " (%d"
+
+#: ../libeggsmclient/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "A fájl nem egy érvényes .desktop fájl"
+
+#: ../libeggsmclient/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Ismeretlen .desktop fájl verzió: „%s”"
+
+#: ../libeggsmclient/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "%s indítása"
+
+#: ../libeggsmclient/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Az alkalmazás nem fogad el dokumentumokat a parancssorban"
+
+#: ../libeggsmclient/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Ismeretlen indítási kapcsoló: %d"
+
+#: ../libeggsmclient/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Nem adhatók dokumentum-URI címek egy „Type=Link” asztali bejegyzésnek"
+
+#: ../libeggsmclient/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Nem futtatható elem"
+
+#: ../libeggsmclient/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "A munkamenet-kezelőhöz való csatlakozás tiltása"
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Adja meg a mentett beállításokat tartalmazó fájlt"
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "FILE"
+msgstr "FÁJL"
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Adja meg a munkamenet-kezelési azonosítót"
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "ID"
+msgstr "Azonosító"
+
+#: ../libeggsmclient/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Munkamenet-kezelés kapcsolói:"
+
+#: ../libeggsmclient/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Munkamenet-kezelési kapcsolók megjelenítése"
+

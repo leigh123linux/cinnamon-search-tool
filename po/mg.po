@@ -1,0 +1,1082 @@
+# Malagasy translation of GNOME-UTILS.
+# Copyright (C) 2006 THE GNOME-UTILS'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the GNOME-UTILS package.
+# Fano Rajaonarisoa <rajfanhar@yahoo.fr>, 2006.
+# Thierry Randrianiriana <randrianiriana@gmail.com>, 2006.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils 2.15.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-06 14:36-0400\n"
+"PO-Revision-Date: 2006-05-29 16:25+0300\n"
+"Last-Translator: Fano Rajaonarisoa <rajfanhar@yahoo.fr>\n"
+"Language-Team: Malagasy <i18n-malagasy-gnome@gna.org>\n"
+"Language: mg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+
+#: ../data/gnome-search-tool.desktop.in.h:1
+msgid "Locate documents and folders on this computer by name or content"
+msgstr ""
+"Hitady tahirin-kevitra sy laha-tahiry araka ny anarany na ny mpiatiny "
+"anatin'ity solosaina ity"
+
+#: ../data/gnome-search-tool.desktop.in.h:2
+msgid "Search for Files..."
+msgstr "Mikaroka rakitra..."
+
+#: ../data/gnome-search-tool.schemas.in.h:1
+msgid "Default Window Height"
+msgstr "Haavo tsotran'ny fikandrana"
+
+#: ../data/gnome-search-tool.schemas.in.h:2
+msgid "Default Window Maximized"
+msgstr "Endrika tsotran'ny fikandrana rehefa alehibiazina"
+
+#: ../data/gnome-search-tool.schemas.in.h:3
+msgid "Default Window Width"
+msgstr "Saka tsotran'ny fikandrana"
+
+#: ../data/gnome-search-tool.schemas.in.h:4
+msgid "Disable Quick Search"
+msgstr "Atsaharo ny karoka faingana"
+
+#: ../data/gnome-search-tool.schemas.in.h:5
+msgid "Disable Quick Search Second Scan"
+msgstr "Atsaharo ny fikarohan'ny fanindroan'ny karoka faingana"
+
+#: ../data/gnome-search-tool.schemas.in.h:6
+#, fuzzy
+msgid "Look in Folder"
+msgstr "Jereo anatin'ny laha-tahiry"
+
+#: ../data/gnome-search-tool.schemas.in.h:7
+msgid "Quick Search Excluded Paths"
+msgstr "Sori-dàlana tsy anaovana karoka faingana"
+
+#: ../data/gnome-search-tool.schemas.in.h:8
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "Sori-dàlana tsy anaovana fikarohana fanindroan'ny karoka faingana"
+
+#: ../data/gnome-search-tool.schemas.in.h:9
+msgid "Search Result Columns Order"
+msgstr "Filahatry ny farian'ny vokatry ny karoka"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:12
+msgid "Select the search option \"Contains the text\""
+msgstr "Ekeo ny safidy \"Misy ilay lahabolana\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:15
+msgid "Select the search option \"Date modified less than\""
+msgstr "Ekeo ny safidy \"Datin'ny fanovana latsak ny\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:18
+msgid "Select the search option \"Date modified more than\""
+msgstr "Ekeo ny safidy \"Datin'ny fanovana maherin'ny\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:21
+#, fuzzy
+msgid "Select the search option \"Exclude other filesystems\""
+msgstr "Ekeo ny safidy \"Mampidira rafi-drakitra hafa\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:24
+msgid "Select the search option \"File is empty\""
+msgstr "Ekeo ny safidy \"Foana ilay rakitra\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:27
+msgid "Select the search option \"Follow symbolic links\""
+msgstr "Ekeo ny safidy \"Araho ireo rohy misolotena\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:30
+msgid "Select the search option \"Name does not contain\""
+msgstr "Ekeo ny safidy \"Tsy misy ity ilay anarana\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:33
+msgid "Select the search option \"Name matches regular expression\""
+msgstr "Ekeo ny safidy \"Mifanaraka amin'ny fiteny mahazatra ilay anarana\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:36
+msgid "Select the search option \"Owned by group\""
+msgstr "Ekeo ny safidy \"Fananan'ny vondrona\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:39
+msgid "Select the search option \"Owned by user\""
+msgstr "Ekeo ny safidy \"Fananan'ny mpampiasa\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:42
+msgid "Select the search option \"Owner is unrecognized\""
+msgstr "Ekeo ny safidy \"Tsy fantatra ny tompony\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:45
+msgid "Select the search option \"Show hidden files and folders\""
+msgstr "Ekeo ny safidy \"Asehoy ireo rakitra sy laha-tahiry miafina\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:48
+msgid "Select the search option \"Size at least\""
+msgstr "Ekeo ny safidy \"Habe farany ambany\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:51
+msgid "Select the search option \"Size at most\""
+msgstr "Ekeo ny safidy \"Habe farany ambony\""
+
+#: ../data/gnome-search-tool.schemas.in.h:52
+msgid "Show Additional Options"
+msgstr "Asehoy ireo safidy fanampiny"
+
+#: ../data/gnome-search-tool.schemas.in.h:53
+msgid "This key defines the default value of the \"Look in Folder\" widget."
+msgstr ""
+
+#: ../data/gnome-search-tool.schemas.in.h:54
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"Io famaha io dia mamaritra ny filaharan'ireo farian'ny valin'ny karoka. Tsy "
+"tokony hovain'ny mpampiasa io famaha io."
+
+#: ../data/gnome-search-tool.schemas.in.h:55
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. "
+"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr ""
+"Io famaha io dia mamaritra ny sori-dàlana tsy hanaovana karoka faingana. "
+"Ekena ireo marika ankapobe '*' ary '?'. /mnt/*, /media/*, /dev/*, /tmp/*, /"
+"proc/*, ary /var/* ireo sanda tsotra."
+
+#: ../data/gnome-search-tool.schemas.in.h:56
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan "
+"when performing a quick search. The second scan uses the find command to "
+"search for files. The purpose of the second scan is to find files that have "
+"not been indexed. The wildcards '*' and '?' are supported. The default value "
+"is /."
+msgstr ""
+"Io famaha io dia mamaritra ireo sori-dàlana tsy anaovan'ny fitaovana "
+"fikarohana fizahana fanindroa rehefa manao karoka faingana. Ny baiko find no "
+"ampiasain'ny fizahana fanindroa rehefa hitady rakitra. Ny tanjon'ny fizahana "
+"fanindroa dia ny fitadiavana rakitra izay tsy mbola voasokajy. Ekena ireo "
+"marika ankapobe '*' and '?'. / no sanda tsotra."
+
+#: ../data/gnome-search-tool.schemas.in.h:57
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"Io famaha io dia mamaritra ny haavon'ny fikandrana ary natao itadidiana ny "
+"haben'ilay fikandran'ny fitaovam-pikarohana isaky ny session. Ny famaritana "
+"azy ho -1 dia hahatonga ny fikandran'ny fikarohana hampiasa ny haavo tsotra."
+
+#: ../data/gnome-search-tool.schemas.in.h:58
+msgid ""
+"This key defines the window width, and it's used to remember the size of the "
+"search tool between sessions. Setting it to -1 will make the search tool use "
+"the default width."
+msgstr ""
+"Io famaha io dia mamaritra ny sakan'ny fikandrana ary natao itadidiana ny "
+"haben'ilay fikandran'ny fitaovam-pikarohana isaky ny session. Ny famaritana "
+"azy ho -1 dia hahatonga ny fikandran'ny fitaovam-pikarohana hampiasa ny saka "
+"tsotra."
+
+#: ../data/gnome-search-tool.schemas.in.h:59
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Misy ilay lahabolana"
+"\" rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:60
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Datin'ny fanovana "
+"latsaka ny\" rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:61
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Datin'ny fanovana "
+"maherin'ny\" rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:62
+#, fuzzy
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Mampidira raki-"
+"drafitra hafa\" rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:63
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Foana ilay rakitra\" "
+"rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:64
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Araho ireo rohy "
+"misolotena\" rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:65
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Tsy misy ity ilay "
+"anarana\" rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:66
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Mifanaraka amin'ny "
+"fiteny mahazatra ilay anarana\" rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:67
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Fananan'ny vondrona\" "
+"rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:68
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Fananan'ny mpampiasa"
+"\" rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:69
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Tsy fantatra ny "
+"tompony\" rehefa alefa ny fitaovam-pikarohana."
+
+#. Translators: The quoted text is the label of the additional
+#. options expander that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:72
+msgid ""
+"This key determines if the \"Select more options\" section is expanded when "
+"the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka mivelatra ny faritra \"Hijery safidy "
+"misimisy kokoa\" rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:73
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Asehoy ireo rakitra "
+"sy laha-tahiry miafina\" rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:74
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Habe farany ambany\" "
+"rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:75
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nekena ny safidy \"Habe farany ambony\" "
+"rehefa alefa ny fitaovam-pikarohana."
+
+#: ../data/gnome-search-tool.schemas.in.h:76
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"Io famaha io dia milaza raha atsahatry ny fitaovam-pikarohana ny fampiasana "
+"ny baiko find rehefa mahavita karoka faingana izy."
+
+#: ../data/gnome-search-tool.schemas.in.h:77
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+"Io famaha io dia milaza raha atsahatry ny fitaovam-pikarohana ny fampiasana "
+"ny baiko locate rehefa mikaroka anaran-drakitra tsotsotra izy."
+
+#: ../data/gnome-search-tool.schemas.in.h:78
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr ""
+"Io famaha io dia milaza raha toa ka nakelezina ny fikandran'ny fitaovam-"
+"pikarohana rehefa alefa izy."
+
+#: ../src/gsearchtool-callbacks.c:194
+msgid "Could not open help document."
+msgstr "Tsy afaka manokatra ny tahirin-kevitry ny toro-làlana."
+
+#: ../src/gsearchtool-callbacks.c:341
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "Te hanokatra tahirin-kevitra %d tokoa ve ianao?"
+msgstr[1] "Te hanokatra tahirin-kevitra %d tokoa ve ianao?"
+
+#: ../src/gsearchtool-callbacks.c:346 ../src/gsearchtool-callbacks.c:531
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "Hampisokatra fikandrana %d izany."
+msgstr[1] "Hampisokatra fikandrana %d izany."
+
+#: ../src/gsearchtool-callbacks.c:382
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "Tsy nahasokatra ny tahirin-kevitra \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:407
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "Tsy nahasokatra ny laha-tahiry \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:415
+msgid "The nautilus file manager is not running."
+msgstr "Tsy mandeha ny mpandrindra rakitry ny nautilus."
+
+#: ../src/gsearchtool-callbacks.c:488 ../src/gsearchtool-callbacks.c:811
+msgid "The document does not exist."
+msgstr "Tsy misy ilay tahirin-kevitra."
+
+#: ../src/gsearchtool-callbacks.c:503
+msgid "There is no installed viewer capable of displaying the document."
+msgstr ""
+"Tsy misy rindran'asa voapetraka afaka maneho io tahirin-kevitra io ao. "
+
+#: ../src/gsearchtool-callbacks.c:526
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "Te hanokatra laha-tahiry %d tokoa ve ianao?"
+msgstr[1] "Te hanokatra laha-tahiry %d tokoa ve ianao?"
+
+#: ../src/gsearchtool-callbacks.c:675
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "Tsy afaka nandefa ny \"%s\" tany anaty daba."
+
+#: ../src/gsearchtool-callbacks.c:702
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "Tianao fafàna tanteraka ve ny \"%s\"?"
+
+#: ../src/gsearchtool-callbacks.c:705
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr ""
+"Tsy mety ampiasaina ny daba. Tsy afaka nandefa ny \"%s\" tany anaty daba."
+
+#: ../src/gsearchtool-callbacks.c:740
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "Tsy afaka namafa ny \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:847
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "Tsy nahomby ny famafana ny \"%s\": %s."
+
+#: ../src/gsearchtool-callbacks.c:859
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "Tsy nahomby ny famindrana ny \"%s\": %s."
+
+#. Popup menu item: Open
+#: ../src/gsearchtool-callbacks.c:987 ../src/gsearchtool-callbacks.c:1017
+msgid "_Open"
+msgstr "_Sokafy"
+
+#. Popup menu item: Open with (default)
+#: ../src/gsearchtool-callbacks.c:1042
+#, c-format
+msgid "_Open with %s"
+msgstr ""
+
+#: ../src/gsearchtool-callbacks.c:1077
+#, c-format
+msgid "Open with %s"
+msgstr ""
+
+#. Popup menu item: Open With
+#: ../src/gsearchtool-callbacks.c:1110
+msgid "Open Wit_h"
+msgstr ""
+
+#. Popup menu item: Open Containing Folder
+#: ../src/gsearchtool-callbacks.c:1155
+#, fuzzy
+msgid "Open Containing _Folder"
+msgstr "_Hanokatra laha-tahiry"
+
+#: ../src/gsearchtool-callbacks.c:1173
+msgid "Mo_ve to Trash"
+msgstr "_Alefaso anaty daba"
+
+#: ../src/gsearchtool-callbacks.c:1195
+msgid "_Save Results As..."
+msgstr "_Raiketo toy izao ny valiny..."
+
+#: ../src/gsearchtool-callbacks.c:1577
+msgid "Save Search Results As..."
+msgstr "Raiketo toy izao ny valin'ny fikarohana..."
+
+#: ../src/gsearchtool-callbacks.c:1608
+msgid "Could not save document."
+msgstr "Tsy afaka nandraikitra ilay tahirin-kevitra."
+
+#: ../src/gsearchtool-callbacks.c:1609
+msgid "You did not select a document name."
+msgstr "Tsy nisafidy anaran-tahirin-kevitra ianao."
+
+#: ../src/gsearchtool-callbacks.c:1635
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "Tsy afaka nandraikitra ny tahirin-kevitra \"%s\" tamin'ny \"%s\"."
+
+#: ../src/gsearchtool-callbacks.c:1665
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr "Efa misy ny tahirin-kevitra \"%s\". Tianao tsindriana ve izy io?"
+
+#: ../src/gsearchtool-callbacks.c:1669
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr ""
+"Ho voatsindry ny mpiatin'ny rakitra iray raha toa ka tsindrinao ilay izy."
+
+#: ../src/gsearchtool-callbacks.c:1680
+msgid "_Replace"
+msgstr "_Tsindrio"
+
+#: ../src/gsearchtool-callbacks.c:1730
+msgid "The document name you selected is a folder."
+msgstr "Anaran-daha-tahiry ilay anaran-tahirin-kevitra nosafidianao."
+
+#: ../src/gsearchtool-callbacks.c:1768
+msgid "You may not have write permissions to the document."
+msgstr "Mety tsy manana fahazoan-dàlana hikitika ilay tahirin-kevitra ianao."
+
+#: ../src/gsearchtool-support.c:63
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s"
+msgstr ""
+"Tsy fetezana GConf:\n"
+" %s"
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../src/gsearchtool-support.c:696
+msgid "today at %-I:%M %p"
+msgstr "androany at %-I:%M %p"
+
+#: ../src/gsearchtool-support.c:698
+msgid "yesterday at %-I:%M %p"
+msgstr "omaly at %-I:%M %p"
+
+#: ../src/gsearchtool-support.c:700 ../src/gsearchtool-support.c:702
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%A, %B %-d %Y at %-I:%M:%S %p"
+
+#: ../src/gsearchtool-support.c:889
+msgid "link (broken)"
+msgstr "rohy (simba)"
+
+#: ../src/gsearchtool-support.c:893
+#, c-format
+msgid "link to %s"
+msgstr "rohy mankany amin'ny %s"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../src/gsearchtool-support.c:1497
+msgid " (copy)"
+msgstr ""
+
+#. localizers: tag used to detect the second copy of a file
+#: ../src/gsearchtool-support.c:1499
+msgid " (another copy)"
+msgstr ""
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../src/gsearchtool-support.c:1502 ../src/gsearchtool-support.c:1504
+#: ../src/gsearchtool-support.c:1506 ../src/gsearchtool-support.c:1516
+msgid "th copy)"
+msgstr ""
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../src/gsearchtool-support.c:1509
+msgid "st copy)"
+msgstr ""
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../src/gsearchtool-support.c:1511
+msgid "nd copy)"
+msgstr ""
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../src/gsearchtool-support.c:1513
+msgid "rd copy)"
+msgstr ""
+
+#. localizers: appended to first file copy
+#: ../src/gsearchtool-support.c:1530
+#, c-format
+msgid "%s (copy)%s"
+msgstr ""
+
+#. localizers: appended to second file copy
+#: ../src/gsearchtool-support.c:1532
+#, c-format
+msgid "%s (another copy)%s"
+msgstr ""
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../src/gsearchtool-support.c:1535 ../src/gsearchtool-support.c:1537
+#: ../src/gsearchtool-support.c:1539 ../src/gsearchtool-support.c:1548
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr ""
+
+#. localizers: appended to x1st file copy
+#: ../src/gsearchtool-support.c:1542
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr ""
+
+#. localizers: appended to x2nd file copy
+#: ../src/gsearchtool-support.c:1544
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr ""
+
+#. localizers: appended to x3rd file copy
+#: ../src/gsearchtool-support.c:1546
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr ""
+
+#: ../src/gsearchtool-support.c:1593
+msgid " (invalid Unicode)"
+msgstr "(fango diso)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../src/gsearchtool-support.c:1682
+msgid " ("
+msgstr ""
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../src/gsearchtool-support.c:1690
+#, c-format
+msgid " (%d"
+msgstr ""
+
+#: ../src/gsearchtool.c:81
+msgid "Contains the _text"
+msgstr "Misy ilay _lahabolana"
+
+#: ../src/gsearchtool.c:83
+msgid "_Date modified less than"
+msgstr "_Datin'ny fanovana latsaka ny"
+
+#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
+msgid "days"
+msgstr "andro"
+
+#: ../src/gsearchtool.c:84
+msgid "Date modified more than"
+msgstr "Datin'ny fanovana maherin'ny"
+
+#: ../src/gsearchtool.c:86
+msgid "S_ize at least"
+msgstr "Ha_be ambany indrindra"
+
+#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
+msgid "kilobytes"
+msgstr "kilooctet"
+
+#: ../src/gsearchtool.c:87
+msgid "Si_ze at most"
+msgstr "Ha_be ambony indrindra"
+
+#: ../src/gsearchtool.c:88
+msgid "File is empty"
+msgstr "Foana ilay rakitras"
+
+#: ../src/gsearchtool.c:90
+msgid "Owned by _user"
+msgstr "Fananan'ny _mpampiasa"
+
+#: ../src/gsearchtool.c:91
+msgid "Owned by _group"
+msgstr "Fananan'ny vondrona"
+
+#: ../src/gsearchtool.c:92
+msgid "Owner is unrecognized"
+msgstr "Tsy fantatra ny tompony"
+
+#: ../src/gsearchtool.c:94
+msgid "Na_me does not contain"
+msgstr "Tsy misy ity ilay _anarana"
+
+#: ../src/gsearchtool.c:95
+msgid "Name matches regular e_xpression"
+msgstr "Mifanaraka amin'ny fi_teny mahazatra ilay anarana"
+
+#: ../src/gsearchtool.c:97
+msgid "Show hidden and backup files"
+msgstr "Asehoy ireo rakitra sy laha-tahiry miafina"
+
+#: ../src/gsearchtool.c:98
+msgid "Follow symbolic links"
+msgstr "Araho ireo rohy misolo tena"
+
+#: ../src/gsearchtool.c:99
+#, fuzzy
+msgid "Exclude other filesystems"
+msgstr "Mampidira raki-drafitra hafa"
+
+#: ../src/gsearchtool.c:157
+#, fuzzy
+msgid "Show version of the application"
+msgstr "Asehoy ny kinovan'ilay rindran'asa"
+
+#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
+msgid "STRING"
+msgstr ""
+
+#: ../src/gsearchtool.c:159
+msgid "PATH"
+msgstr ""
+
+#: ../src/gsearchtool.c:160
+msgid "VALUE"
+msgstr ""
+
+#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
+msgid "DAYS"
+msgstr ""
+
+#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
+msgid "KILOBYTES"
+msgstr ""
+
+#: ../src/gsearchtool.c:169
+msgid "USER"
+msgstr ""
+
+#: ../src/gsearchtool.c:170
+msgid "GROUP"
+msgstr ""
+
+#: ../src/gsearchtool.c:173
+msgid "PATTERN"
+msgstr ""
+
+#: ../src/gsearchtool.c:384
+msgid "A locate database has probably not been created."
+msgstr "Mety tsy mbola  nisy soratra fototra locate noforonina angamba."
+
+#: ../src/gsearchtool.c:486
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr "Famadihana fitambarana marika tsy nahomby ho an'ny \"%s\""
+
+#: ../src/gsearchtool.c:506
+msgid "Searching..."
+msgstr "Mikaroka..."
+
+#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1016
+#: ../src/gsearchtool.c:2976
+msgid "Search for Files"
+msgstr "Mikaroka rakitra"
+
+#: ../src/gsearchtool.c:962 ../src/gsearchtool.c:991
+msgid "No files found"
+msgstr "Tsy misy rakitra hita"
+
+#: ../src/gsearchtool.c:984
+msgid "(stopped)"
+msgstr "(najanona)"
+
+#: ../src/gsearchtool.c:990
+msgid "No Files Found"
+msgstr "Tsy misy rakitra hita"
+
+#: ../src/gsearchtool.c:995
+#, fuzzy, c-format
+msgid "%'d File Found"
+msgid_plural "%'d Files Found"
+msgstr[0] "Rakitra %d no hita"
+msgstr[1] "Rakitra %d no hita"
+
+#: ../src/gsearchtool.c:999 ../src/gsearchtool.c:1037
+#, fuzzy, c-format
+msgid "%'d file found"
+msgid_plural "%'d files found"
+msgstr[0] "rakitra %d no hita"
+msgstr[1] "rakitra %d no hita"
+
+#: ../src/gsearchtool.c:1128
+msgid "Entry changed called for a non entry option!"
+msgstr "Niantso safidy tsy fidirana ilay fidirana voaova!"
+
+#: ../src/gsearchtool.c:1288
+msgid "Set the text of \"Name contains\" search option"
+msgstr "Hamaritra ny lahabolan'ny safidim-pikarohana \"Misy ity ilay anarana\""
+
+#: ../src/gsearchtool.c:1289
+msgid "Set the text of \"Look in folder\" search option"
+msgstr ""
+"Hamaritra ny lahabolan'ny safidim-pikarohana \"Jereo anatin'ny laha-tahiry\""
+
+#: ../src/gsearchtool.c:1290
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr ""
+"Avaho araka izao ireo rakitra: anarana, laha-tahiry, habe, karazana, na daty"
+
+#: ../src/gsearchtool.c:1291
+msgid "Set sort order to descending, the default is ascending"
+msgstr ""
+"Farito ho midina ny filaharan'ny fanavahana. Miakatra ny filaharana tsotra"
+
+#: ../src/gsearchtool.c:1292
+msgid "Automatically start a search"
+msgstr "Avy dia manaova fikarohana"
+
+#: ../src/gsearchtool.c:1298
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr "Ekeo ny safidim-pikarohana \"%s\""
+
+#: ../src/gsearchtool.c:1301
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr "Ekeo ary farito ny safidim-pikarohana \"%s\""
+
+#: ../src/gsearchtool.c:1408
+msgid "Invalid option passed to sortby command line argument."
+msgstr "Safidy tsy mety no nalefa tany amin'ny lohahevitry ny baiko sortby."
+
+#: ../src/gsearchtool.c:1702
+msgid ""
+"\n"
+"... Too many errors to display ..."
+msgstr ""
+"\n"
+"... Be loatra ireo tsy fetezana haseho ..."
+
+#: ../src/gsearchtool.c:1716
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr ""
+"Mety tsy mitombina ny valin'ilay fikarohana. Nisy olana teo am-panaovana "
+"ilay fikarohana."
+
+#: ../src/gsearchtool.c:1725 ../src/gsearchtool.c:1766
+msgid "Show more _details"
+msgstr "Asehoy amin'ny _antsipiriany"
+
+#: ../src/gsearchtool.c:1755
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+"Mety tsy vaovao intsony na tsy mitombina ny valin'ilay fikarohana. Tianao "
+"atsahatra ve ny fahasahaza karoka faingana?"
+
+#: ../src/gsearchtool.c:1777
+msgid "Disable _Quick Search"
+msgstr "Atsaharo ny _karoka faingana"
+
+#: ../src/gsearchtool.c:1804
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr "Tsy nahafaritra ny id'ny vondrom-pizotra an'ny zanaka %d: %s.\n"
+
+#: ../src/gsearchtool.c:1829
+msgid "Error parsing the search command."
+msgstr "Nisy olana teo am-pizarazarana ny baikon'ny fikarohana."
+
+#: ../src/gsearchtool.c:1858
+msgid "Error running the search command."
+msgstr "Nisy olana teo am-pandefasana ny baikon'ny fikarohana."
+
+#: ../src/gsearchtool.c:1974
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr "Mampidira sandan-dahabolana ho an'ny safidim-pikarohana \"%s\"."
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#: ../src/gsearchtool.c:1979
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "\"%s\" (%s)"
+
+#: ../src/gsearchtool.c:1981
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr "Mampidira sanda (%s) ho an'ny safidim-pikarohana \"%s\"."
+
+#: ../src/gsearchtool.c:2039
+#, c-format
+msgid "Remove \"%s\""
+msgstr "Esory ny \"%s\""
+
+#: ../src/gsearchtool.c:2040
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "Tsindrio raha hanesotra ny safidim-pikarohana \"%s\"."
+
+#: ../src/gsearchtool.c:2133
+msgid "A_vailable options:"
+msgstr "Ireo safidy _misy:"
+
+#: ../src/gsearchtool.c:2162
+msgid "Available options"
+msgstr "Ireo safidy misy"
+
+#: ../src/gsearchtool.c:2163
+msgid "Select a search option from the drop-down list."
+msgstr ""
+"Misafidiana safidim-pikarohana iray avy ao amin'ny lisitra misokatra midina."
+
+#: ../src/gsearchtool.c:2175
+msgid "Add search option"
+msgstr "Hanampy safidim-pikarohana"
+
+#: ../src/gsearchtool.c:2176
+msgid "Click to add the selected available search option."
+msgstr "Tsindrio raha hampiditra ilay safidim-pikarohana misy voafaritra."
+
+#: ../src/gsearchtool.c:2265
+msgid "S_earch results:"
+msgstr "Valin'ny _karoka:"
+
+#: ../src/gsearchtool.c:2309
+msgid "List View"
+msgstr "Sehon'ny lisitra"
+
+#: ../src/gsearchtool.c:2369
+msgid "Name"
+msgstr "Anarana"
+
+#: ../src/gsearchtool.c:2393
+msgid "Folder"
+msgstr "Laha-tahiry"
+
+#: ../src/gsearchtool.c:2406
+msgid "Size"
+msgstr "Habe"
+
+#: ../src/gsearchtool.c:2418
+msgid "Type"
+msgstr "Karazana"
+
+#: ../src/gsearchtool.c:2430
+msgid "Date Modified"
+msgstr "Datin'ny fanovana"
+
+#: ../src/gsearchtool.c:2746
+msgid "_Name contains:"
+msgstr "Misy ity ilay _anarana:"
+
+#: ../src/gsearchtool.c:2760 ../src/gsearchtool.c:2761
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr ""
+"Mampidira anaran-drakitra na ampahan'anaran-drakitra iray miaraka na tsy "
+"miaraka amin'ny marika ankapobe."
+
+#: ../src/gsearchtool.c:2761
+msgid "Name contains"
+msgstr "Misy ity ilay anarana"
+
+#: ../src/gsearchtool.c:2767
+msgid "_Look in folder:"
+msgstr "_Jereo anatin'ny laha-tahiry:"
+
+#: ../src/gsearchtool.c:2773
+msgid "Browse"
+msgstr "Zahavo"
+
+#: ../src/gsearchtool.c:2782
+msgid "Look in folder"
+msgstr "Jereo anatin'ny laha-tahiry"
+
+#: ../src/gsearchtool.c:2782
+msgid "Select the folder or device from which you want to begin the search."
+msgstr ""
+"safidio ilay laha-tahiry na periferika tianao anombohana ny fikarohana."
+
+#: ../src/gsearchtool.c:2800
+msgid "Select more _options"
+msgstr "Hijery _safidy misimisy kokoa"
+
+#: ../src/gsearchtool.c:2809
+msgid "Select more options"
+msgstr "Hijery safidy misimisy kokoa"
+
+#: ../src/gsearchtool.c:2809
+msgid "Click to expand or collapse the list of available options."
+msgstr "Tsindrio raha hamelatra na hangorona ny lisitry ireo safidy misy."
+
+#: ../src/gsearchtool.c:2833
+msgid "Click to display the help manual."
+msgstr "Tsindrio raha haneho ireo toro-làlana."
+
+#: ../src/gsearchtool.c:2841
+msgid "Click to close \"Search for Files\"."
+msgstr "Tsindrio raha hanidy ny \"Hikaroka rakitra\"."
+
+#: ../src/gsearchtool.c:2867
+msgid "Click to perform a search."
+msgstr "Tsindrio raha hanao fikarohana."
+
+#: ../src/gsearchtool.c:2868
+msgid "Click to stop a search."
+msgstr "Tsindrio raha hanajanona fikarohana."
+
+#: ../src/gsearchtool.c:2961
+msgid "- the GNOME Search Tool"
+msgstr ""
+
+#: ../src/gsearchtool.c:2970
+#, fuzzy, c-format
+msgid "Failed to parse command line arguments: %s\n"
+msgstr "Safidy tsy mety no nalefa tany amin'ny lohahevitry ny baiko sortby."
+
+#: ../libeggsmclient/eggdesktopfile.c:165
+#, fuzzy, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Tsy mety ny laha-tahiry %s"
+
+#: ../libeggsmclient/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "FILE"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:252
+#, fuzzy
+msgid "Session management options:"
+msgstr "Asehoy ireo safidy mikasika ny efijery"
+
+#: ../libeggsmclient/eggsmclient.c:253
+#, fuzzy
+msgid "Show session management options"
+msgstr "Asehoy ireo safidy mikasika ny efijery"

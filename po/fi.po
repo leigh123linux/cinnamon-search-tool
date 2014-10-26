@@ -1,0 +1,1066 @@
+# Finnish messages for gnome-utils
+# Copyright (C) 2003-2009 Free Software Foundation, Inc.
+# Suomennos: http://gnome.fi/
+# Tuomas Merilä <tuomas@merila.org>, 1999.
+# Antti Ahvensalmi <aahven@mbnet.fi>, 2000.
+# Lauri Nurmi <lanurmi@iki.fi>, 2003.
+# Pauli Virtanen <pauli.virtanen@hut.fi>, 2003-2005.
+# Ilkka Tuohela <hile@iki.fi>, 2005-2009.
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2008.
+# Tommi Vainikainen <thv@iki.fi>, 2009-2011.
+#
+# days = päivää sitten, ks. konteksti
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-06 14:36-0400\n"
+"PO-Revision-Date: 2011-06-10 11:17+0300\n"
+"Last-Translator: Tommi Vainikainen <thv@iki.fi>\n"
+"Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+
+#: ../data/gnome-search-tool.desktop.in.h:1
+msgid "Locate documents and folders on this computer by name or content"
+msgstr ""
+"Etsi asiakirjoja tai kansioita tietokoneelta nimen tai sisällön perusteella"
+
+#: ../data/gnome-search-tool.desktop.in.h:2
+msgid "Search for Files..."
+msgstr "Etsi tiedostoja…"
+
+#: ../data/gnome-search-tool.schemas.in.h:1
+msgid "Default Window Height"
+msgstr "Ikkunan oletuskorkeus"
+
+#: ../data/gnome-search-tool.schemas.in.h:2
+msgid "Default Window Maximized"
+msgstr "Onko ikkuna suurennettu oletuksena"
+
+#: ../data/gnome-search-tool.schemas.in.h:3
+msgid "Default Window Width"
+msgstr "Ikkunan oletusleveys"
+
+#: ../data/gnome-search-tool.schemas.in.h:4
+msgid "Disable Quick Search"
+msgstr "Poista pikaetsintä käytöstä"
+
+#: ../data/gnome-search-tool.schemas.in.h:5
+msgid "Disable Quick Search Second Scan"
+msgstr "Poista pikaetsinnän toinen haku käytöstä"
+
+#: ../data/gnome-search-tool.schemas.in.h:6
+msgid "Look in Folder"
+msgstr "Etsi kansiosta"
+
+#: ../data/gnome-search-tool.schemas.in.h:7
+msgid "Quick Search Excluded Paths"
+msgstr "Pikaetsinnästä pois jätettävät polut"
+
+#: ../data/gnome-search-tool.schemas.in.h:8
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "Pikaetsinnän toisesta hausta pois jätettävät polut"
+
+#: ../data/gnome-search-tool.schemas.in.h:9
+msgid "Search Result Columns Order"
+msgstr "Hakutulosten sarakejärjestys"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:12
+msgid "Select the search option \"Contains the text\""
+msgstr "Valitse hakuehto ”sisältää tekstin”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:15
+msgid "Select the search option \"Date modified less than\""
+msgstr "Valitse hakuehto ”muokattu myöhemmin kuin”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:18
+msgid "Select the search option \"Date modified more than\""
+msgstr "Valitse hakuehto ”muokattu aiemmin kuin”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:21
+msgid "Select the search option \"Exclude other filesystems\""
+msgstr "Valitse hakuehto ”älä etsi muista tiedostojärjestelmistä”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:24
+msgid "Select the search option \"File is empty\""
+msgstr "Valitse hakuehto ”tiedosto on tyhjä”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:27
+msgid "Select the search option \"Follow symbolic links\""
+msgstr "Valitse hakuehto ”seuraa symbolisia linkkejä”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:30
+msgid "Select the search option \"Name does not contain\""
+msgstr "Valitse hakuehto ”nimi ei sisällä”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:33
+msgid "Select the search option \"Name matches regular expression\""
+msgstr "Valitse hakuehto ”nimi täsmää säännölliseen lausekkeeseen”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:36
+msgid "Select the search option \"Owned by group\""
+msgstr "Valitse hakuehto ”omistajaryhmä”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:39
+msgid "Select the search option \"Owned by user\""
+msgstr "Valitse hakuehto ”omistaja”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:42
+msgid "Select the search option \"Owner is unrecognized\""
+msgstr "Valitse hakuehto ”omistaja on tunnistamaton”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:45
+msgid "Select the search option \"Show hidden files and folders\""
+msgstr "Valitse hakuehto ”näytä piilotiedostot ja -kansiot”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:48
+msgid "Select the search option \"Size at least\""
+msgstr "Valitse hakuehto ”koko vähintään”"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:51
+msgid "Select the search option \"Size at most\""
+msgstr "Valitse hakuehto ”koko enintään”"
+
+#: ../data/gnome-search-tool.schemas.in.h:52
+msgid "Show Additional Options"
+msgstr "Näytä lisää ehtoja"
+
+#: ../data/gnome-search-tool.schemas.in.h:53
+msgid "This key defines the default value of the \"Look in Folder\" widget."
+msgstr "Tämä avain määrittää ”Look in Folder”-elementin oletusarvon."
+
+#: ../data/gnome-search-tool.schemas.in.h:54
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"Tämä avain määrittelee hakutulosten sarakkeiden järjestyksen. Käyttäjän ei "
+"ole tarkoitus muokata tätä avainta."
+
+#: ../data/gnome-search-tool.schemas.in.h:55
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. "
+"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr ""
+"Tämä avain määrittelee, mitkä polut etsintätyökalu jättää pois "
+"pikaetsinnästä. Hahmoja ”*” ja ”?” voi käyttää. Oletusarvo on /mnt/*, /media/"
+"*, /dev/*, /tmp/*, /proc/*, ja /var/*."
+
+#: ../data/gnome-search-tool.schemas.in.h:56
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan "
+"when performing a quick search. The second scan uses the find command to "
+"search for files. The purpose of the second scan is to find files that have "
+"not been indexed. The wildcards '*' and '?' are supported. The default value "
+"is /."
+msgstr ""
+"Tämä avain määrittelee, mitkä polut etsintätyökalu jättää pois pikaetsinnän "
+"toisesta hausta. Toinen haku käyttää etsintäkomentoa tiedostojen hakemiseen. "
+"Toisen haun tarkoituksena on löytää tiedostot, joita pikahaku ei ole "
+"luetellut. Hahmoja ”*” ja ”?” voi käyttää. Oletusarvo on /."
+
+#: ../data/gnome-search-tool.schemas.in.h:57
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"Tämä avain määrittelee ikkunan korkeuden, ja sitä käytetään muistamaan "
+"hakutyökalun koko istuntojen välillä. Jos arvoksi asetetaan -1, käytetään "
+"hakutyökalun oletuskorkeutta."
+
+#: ../data/gnome-search-tool.schemas.in.h:58
+msgid ""
+"This key defines the window width, and it's used to remember the size of the "
+"search tool between sessions. Setting it to -1 will make the search tool use "
+"the default width."
+msgstr ""
+"Tämä avain määrittelee ikkunan leveyden, ja sitä käytetään muistamaan "
+"hakutyökalun koko istuntojen välillä. Jos arvoksi asetetaan -1, käytetään "
+"hakutyökalun oletusleveyttä."
+
+#: ../data/gnome-search-tool.schemas.in.h:59
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”sisältää tekstin” valittu "
+"etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:60
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”muokattu myöhemmin kuin” valittu "
+"etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:61
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”muokattu aiemmin kuin” valittu "
+"etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:62
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”älä hae toisista "
+"tiedostojärjestelmistä” valittu etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:63
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”tiedosto on tyhjä” valittu "
+"etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:64
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”seuraa symbolisia linkkejä” valittu "
+"etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:65
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”nimi ei sisällä” valittu "
+"etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:66
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”nimi täsmää säännölliseen "
+"lausekkeeseen” valittu etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:67
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”omistajaryhmä” valittu "
+"etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:68
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”omistaja” valittu etsintätyökalun "
+"käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:69
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”omistaja on tunnistamaton” valittu "
+"etsintätyökalun käynnistyessä."
+
+#. Translators: The quoted text is the label of the additional
+#. options expander that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:72
+msgid ""
+"This key determines if the \"Select more options\" section is expanded when "
+"the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko osio ”Näytä lisää valintoja” laajennettu "
+"etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:73
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”näytä piilotiedostot- ja kansiot” "
+"valittu etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:74
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”koko vähintään” valittu "
+"etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:75
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Tämä avain määrittelee, onko hakuehto ”koko enintään” valittu "
+"etsintätyökalun käynnistyessä."
+
+#: ../data/gnome-search-tool.schemas.in.h:76
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"Tämä avain määrittelee, jättääkö etsintätyökalu find-komennon käyttämättä "
+"pikahaun jälkeen."
+
+#: ../data/gnome-search-tool.schemas.in.h:77
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+"Tämä avain määrittelee, jättääkö etsintätyökalu locate-komennon käyttämättä "
+"tehtäessä yksinkertaisia hakuja tiedostonimien perusteella."
+
+#: ../data/gnome-search-tool.schemas.in.h:78
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr "Tämä avain määrittää, käynnistyykö hakuikkuna suurennetussa tilassa."
+
+#: ../src/gsearchtool-callbacks.c:194
+msgid "Could not open help document."
+msgstr "Ohjeen avaaminen ei onnistunut."
+
+#: ../src/gsearchtool-callbacks.c:341
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "Haluatko avata %d asiakirjan?"
+msgstr[1] "Haluatko avata %d asiakirjaa?"
+
+#: ../src/gsearchtool-callbacks.c:346 ../src/gsearchtool-callbacks.c:531
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "Tämä avaa %d ikkunan."
+msgstr[1] "Tämä avaa %d erillistä ikkunaa."
+
+#: ../src/gsearchtool-callbacks.c:382
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "Asiakirjan ”%s” avaaminen ei onnistunut."
+
+#: ../src/gsearchtool-callbacks.c:407
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "Kansion ”%s” avaaminen epäonnistui."
+
+#: ../src/gsearchtool-callbacks.c:415
+msgid "The nautilus file manager is not running."
+msgstr "Nautilus-tiedostonhallinta ei ole käynnissä."
+
+#: ../src/gsearchtool-callbacks.c:488 ../src/gsearchtool-callbacks.c:811
+msgid "The document does not exist."
+msgstr "Asiakirja ei ole olemassa."
+
+#: ../src/gsearchtool-callbacks.c:503
+msgid "There is no installed viewer capable of displaying the document."
+msgstr "Ei löydy ohjelmaa, joka voisi näyttää asiakirjan."
+
+#: ../src/gsearchtool-callbacks.c:526
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "Haluatko avata yhden kansion?"
+msgstr[1] "Haluatko avata %d kansiota?"
+
+#: ../src/gsearchtool-callbacks.c:675
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "Kohteen ”%s” siirtäminen roskakoriin epäonnistui."
+
+#: ../src/gsearchtool-callbacks.c:702
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "Haluatko poistaa kohteen ”%s” pysyvästi?"
+
+#: ../src/gsearchtool-callbacks.c:705
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr ""
+"Roskakori ei ole saatavilla. Kohteen ”%s” siirtäminen sinne ei onnistunut."
+
+#: ../src/gsearchtool-callbacks.c:740
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "Kohteen ”%s” poistaminen epäonnistui."
+
+#: ../src/gsearchtool-callbacks.c:847
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "Kohteen ”%s” poistaminen epäonnistui: %s."
+
+#: ../src/gsearchtool-callbacks.c:859
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "Kohteen ”%s” siirtäminen epäonnistui: %s."
+
+#. Popup menu item: Open
+#: ../src/gsearchtool-callbacks.c:987 ../src/gsearchtool-callbacks.c:1017
+msgid "_Open"
+msgstr "_Avaa"
+
+#. Popup menu item: Open with (default)
+#: ../src/gsearchtool-callbacks.c:1042
+#, c-format
+msgid "_Open with %s"
+msgstr "_Avaa ohjelmalla %s"
+
+#: ../src/gsearchtool-callbacks.c:1077
+#, c-format
+msgid "Open with %s"
+msgstr "Avaa ohjelmalla %s"
+
+#. Popup menu item: Open With
+#: ../src/gsearchtool-callbacks.c:1110
+msgid "Open Wit_h"
+msgstr "Avaa _ohjelmalla"
+
+#. Popup menu item: Open Containing Folder
+#: ../src/gsearchtool-callbacks.c:1155
+msgid "Open Containing _Folder"
+msgstr "Avaa sisältävä _kansio"
+
+#: ../src/gsearchtool-callbacks.c:1173
+msgid "Mo_ve to Trash"
+msgstr "_Siirrä roskakoriin"
+
+#: ../src/gsearchtool-callbacks.c:1195
+msgid "_Save Results As..."
+msgstr "_Tallenna tulokset nimellä…"
+
+#: ../src/gsearchtool-callbacks.c:1577
+msgid "Save Search Results As..."
+msgstr "Tallenna hakutulokset nimellä…"
+
+#: ../src/gsearchtool-callbacks.c:1608
+msgid "Could not save document."
+msgstr "Asiakirjan tallentaminen ei onnistunut."
+
+#: ../src/gsearchtool-callbacks.c:1609
+msgid "You did not select a document name."
+msgstr "Asiakirjan nimeä ei annettu."
+
+#: ../src/gsearchtool-callbacks.c:1635
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "Asiakirjan ”%s” tallentaminen kansioon ”%s” ei onnistunut."
+
+#: ../src/gsearchtool-callbacks.c:1665
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr "Asiakirja ”%s” on jo olemassa. Haluatko korvata sen?"
+
+#: ../src/gsearchtool-callbacks.c:1669
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr "Olemassa olevan tiedoston korvaaminen ylikirjoittaa nykyisen sisällön."
+
+#: ../src/gsearchtool-callbacks.c:1680
+msgid "_Replace"
+msgstr "_Korvaa"
+
+#: ../src/gsearchtool-callbacks.c:1730
+msgid "The document name you selected is a folder."
+msgstr "Antamasi asiakirjan nimi vastaa kansiota."
+
+#: ../src/gsearchtool-callbacks.c:1768
+msgid "You may not have write permissions to the document."
+msgstr "Tähän asiakirjaan ei ole lupaa kirjoittaa."
+
+#: ../src/gsearchtool-support.c:63
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s"
+msgstr ""
+"GConf-virhe:\n"
+"  %s"
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../src/gsearchtool-support.c:696
+msgid "today at %-I:%M %p"
+msgstr "tänään %-H:%M"
+
+#: ../src/gsearchtool-support.c:698
+msgid "yesterday at %-I:%M %p"
+msgstr "eilen %-H:%M"
+
+#: ../src/gsearchtool-support.c:700 ../src/gsearchtool-support.c:702
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%A %-d. %Bta, %-H:%M"
+
+#: ../src/gsearchtool-support.c:889
+msgid "link (broken)"
+msgstr "linkki (rikki)"
+
+#: ../src/gsearchtool-support.c:893
+#, c-format
+msgid "link to %s"
+msgstr "linkki tiedostoon %s"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../src/gsearchtool-support.c:1497
+msgid " (copy)"
+msgstr " (kopio)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../src/gsearchtool-support.c:1499
+msgid " (another copy)"
+msgstr " (toinen kopio)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../src/gsearchtool-support.c:1502 ../src/gsearchtool-support.c:1504
+#: ../src/gsearchtool-support.c:1506 ../src/gsearchtool-support.c:1516
+msgid "th copy)"
+msgstr ". kopio"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../src/gsearchtool-support.c:1509
+msgid "st copy)"
+msgstr ". kopio)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../src/gsearchtool-support.c:1511
+msgid "nd copy)"
+msgstr ". kopio"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../src/gsearchtool-support.c:1513
+msgid "rd copy)"
+msgstr ". kopio"
+
+#. localizers: appended to first file copy
+#: ../src/gsearchtool-support.c:1530
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (kopio)%s"
+
+#. localizers: appended to second file copy
+#: ../src/gsearchtool-support.c:1532
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (toinen kopio)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../src/gsearchtool-support.c:1535 ../src/gsearchtool-support.c:1537
+#: ../src/gsearchtool-support.c:1539 ../src/gsearchtool-support.c:1548
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (%d. kopio)%s"
+
+#. localizers: appended to x1st file copy
+#: ../src/gsearchtool-support.c:1542
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (%d. kopio)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../src/gsearchtool-support.c:1544
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (%d. kopio)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../src/gsearchtool-support.c:1546
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (%d. kopio)%s"
+
+#: ../src/gsearchtool-support.c:1593
+msgid " (invalid Unicode)"
+msgstr " (virheellistä Unicodea)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../src/gsearchtool-support.c:1682
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../src/gsearchtool-support.c:1690
+#, c-format
+msgid " (%d"
+msgstr " (%d"
+
+#: ../src/gsearchtool.c:81
+msgid "Contains the _text"
+msgstr "Sisältää _tekstin"
+
+#: ../src/gsearchtool.c:83
+msgid "_Date modified less than"
+msgstr "_Muokattu myöhemmin kuin"
+
+#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
+msgid "days"
+msgstr "päivää sitten"
+
+#: ../src/gsearchtool.c:84
+msgid "Date modified more than"
+msgstr "Muokattu _aiemmin kuin"
+
+#: ../src/gsearchtool.c:86
+msgid "S_ize at least"
+msgstr "_Koko vähintään"
+
+#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
+msgid "kilobytes"
+msgstr "kilotavua"
+
+#: ../src/gsearchtool.c:87
+msgid "Si_ze at most"
+msgstr "_Koko korkeintaan"
+
+#: ../src/gsearchtool.c:88
+msgid "File is empty"
+msgstr "Tiedosto on tyhjä"
+
+#: ../src/gsearchtool.c:90
+msgid "Owned by _user"
+msgstr "O_mistaja"
+
+#: ../src/gsearchtool.c:91
+msgid "Owned by _group"
+msgstr "Omistaja_ryhmä"
+
+#: ../src/gsearchtool.c:92
+msgid "Owner is unrecognized"
+msgstr "Omistaja on tunnistamaton"
+
+#: ../src/gsearchtool.c:94
+msgid "Na_me does not contain"
+msgstr "N_imi ei sisällä"
+
+#: ../src/gsearchtool.c:95
+msgid "Name matches regular e_xpression"
+msgstr "Nimi täsmää säännölliseen l_ausekkeeseen"
+
+#: ../src/gsearchtool.c:97
+msgid "Show hidden and backup files"
+msgstr "Näytä piilo- ja varmuuskopiotiedostot"
+
+#: ../src/gsearchtool.c:98
+msgid "Follow symbolic links"
+msgstr "Seuraa symbolisia linkkejä"
+
+#: ../src/gsearchtool.c:99
+msgid "Exclude other filesystems"
+msgstr "Älä etsi toisilta tiedostojärjestelmistä"
+
+#: ../src/gsearchtool.c:157
+msgid "Show version of the application"
+msgstr "Näytä sovelluksen versio"
+
+#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
+msgid "STRING"
+msgstr "MERKKIJONO"
+
+#: ../src/gsearchtool.c:159
+msgid "PATH"
+msgstr "POLKU"
+
+#: ../src/gsearchtool.c:160
+msgid "VALUE"
+msgstr "ARVO"
+
+#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
+msgid "DAYS"
+msgstr "PÄIVIÄ"
+
+#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
+msgid "KILOBYTES"
+msgstr "KILOTAVUJA"
+
+#: ../src/gsearchtool.c:169
+msgid "USER"
+msgstr "KÄYTTÄJÄ"
+
+#: ../src/gsearchtool.c:170
+msgid "GROUP"
+msgstr "RYHMÄ"
+
+#: ../src/gsearchtool.c:173
+msgid "PATTERN"
+msgstr "MALLI"
+
+#: ../src/gsearchtool.c:384
+msgid "A locate database has probably not been created."
+msgstr "Locate-pikahakutietokantaa ei todennäköisesti ole luotu."
+
+#: ../src/gsearchtool.c:486
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr "Merkkijonon ”%s” merkistön muuntaminen epäonnistui"
+
+#: ../src/gsearchtool.c:506
+msgid "Searching..."
+msgstr "Etsitään…"
+
+#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1016
+#: ../src/gsearchtool.c:2976
+msgid "Search for Files"
+msgstr "Etsi tiedostoja"
+
+#: ../src/gsearchtool.c:962 ../src/gsearchtool.c:991
+msgid "No files found"
+msgstr "Tiedostoja ei löytynyt"
+
+#: ../src/gsearchtool.c:984
+msgid "(stopped)"
+msgstr "(pysäytetty)"
+
+#: ../src/gsearchtool.c:990
+msgid "No Files Found"
+msgstr "Tiedostoja ei löytynyt"
+
+#: ../src/gsearchtool.c:995
+#, c-format
+msgid "%'d File Found"
+msgid_plural "%'d Files Found"
+msgstr[0] "%'d tiedosto löytyi"
+msgstr[1] "%'d tiedostoa löytyi"
+
+#: ../src/gsearchtool.c:999 ../src/gsearchtool.c:1037
+#, c-format
+msgid "%'d file found"
+msgid_plural "%'d files found"
+msgstr[0] "%'d tiedosto löytyi"
+msgstr[1] "%'d tiedostoa löytyi"
+
+#: ../src/gsearchtool.c:1128
+msgid "Entry changed called for a non entry option!"
+msgstr "Muutettu kohta kutsui sellaista valitsinta, mitä ei ole!"
+
+#: ../src/gsearchtool.c:1288
+msgid "Set the text of \"Name contains\" search option"
+msgstr "Aseta ”tiedoston nimi sisältää”-hakuehdon teksti"
+
+#: ../src/gsearchtool.c:1289
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "Aseta ”etsi kansiosta”-hakuehdon teksti"
+
+#: ../src/gsearchtool.c:1290
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr "Tiedostojen lajitteluperuste: nimi, kansio, koko, tyyppi tai päiväys"
+
+#: ../src/gsearchtool.c:1291
+msgid "Set sort order to descending, the default is ascending"
+msgstr "Aseta lajittelujärjestys laskevaksi, oletus on nouseva"
+
+#: ../src/gsearchtool.c:1292
+msgid "Automatically start a search"
+msgstr "Käynnistä haku automaattisesti"
+
+#: ../src/gsearchtool.c:1298
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr "Valitse ”%s”-hakuehto"
+
+#: ../src/gsearchtool.c:1301
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr "Valitse ja aseta hakuehto ”%s”"
+
+#: ../src/gsearchtool.c:1408
+msgid "Invalid option passed to sortby command line argument."
+msgstr "Komentoriviargumentille ”sortby” annettiin virheellinen valitsin."
+
+#: ../src/gsearchtool.c:1702
+msgid ""
+"\n"
+"... Too many errors to display ..."
+msgstr ""
+"\n"
+"… Liian monta virhettä näytettäväksi …"
+
+#: ../src/gsearchtool.c:1716
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr ""
+"Etsinnän tulokset voivat olla mitättömiä: etsinnässä tapahtui virheitä."
+
+#: ../src/gsearchtool.c:1725 ../src/gsearchtool.c:1766
+msgid "Show more _details"
+msgstr "N_äytä lisätietoja"
+
+#: ../src/gsearchtool.c:1755
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+"Etsinnän tulokset voivat olla vanhentuneita tai virheellisiä. Haluatko "
+"poistaa pikaetsinnän käytöstä?"
+
+#: ../src/gsearchtool.c:1777
+msgid "Disable _Quick Search"
+msgstr "Poista _pikaetsintä käytöstä"
+
+#: ../src/gsearchtool.c:1804
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr "Lapsiprosessin %d ryhmäid:n asettaminen epäonnistui: %s\n"
+
+#: ../src/gsearchtool.c:1829
+msgid "Error parsing the search command."
+msgstr "Virhe etsintäkomennon jäsentämisessä."
+
+#: ../src/gsearchtool.c:1858
+msgid "Error running the search command."
+msgstr "Virhe etsintäkomennon suorittamisessa."
+
+#: ../src/gsearchtool.c:1974
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr "Kirjoita hakuehdon ”%s” teksti."
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#: ../src/gsearchtool.c:1979
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "%s %s"
+
+#: ../src/gsearchtool.c:1981
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr "Kirjoita arvo kenttään %s hakuehtoa ”%s” varten."
+
+#: ../src/gsearchtool.c:2039
+#, c-format
+msgid "Remove \"%s\""
+msgstr "Poista ”%s”"
+
+#: ../src/gsearchtool.c:2040
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "Poista hakuehto ”%s” napsauttamalla."
+
+#: ../src/gsearchtool.c:2133
+msgid "A_vailable options:"
+msgstr "_Mahdolliset hakuehdot:"
+
+#: ../src/gsearchtool.c:2162
+msgid "Available options"
+msgstr "Mahdolliset hakuehdot"
+
+#: ../src/gsearchtool.c:2163
+msgid "Select a search option from the drop-down list."
+msgstr "Valitse hakuehto pudotusvalikosta."
+
+#: ../src/gsearchtool.c:2175
+msgid "Add search option"
+msgstr "Lisää hakuehto"
+
+#: ../src/gsearchtool.c:2176
+msgid "Click to add the selected available search option."
+msgstr "Napsauta lisätäksesi jonkin mahdollisista hakuehdoista."
+
+#: ../src/gsearchtool.c:2265
+msgid "S_earch results:"
+msgstr "Haku_tulokset:"
+
+#: ../src/gsearchtool.c:2309
+msgid "List View"
+msgstr "Luettelonäkymä"
+
+#: ../src/gsearchtool.c:2369
+msgid "Name"
+msgstr "Nimi"
+
+#: ../src/gsearchtool.c:2393
+msgid "Folder"
+msgstr "Kansio"
+
+#: ../src/gsearchtool.c:2406
+msgid "Size"
+msgstr "Koko"
+
+#: ../src/gsearchtool.c:2418
+msgid "Type"
+msgstr "Tyyppi"
+
+#: ../src/gsearchtool.c:2430
+msgid "Date Modified"
+msgstr "Muokattu"
+
+#: ../src/gsearchtool.c:2746
+msgid "_Name contains:"
+msgstr "_Nimi sisältää:"
+
+#: ../src/gsearchtool.c:2760 ../src/gsearchtool.c:2761
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr ""
+"Kirjoita tiedostonimi tai sen osa, mahdollisesti jokerimerkkien kanssa."
+
+#: ../src/gsearchtool.c:2761
+msgid "Name contains"
+msgstr "Nimi sisältää"
+
+#: ../src/gsearchtool.c:2767
+msgid "_Look in folder:"
+msgstr "Etsi _kansiosta:"
+
+#: ../src/gsearchtool.c:2773
+msgid "Browse"
+msgstr "Selaa"
+
+#: ../src/gsearchtool.c:2782
+msgid "Look in folder"
+msgstr "Etsi kansiosta"
+
+#: ../src/gsearchtool.c:2782
+msgid "Select the folder or device from which you want to begin the search."
+msgstr "Syötä kansion nimi, josta haluat etsinnän alkavan."
+
+#: ../src/gsearchtool.c:2800
+msgid "Select more _options"
+msgstr "N_äytä lisää valintoja"
+
+#: ../src/gsearchtool.c:2809
+msgid "Select more options"
+msgstr "Näytä lisää valintoja"
+
+#: ../src/gsearchtool.c:2809
+msgid "Click to expand or collapse the list of available options."
+msgstr "Napsauta laajentaaksesi tai kutistaaksesi etsintäasetusten luettelon."
+
+#: ../src/gsearchtool.c:2833
+msgid "Click to display the help manual."
+msgstr "Napsauta nähdäksesi ohjeen."
+
+#: ../src/gsearchtool.c:2841
+msgid "Click to close \"Search for Files\"."
+msgstr "Napsauta sulkeaksesi ”Etsi tiedostoja”-ikkunan."
+
+#: ../src/gsearchtool.c:2867
+msgid "Click to perform a search."
+msgstr "Napsauta hakeaksesi."
+
+#: ../src/gsearchtool.c:2868
+msgid "Click to stop a search."
+msgstr "Napsauta haun pysäyttämiseksi."
+
+#: ../src/gsearchtool.c:2961
+msgid "- the GNOME Search Tool"
+msgstr "- Gnomen hakutyökalu"
+
+#: ../src/gsearchtool.c:2970
+#, c-format
+msgid "Failed to parse command line arguments: %s\n"
+msgstr "Komentoriviargumenttien jäsennys epäonnistui: %s\n"
+
+#: ../libeggsmclient/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Tiedosto ei ole kelvollinen .desktop-tiedosto"
+
+#: ../libeggsmclient/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Tunnistamaton työpöytätiedoston versio ”%s”"
+
+#: ../libeggsmclient/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "Käynnistetään %s"
+
+#: ../libeggsmclient/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Ohjelma ei hyväksy asiakirjoja komentoriviltä"
+
+#: ../libeggsmclient/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Tuntematon käynnistinvalitsin: %d"
+
+#: ../libeggsmclient/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Asiakirja-URIa ei voida antaa ”Type=Link”-työpöytälinkeille"
+
+#: ../libeggsmclient/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Ei käynnistettävä kohde"
+
+#: ../libeggsmclient/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Katkaise yhteys istunnonhallintaan"
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Anna tallennetut asetukset sisältävä tiedosto"
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "FILE"
+msgstr "TIEDOSTO"
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Anna istunnonhallinnan tunniste"
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "ID"
+msgstr "Tunniste"
+
+#: ../libeggsmclient/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Istunnonhallinnan valitsimet:"
+
+#: ../libeggsmclient/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Näytä istunnonhallinnan valitsimet"

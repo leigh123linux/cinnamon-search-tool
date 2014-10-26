@@ -1,0 +1,1060 @@
+# translation of gnome-utils.HEAD.po to Maithili
+# Copyright (C) 2006 The GNOME Foundation
+# This file is distributed under the same license as the PACKAGE package.
+# BOSS GNU/Linux <bosslinux@cdac.in>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-06 14:36-0400\n"
+"PO-Revision-Date: 2008-01-25 13:49+0530\n"
+"Last-Translator: Sangeeta Kumari\n"
+"Language-Team:  <en@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+
+#: ../data/gnome-search-tool.desktop.in.h:1
+msgid "Locate documents and folders on this computer by name or content"
+msgstr "नाम आ सामग्री क' आधार पर एहि कंप्यूटर पर दस्ताबेज आ फोल्डर लोकेट करू"
+
+#: ../data/gnome-search-tool.desktop.in.h:2
+msgid "Search for Files..."
+msgstr "फ़ाइल लेल खोजू..."
+
+#: ../data/gnome-search-tool.schemas.in.h:1
+msgid "Default Window Height"
+msgstr "मूलभूत विंडो उँचाइ"
+
+#: ../data/gnome-search-tool.schemas.in.h:2
+msgid "Default Window Maximized"
+msgstr "मूलभूत विंडो अघिकतम"
+
+#: ../data/gnome-search-tool.schemas.in.h:3
+msgid "Default Window Width"
+msgstr "मूलभूत विंडो चओड़ाइ"
+
+#: ../data/gnome-search-tool.schemas.in.h:4
+msgid "Disable Quick Search"
+msgstr "तेज खोज असमर्थ करू"
+
+#: ../data/gnome-search-tool.schemas.in.h:5
+msgid "Disable Quick Search Second Scan"
+msgstr "क्विक खोजू सेकण्ड स्कैन असमर्थ करू"
+
+#: ../data/gnome-search-tool.schemas.in.h:6
+#, fuzzy
+msgid "Look in Folder"
+msgstr "फ़ोल्डरमे देखू"
+
+#: ../data/gnome-search-tool.schemas.in.h:7
+msgid "Quick Search Excluded Paths"
+msgstr "तेज खोज निकालल पथ"
+
+#: ../data/gnome-search-tool.schemas.in.h:8
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "तेज खोज दूसरा स्कैन निकालल गेल पथ"
+
+#: ../data/gnome-search-tool.schemas.in.h:9
+msgid "Search Result Columns Order"
+msgstr "खोज परिणाम कॉलम क्रम"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:12
+msgid "Select the search option \"Contains the text\""
+msgstr "खोज विकल्प चुनू \"पाठ समाहित करैत अछि\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:15
+msgid "Select the search option \"Date modified less than\""
+msgstr "खोज विकल्प चुनू \"एकरासँ कम तिथि रूपांतरित\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:18
+msgid "Select the search option \"Date modified more than\""
+msgstr "खोज विकल्प चुनू \"एकरासँ कम तिथि रूपांतरित\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:21
+#, fuzzy
+msgid "Select the search option \"Exclude other filesystems\""
+msgstr "खोज विकल्प चुनू \" आन फाइल सिस्टम सामिल करू\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:24
+msgid "Select the search option \"File is empty\""
+msgstr "खोज विकल्प चुनू \"फाइल रिक्त अछि\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:27
+msgid "Select the search option \"Follow symbolic links\""
+msgstr "खोज विकल्प चुनू \"सांकेतिक लिंक पालन करू\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:30
+msgid "Select the search option \"Name does not contain\""
+msgstr "खोज विकल्प चुनू \"नाममे समाहित नहि अछि\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:33
+msgid "Select the search option \"Name matches regular expression\""
+msgstr "खोज विकल्प चुनू \"नाम नियमित अभिव्यक्ति मेल करैत अछि\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:36
+msgid "Select the search option \"Owned by group\""
+msgstr "खोज विकल्प चुनू \"समूह क' द्वारा स्वामित्व\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:39
+msgid "Select the search option \"Owned by user\""
+msgstr "खोज विकल्प चुनू \"प्रयोक्ता क' द्वारा स्वामित्वमे\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:42
+msgid "Select the search option \"Owner is unrecognized\""
+msgstr "खोज विकल्प चुनू \"स्वामी अपरिचित अछि\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:45
+msgid "Select the search option \"Show hidden files and folders\""
+msgstr "खोज विकल्प चुनू \"नुकाएल फाइल आ फोल्डर देखाबू\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:48
+msgid "Select the search option \"Size at least\""
+msgstr "खोज विकल्प चुनू \"कम सँ कम आकार\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:51
+msgid "Select the search option \"Size at most\""
+msgstr "खोज विकल्प चुनू \" बेसी सँ बेसी आकार\""
+
+#: ../data/gnome-search-tool.schemas.in.h:52
+msgid "Show Additional Options"
+msgstr "बेसी विकल्प देखाबू"
+
+#: ../data/gnome-search-tool.schemas.in.h:53
+msgid "This key defines the default value of the \"Look in Folder\" widget."
+msgstr ""
+
+#: ../data/gnome-search-tool.schemas.in.h:54
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"कुँजी कॉलम क' क्रमकेँ खोज परिणाममे परिभाषित करैत अछि. एहि कुँजीकेँ प्रयोक्ता क' द्वारा नहि "
+"बदलल जएनाइ चाही."
+
+#: ../data/gnome-search-tool.schemas.in.h:55
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. "
+"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr ""
+"कुँजी ओहि पथकेँ परिभाषित करैत अछि जकरा खोज अओजार एकटा द्रुत खोज सँ अलग करताह. "
+"वाइल्डकार्ड '*' आ '?' समर्थित अछि. मूलभूत मान अछि /mnt/*, /media/*, /dev/*, /tmp/"
+"*, /proc/*, आओर /var/*."
+
+#: ../data/gnome-search-tool.schemas.in.h:56
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan "
+"when performing a quick search. The second scan uses the find command to "
+"search for files. The purpose of the second scan is to find files that have "
+"not been indexed. The wildcards '*' and '?' are supported. The default value "
+"is /."
+msgstr ""
+"ई कुँजी पथकेँ परिभाषित करैत अछि जकरा खोज अओजार दोसर स्कैन सँ अलग करैत अछि जखन एकटा "
+"द्रुत खोज कएल जाएत अछि दोसर स्कैन खोजू कमांड क' प्रयोग फाइल क'लेल करैत अछि. दोसर स्कैन "
+"क' उद्देश्य ई पता कएनाइ अछि जे ककरा सूचीबद्ध नहि कएनाइ अछि वाइल्डकार्ड '*' आओर '?' "
+"समर्थित अछि. मूलभूत मान अछि /."
+
+#: ../data/gnome-search-tool.schemas.in.h:57
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"ई कुँजी विंडो उँचाइकेँ परिभाषित करैत अछि, आओर सत्र क' बीच खोज टूल क' आकारकेँ याद राखब "
+"क' लेल प्रयुक्त हाएत अछि एकरा -1मे सेट कएनाइ मूलभूत उँचाइ क' प्रयोगकेँ बनओताह."
+
+#: ../data/gnome-search-tool.schemas.in.h:58
+msgid ""
+"This key defines the window width, and it's used to remember the size of the "
+"search tool between sessions. Setting it to -1 will make the search tool use "
+"the default width."
+msgstr ""
+"ई कुँजी विंडो चओड़ाइकेँ परिभाषित करैत अछि, आओर सत्र क' बीच खोज टूल क' आकारकेँ याद राखब "
+"क' लेल प्रयुक्त हाएत अछि एकरा -1मे सेट कएनाइ मूलभूत चओड़ाइ क' प्रयोगकेँ बनओताह."
+
+#: ../data/gnome-search-tool.schemas.in.h:59
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"पाठ समाहित करैत अछि\" खोज विकल्प चुनल जाएत अछि जखन "
+"खोज अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:60
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"एकरासँ कम क' तिथि रूपांतरित\" खोज विकल्प चुनल जाएत अछि "
+"जखन खोज अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:61
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"एकरासँ बेसी तिथि रूपांतरित\" खोज विकल्प चुनल जाएत अछि "
+"जखन खोज अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:62
+#, fuzzy
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \" आन फाइलसिस्टमकेँ सामिल करैत अछि\" खोज विकल्प चुनल जाएत "
+"अछि जखन खोज अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:63
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"फाइल रिक्त अछि\" खोज विकल्प चुनल जाएत अछि जखन खोज "
+"अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:64
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"सांकेतिक लिंक क' पालन करैत अछि\" खोज विकल्प चुनल जाएत "
+"अछि जखन खोज अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:65
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"नाममे सामिल नहि अछि\" खोज विकल्प चुनल जाएत अछि जखन "
+"खोज अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:66
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"नाम नियमित अभिव्यक्ति सँ मेल करैत अछि\" खोज विकल्प चुनल "
+"जाएत अछि जखन खोज अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:67
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"समूह क' द्वारा स्वामित्व\" खोज विकल्प चुनल जाएत अछि जखन "
+"खोज अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:68
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"प्रयोक्ता क' द्वारा स्वामित्व\" खोज विकल्प चुनल जाएत अछि "
+"जखन खोज अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:69
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"स्वामी अपरिचित अछि\" खोज विकल्प चुनल जाएत अछि जखन "
+"खोज अओजार शुरू हाएत अछि."
+
+#. Translators: The quoted text is the label of the additional
+#. options expander that is translated elsewhere.
+#: ../data/gnome-search-tool.schemas.in.h:72
+msgid ""
+"This key determines if the \"Select more options\" section is expanded when "
+"the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \" बेसी विकल्प चुनू\" खोज विकल्प चुनल जाएत अछि जखन खोज "
+"अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:73
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"खोज अओजार निश्चित करैत अछि जे जँ \"नुकाएल फाइल आ फोल्डर देखाबू\" खोज विकल्प चुनल जाएत "
+"अछि जखन खोज अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:74
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"आकार कम सँ कम\" खोज विकल्प चुनल जाएत अछि जखन खोज "
+"अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:75
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"ई कुँजी निश्चित करैत अछि जे जँ \"आकार बेसी सँ बेसी \" खोज विकल्प चुनल जाएत अछि जखन खोज "
+"अओजार शुरू हाएत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:76
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"ई कुँजी निर्धारित करैत अछि जे जँ खोज अओजार खोजबाक कमांड क' प्रयोगकेँ निष्क्रिय करैत अछि "
+"एकटा द्रुत खोज क' निष्पादन क' बाद."
+
+#: ../data/gnome-search-tool.schemas.in.h:77
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+"ई कुँजी निर्धारित करैत अछि जे जँ खोज अओजार locate कमांड क' प्रयोगकेँ निष्क्रिय करैत अछि "
+"जखन साधारण फाइल नाम खोज क' निष्पादन करैत अछि."
+
+#: ../data/gnome-search-tool.schemas.in.h:78
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr "ई कुँजी निर्धारित करैत अछि जे जँ खोज अओजार विंडो अघिकतम स्थितिमे आरंभ हाएत अछि."
+
+#: ../src/gsearchtool-callbacks.c:194
+msgid "Could not open help document."
+msgstr "मद्दति दस्ताबेज़ खोलि नहि सकल."
+
+#: ../src/gsearchtool-callbacks.c:341
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "की अहाँ निश्चित छी जे अहाँ %d दस्ताबेजकेँ खोलनाइ चाहैत अछि?"
+msgstr[1] "की अहाँ निश्चित छी जे अहाँ %d दस्ताबेजकेँ खोलनाइ चाहैत अछि?"
+
+#: ../src/gsearchtool-callbacks.c:346 ../src/gsearchtool-callbacks.c:531
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "ई एकटा अलग %d विंडो खोलि देत."
+msgstr[1] "ई एकटा अलग %d विंडो खोलि देत."
+
+#: ../src/gsearchtool-callbacks.c:382
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "दस्ताबेज़ \"%s\" खोलि नहि सकल."
+
+#: ../src/gsearchtool-callbacks.c:407
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "फ़ोल्डर \"%s\" खोलि नहि सकल."
+
+#: ../src/gsearchtool-callbacks.c:415
+msgid "The nautilus file manager is not running."
+msgstr "नॉटिलस फ़ाइल प्रबंधक चलि नहि रहल अछि."
+
+#: ../src/gsearchtool-callbacks.c:488 ../src/gsearchtool-callbacks.c:811
+msgid "The document does not exist."
+msgstr "दस्ताबेज़ मोजुद नहि अछि."
+
+#: ../src/gsearchtool-callbacks.c:503
+msgid "There is no installed viewer capable of displaying the document."
+msgstr "एतय कोनो एहन प्रदर्शक संस्थापित नहि अछि जे दस्ताबेज़केँ प्रदर्शित कए सकै."
+
+#: ../src/gsearchtool-callbacks.c:526
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "की अहाँ निश्चित छी जे अहाँ %d फोल्डर खोलनाइ चाहैत अछि?"
+msgstr[1] "की अहाँ निश्चित छी जे अहाँ %d फोल्डर खोलनाइ चाहैत अछि?"
+
+#: ../src/gsearchtool-callbacks.c:675
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "\"%s\" केँ रद्दी पर नहि लए जाए सकल."
+
+#: ../src/gsearchtool-callbacks.c:702
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "की अहाँ \"%s\"केँ स्थायी रूप सँ मेटओनाइ चाहैत अछि?"
+
+#: ../src/gsearchtool-callbacks.c:705
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr ""
+
+#: ../src/gsearchtool-callbacks.c:740
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "\"%s\"केँ मेटाए नहि सकल."
+
+#: ../src/gsearchtool-callbacks.c:847
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "\"%s\"केँ मेटओनाइ असफल: %s."
+
+#: ../src/gsearchtool-callbacks.c:859
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr " \"%s\"केँ घसकओनाइ असफल: %s."
+
+#. Popup menu item: Open
+#: ../src/gsearchtool-callbacks.c:987 ../src/gsearchtool-callbacks.c:1017
+msgid "_Open"
+msgstr "खोलू (_O)"
+
+#. Popup menu item: Open with (default)
+#: ../src/gsearchtool-callbacks.c:1042
+#, c-format
+msgid "_Open with %s"
+msgstr ""
+
+#: ../src/gsearchtool-callbacks.c:1077
+#, c-format
+msgid "Open with %s"
+msgstr ""
+
+#. Popup menu item: Open With
+#: ../src/gsearchtool-callbacks.c:1110
+msgid "Open Wit_h"
+msgstr ""
+
+#. Popup menu item: Open Containing Folder
+#: ../src/gsearchtool-callbacks.c:1155
+#, fuzzy
+msgid "Open Containing _Folder"
+msgstr "फोल्डर खोलू (_O)"
+
+#: ../src/gsearchtool-callbacks.c:1173
+msgid "Mo_ve to Trash"
+msgstr "रद्दीमे भेजू (_v)"
+
+#: ../src/gsearchtool-callbacks.c:1195
+msgid "_Save Results As..."
+msgstr "परिणाम एहन सहेजू (_S)..."
+
+#: ../src/gsearchtool-callbacks.c:1577
+msgid "Save Search Results As..."
+msgstr "परिणाम एहन सहेजू..."
+
+#: ../src/gsearchtool-callbacks.c:1608
+msgid "Could not save document."
+msgstr "दस्ताबेज़ सहेज नहि सकल."
+
+#: ../src/gsearchtool-callbacks.c:1609
+msgid "You did not select a document name."
+msgstr "अहाँ दस्ताबेज़ नाम नहि चुनने अछि."
+
+#: ../src/gsearchtool-callbacks.c:1635
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "\"%s\" दस्ताबेज़ \"%s\"मे सहेज नहि सकल."
+
+#: ../src/gsearchtool-callbacks.c:1665
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr ""
+
+#: ../src/gsearchtool-callbacks.c:1669
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr "जँ अहाँ एकटा मोजुदा फ़ाइलकेँ बदलैत छी तँ एकर अवयव मेटाए कए लिखल जाएत."
+
+#: ../src/gsearchtool-callbacks.c:1680
+msgid "_Replace"
+msgstr "बदलू (_R)"
+
+#: ../src/gsearchtool-callbacks.c:1730
+msgid "The document name you selected is a folder."
+msgstr "अहाँ जे दस्ताबेज़ नाम चुनने अछि ओ एकटा फ़ोल्डर अछि."
+
+#: ../src/gsearchtool-callbacks.c:1768
+msgid "You may not have write permissions to the document."
+msgstr "अहाँक दस्ताबेज़मे लिखबाक अनुमति साइत नहि हाएत."
+
+#: ../src/gsearchtool-support.c:63
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s"
+msgstr ""
+"GConf त्रुटि:\n"
+" %s"
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../src/gsearchtool-support.c:696
+msgid "today at %-I:%M %p"
+msgstr "आइ %-I:%M %p पर"
+
+#: ../src/gsearchtool-support.c:698
+msgid "yesterday at %-I:%M %p"
+msgstr "कालि %-I:%M %p पर"
+
+#: ../src/gsearchtool-support.c:700 ../src/gsearchtool-support.c:702
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%A, %B %-d %Y %-I:%M:%S %p पर"
+
+#: ../src/gsearchtool-support.c:889
+msgid "link (broken)"
+msgstr "लिंक (टूटल)"
+
+#: ../src/gsearchtool-support.c:893
+#, c-format
+msgid "link to %s"
+msgstr "%s सँ लिंक अछि"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../src/gsearchtool-support.c:1497
+msgid " (copy)"
+msgstr "(कॉपी)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../src/gsearchtool-support.c:1499
+msgid " (another copy)"
+msgstr "(एकटा आओर कॉपी)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../src/gsearchtool-support.c:1502 ../src/gsearchtool-support.c:1504
+#: ../src/gsearchtool-support.c:1506 ../src/gsearchtool-support.c:1516
+msgid "th copy)"
+msgstr "मा कॉपी)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../src/gsearchtool-support.c:1509
+msgid "st copy)"
+msgstr "लुक कॉपी)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../src/gsearchtool-support.c:1511
+msgid "nd copy)"
+msgstr "सर कॉपी)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../src/gsearchtool-support.c:1513
+msgid "rd copy)"
+msgstr "सर कॉपी)"
+
+#. localizers: appended to first file copy
+#: ../src/gsearchtool-support.c:1530
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (कॉपी)%s"
+
+#. localizers: appended to second file copy
+#: ../src/gsearchtool-support.c:1532
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (एकटा आओर कॉपी)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../src/gsearchtool-support.c:1535 ../src/gsearchtool-support.c:1537
+#: ../src/gsearchtool-support.c:1539 ../src/gsearchtool-support.c:1548
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (%dथा कॉपी)%s"
+
+#. localizers: appended to x1st file copy
+#: ../src/gsearchtool-support.c:1542
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (%dल कॉपी)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../src/gsearchtool-support.c:1544
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (%dर कॉपी)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../src/gsearchtool-support.c:1546
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (%dर कॉपी)%s"
+
+#: ../src/gsearchtool-support.c:1593
+msgid " (invalid Unicode)"
+msgstr "(अवैध यूनिकोड)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../src/gsearchtool-support.c:1682
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../src/gsearchtool-support.c:1690
+#, c-format
+msgid " (%d"
+msgstr " (%d"
+
+#: ../src/gsearchtool.c:81
+msgid "Contains the _text"
+msgstr "पाठ सामिल करैत अछि (_t)"
+
+#: ../src/gsearchtool.c:83
+msgid "_Date modified less than"
+msgstr "एकरासँ कम तिथि परिवर्धित (_D)"
+
+#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
+msgid "days"
+msgstr "दिन"
+
+#: ../src/gsearchtool.c:84
+msgid "Date modified more than"
+msgstr "एकरासँ बेसी तिथि परिवर्धित"
+
+#: ../src/gsearchtool.c:86
+msgid "S_ize at least"
+msgstr "कम सँ कम आकार (_i)"
+
+#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
+msgid "kilobytes"
+msgstr "किलोबाइट"
+
+#: ../src/gsearchtool.c:87
+msgid "Si_ze at most"
+msgstr "अघिकतम आकार (_z)"
+
+#: ../src/gsearchtool.c:88
+msgid "File is empty"
+msgstr "फाइल खाली अछि"
+
+#: ../src/gsearchtool.c:90
+msgid "Owned by _user"
+msgstr "प्रयोक्ता क' स्वामित्वमे (_u)"
+
+#: ../src/gsearchtool.c:91
+msgid "Owned by _group"
+msgstr "समूह क' स्वामित्वमे (_g)"
+
+#: ../src/gsearchtool.c:92
+msgid "Owner is unrecognized"
+msgstr "मालिक अपरिचित अछि"
+
+#: ../src/gsearchtool.c:94
+msgid "Na_me does not contain"
+msgstr "नाममे सम्मिलित नहि अछि (_m)"
+
+#: ../src/gsearchtool.c:95
+msgid "Name matches regular e_xpression"
+msgstr "नाम नियमित अभिव्यक्ति सँ मेल करैत अछि (_x)"
+
+#: ../src/gsearchtool.c:97
+msgid "Show hidden and backup files"
+msgstr "नुकल बैकअप फ़ाइल देखाबू"
+
+#: ../src/gsearchtool.c:98
+msgid "Follow symbolic links"
+msgstr "सांकेतिक लिंक क' अनुसरण करू"
+
+#: ../src/gsearchtool.c:99
+#, fuzzy
+msgid "Exclude other filesystems"
+msgstr "आन फ़ाइल-सिस्टम सामिल करू"
+
+#: ../src/gsearchtool.c:157
+#, fuzzy
+msgid "Show version of the application"
+msgstr "अनुप्रयोग संस्करण देखाबू"
+
+#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
+msgid "STRING"
+msgstr "स्ट्रिंग"
+
+#: ../src/gsearchtool.c:159
+msgid "PATH"
+msgstr "PATH"
+
+#: ../src/gsearchtool.c:160
+msgid "VALUE"
+msgstr "मान"
+
+#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
+msgid "DAYS"
+msgstr ""
+
+#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
+msgid "KILOBYTES"
+msgstr ""
+
+#: ../src/gsearchtool.c:169
+msgid "USER"
+msgstr "प्रयोक्ता"
+
+#: ../src/gsearchtool.c:170
+msgid "GROUP"
+msgstr ""
+
+#: ../src/gsearchtool.c:173
+msgid "PATTERN"
+msgstr "प्रारूप"
+
+#: ../src/gsearchtool.c:384
+msgid "A locate database has probably not been created."
+msgstr "एकटा खोजए बला डाटाबेस साइत नहि बनाओल गेल ."
+
+#: ../src/gsearchtool.c:486
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr "संप्रतीक सेट रूपांतरण \"%s\" क' लेल बिफल रहल ."
+
+#: ../src/gsearchtool.c:506
+msgid "Searching..."
+msgstr "खोजि रहल अछि..."
+
+#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1016
+#: ../src/gsearchtool.c:2976
+msgid "Search for Files"
+msgstr "फ़ाइल क' लेल खोज"
+
+#: ../src/gsearchtool.c:962 ../src/gsearchtool.c:991
+msgid "No files found"
+msgstr "कोनो फ़ाइल नहि भेटल"
+
+#: ../src/gsearchtool.c:984
+msgid "(stopped)"
+msgstr "(रूकल)"
+
+#: ../src/gsearchtool.c:990
+msgid "No Files Found"
+msgstr "कोनो फ़ाइल नहि भेटल"
+
+#: ../src/gsearchtool.c:995
+#, fuzzy, c-format
+msgid "%'d File Found"
+msgid_plural "%'d Files Found"
+msgstr[0] "%d फाइल भेटल"
+msgstr[1] "%d फाइल भेटल"
+
+#: ../src/gsearchtool.c:999 ../src/gsearchtool.c:1037
+#, fuzzy, c-format
+msgid "%'d file found"
+msgid_plural "%'d files found"
+msgstr[0] "%d फाइल भेटल"
+msgstr[1] "%d फाइल भेटल"
+
+#: ../src/gsearchtool.c:1128
+msgid "Entry changed called for a non entry option!"
+msgstr "गैर प्रविष्टि विकल्प क' लेल प्रविष्टि परिवर्तन बुलाओल गेल !"
+
+#: ../src/gsearchtool.c:1288
+msgid "Set the text of \"Name contains\" search option"
+msgstr "\"नाममे सामिल अछि\" खोज विकल्प क' पाठ सेट करू"
+
+#: ../src/gsearchtool.c:1289
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "\"फोल्डरमे देखू\" खोज विकल्प क' पाठ सेट करू"
+
+#: ../src/gsearchtool.c:1290
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr ""
+"फ़ाइलसभकेँ निम्नमे सँ कोनो एकटा आधार पर क्रमबद्ध करू: नाम, फ़ोल्डर, आकार, प्रकार आओर तिथि"
+
+#: ../src/gsearchtool.c:1291
+msgid "Set sort order to descending, the default is ascending"
+msgstr "क्रमबद्ध कएनाइ अवरोही क्रममे नियत करू, मूलभूत अछि आरोहण"
+
+#: ../src/gsearchtool.c:1292
+msgid "Automatically start a search"
+msgstr "खोज स्वचालित प्रारंभ करू"
+
+#: ../src/gsearchtool.c:1298
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr "\"%s\" खोज विकल्प चुनू"
+
+#: ../src/gsearchtool.c:1301
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr "चुनू आ \"%s\" खोज विकल्पकेँ सेट करू"
+
+#: ../src/gsearchtool.c:1408
+msgid "Invalid option passed to sortby command line argument."
+msgstr "कमांड लाइन आर्गुमेंट सँ क्रमबद्ध करब लेल अवैध विकल्प पास कएल गेल ."
+
+#: ../src/gsearchtool.c:1702
+msgid ""
+"\n"
+"... Too many errors to display ..."
+msgstr ""
+"\n"
+"... प्रदर्शन लेल अत्यधिक त्रुटिसभ ..."
+
+#: ../src/gsearchtool.c:1716
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr ""
+
+#: ../src/gsearchtool.c:1725 ../src/gsearchtool.c:1766
+msgid "Show more _details"
+msgstr "बेसी विवरण देखाबू (_d)"
+
+#: ../src/gsearchtool.c:1755
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+
+#: ../src/gsearchtool.c:1777
+msgid "Disable _Quick Search"
+msgstr "तेज खोज निष्क्रिय करू (_Q)"
+
+#: ../src/gsearchtool.c:1804
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr "%d संतति क' प्रक्रिया समूह id सेट करबमे विफल: %s.\n"
+
+#: ../src/gsearchtool.c:1829
+msgid "Error parsing the search command."
+msgstr "खोज कमांड विश्लेषणमे त्रुटि."
+
+#: ../src/gsearchtool.c:1858
+msgid "Error running the search command."
+msgstr "खोज कमांड चलाबैमे त्रुटि."
+
+#: ../src/gsearchtool.c:1974
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr "\"%s\" खोज विकल्प क'लेल एकटा पाठ मान दिअ'."
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#: ../src/gsearchtool.c:1979
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "\"%s\" %sमे"
+
+#: ../src/gsearchtool.c:1981
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr "%sमे एकटा मान दिअ' \"%s\" खोज विकल्प क'लेल ."
+
+#: ../src/gsearchtool.c:2039
+#, c-format
+msgid "Remove \"%s\""
+msgstr "हटाबू \"%s\""
+
+#: ../src/gsearchtool.c:2040
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "\"%s\" खोज विकल्प हटाबै क'लेल क्लिक करू."
+
+#: ../src/gsearchtool.c:2133
+msgid "A_vailable options:"
+msgstr "उपलब्ध विकल्प (_v):"
+
+#: ../src/gsearchtool.c:2162
+msgid "Available options"
+msgstr "उपलब्ध विकल्प"
+
+#: ../src/gsearchtool.c:2163
+msgid "Select a search option from the drop-down list."
+msgstr "लटकैत सूची सँ एकटा खोज विकल्प चुनू."
+
+#: ../src/gsearchtool.c:2175
+msgid "Add search option"
+msgstr "खोज विकल्प जोड़ू"
+
+#: ../src/gsearchtool.c:2176
+msgid "Click to add the selected available search option."
+msgstr "चयनित उपलब्ध खोज विकल्प जोड़बाक लेल क्लिक करू."
+
+#: ../src/gsearchtool.c:2265
+msgid "S_earch results:"
+msgstr "खोज परिणाम (_e):"
+
+#: ../src/gsearchtool.c:2309
+msgid "List View"
+msgstr "सूची दृश्य"
+
+#: ../src/gsearchtool.c:2369
+msgid "Name"
+msgstr "नाम"
+
+#: ../src/gsearchtool.c:2393
+msgid "Folder"
+msgstr "फ़ोल्डर"
+
+#: ../src/gsearchtool.c:2406
+msgid "Size"
+msgstr "आकार"
+
+#: ../src/gsearchtool.c:2418
+msgid "Type"
+msgstr "प्रकार"
+
+#: ../src/gsearchtool.c:2430
+msgid "Date Modified"
+msgstr "तिथि परिवर्धित"
+
+#: ../src/gsearchtool.c:2746
+msgid "_Name contains:"
+msgstr "नाममे सामिल अछि (_N):"
+
+#: ../src/gsearchtool.c:2760 ../src/gsearchtool.c:2761
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr "फाइलनाम आ आंशिक फाइल नामकेँ वाइल्डकार्ड क' सँग आ बिनु दाखिल करू."
+
+#: ../src/gsearchtool.c:2761
+msgid "Name contains"
+msgstr "नाममे सामिल अछि"
+
+#: ../src/gsearchtool.c:2767
+msgid "_Look in folder:"
+msgstr "फ़ोल्डरमे देखू (_L):"
+
+#: ../src/gsearchtool.c:2773
+msgid "Browse"
+msgstr "ब्रॉउज करू"
+
+#: ../src/gsearchtool.c:2782
+msgid "Look in folder"
+msgstr "फ़ोल्डरमे देखू"
+
+#: ../src/gsearchtool.c:2782
+msgid "Select the folder or device from which you want to begin the search."
+msgstr "फ़ोल्डर अथवा डिवाइस क' नाम चुनू जतए अहाँ खोजनाइ प्रारंभ कएनाइ चाहैत अछि."
+
+#: ../src/gsearchtool.c:2800
+msgid "Select more _options"
+msgstr "बेसी विकल्प देखाबू (_o)"
+
+#: ../src/gsearchtool.c:2809
+msgid "Select more options"
+msgstr "बेसी विकल्प देखाबू"
+
+#: ../src/gsearchtool.c:2809
+msgid "Click to expand or collapse the list of available options."
+msgstr "खोजबाक विकल्पसभकेँ विस्तारित अथवा कोलेप्स करैत अछि."
+
+#: ../src/gsearchtool.c:2833
+msgid "Click to display the help manual."
+msgstr "मद्दति दस्ताबेज़ खोलब क'लेल क्लिक करू."
+
+#: ../src/gsearchtool.c:2841
+msgid "Click to close \"Search for Files\"."
+msgstr "\"फाइल क' लेल खोजू\"केँ बन्न करब क'लेल क्लिक करू."
+
+#: ../src/gsearchtool.c:2867
+msgid "Click to perform a search."
+msgstr "खोज क' लेल क्लिक करू"
+
+#: ../src/gsearchtool.c:2868
+msgid "Click to stop a search."
+msgstr "खोजनाए रोकबाक लेल क्लिक करू"
+
+#: ../src/gsearchtool.c:2961
+msgid "- the GNOME Search Tool"
+msgstr ""
+
+#: ../src/gsearchtool.c:2970
+#, fuzzy, c-format
+msgid "Failed to parse command line arguments: %s\n"
+msgstr "कमांड लाइन आर्गुमेंट सँ क्रमबद्ध करब लेल अवैध विकल्प पास कएल गेल ."
+
+#: ../libeggsmclient/eggdesktopfile.c:165
+#, fuzzy, c-format
+msgid "File is not a valid .desktop file"
+msgstr "\"%s\" एकटा वैध फोल्डर नहि अछि"
+
+#: ../libeggsmclient/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr ""
+
+#: ../libeggsmclient/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "FILE"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "ID"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:252
+msgid "Session management options:"
+msgstr ""
+
+#: ../libeggsmclient/eggsmclient.c:253
+#, fuzzy
+msgid "Show session management options"
+msgstr "शब्दकोष विकल्प देखाबू"

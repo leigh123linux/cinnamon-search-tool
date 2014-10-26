@@ -1,0 +1,1072 @@
+# translation of te.po to Telugu
+# Telugu translation of gnome-utils.
+# Copyright (C) 2007,2012 Swecha Telugu Localisation Team <localisation@swecha.org>
+# This file is distributed under the same license as the gnome-utils package.
+#
+#
+# Pramod <pramodfsf@gmail.com>, 2007.
+# Krishna Babu K <kkrothap@redhat.com>, 2007, 2009, 2010, 2012, 2013.
+# Sasi Bhushan Boddepalli <sasi@swecha.net>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: te\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"search-tool&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-01-20 20:10+0000\n"
+"PO-Revision-Date: 2013-03-25 13:57+0530\n"
+"Last-Translator: Krishnababu Krothapalli <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <Fedora-trans-te@redhat.com>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../data/gnome-search-tool.desktop.in.h:1
+msgid "Search for Files..."
+msgstr "ఫైళ్ళ కొరకు అన్వేషణము..."
+
+#: ../data/gnome-search-tool.desktop.in.h:2
+msgid "Locate documents and folders on this computer by name or content"
+msgstr ""
+"పేరు లేదా విషయముల ద్వారా పత్రములను మరియు సంచయాలను ఈ కంప్యూటర్ లో గుర్తించండి"
+
+#: ../data/gnome-search-tool.desktop.in.h:3
+msgid "find;locate;look for;seek;"
+msgstr "find;locate;look for;seek;"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+msgid "Search history"
+msgstr "చరిత్ర శోధించు"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+msgid "This key defines the items which were searched for in the past."
+msgstr "గతంలో దేని కొరకు అంశాలు శోధించబడెనో వాటిని యీ కీ నిర్వచించును."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+msgid "Show Additional Options"
+msgstr "అత్యధికముగా చేర్పబడిన ఐచ్చికములు చూపుము"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+msgid "Disable Quick Search"
+msgstr "తొందరగా అన్వేషించుటను అచేతనపరచు"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+"సులభంగా ఫైలు పేరుతో అన్వేషణ చేసినప్పుడు అన్వేషణ సాధనం గుర్తించు ఆదేశం "
+"ఉపయోగంను అచేతనం చేస్తే ఈ "
+"మీట నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+msgid "Quick Search Excluded Paths"
+msgstr "తొందరగా అన్వేషించుట త్రోవలను బహిష్కరించినది"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. "
+"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr ""
+"ఈ కీ అన్వేషణ సాధనం త్వరిత అన్వేషణ నుండి బహిష్కరించు త్రోవలను నిర్వచిస్తుంది. "
+"wildcards '*' మరియు "
+"'?' తోడ్పాటునిస్తాయి.అప్రమేయ విలువలు /mnt/*, /media/*, /dev/*, /tmp/*, "
+"/proc/*, and /"
+"var/*."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+msgid "Disable Quick Search Second Scan"
+msgstr "రెండవ సంఅన్వేషణను తొందరగా అన్వేషించుటను అచేతనపరచు"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"త్వరిత అన్వేషణ జరిపినతర్వాత అన్వేషణ సాధనం అన్వేషణ ఆదేశం ఉపయోగాన్ని అచేతనం "
+"చేస్తే ఈ మీట "
+"నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "రెండవ సంఅన్వేషణను తొందరగా అన్వేషించుటను బహిష్కరించినది"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan "
+"when performing a quick search. The second scan uses the find command to "
+"search for files. The purpose of the second scan is to find files that have "
+"not been indexed. The wildcards '*' and '?' are supported. The default value "
+"is /."
+msgstr ""
+"అన్వేషణ సాధనం త్వరిత అన్వేషణను చేస్తున్నప్పుడు రెండవ సంఅన్వేషణ నుండి "
+"బహిష్కరించు త్రోవలను ఈ మీట "
+"నిర్వచిస్తుంది.ఫైళ్ళను అన్వేషణుటకు రెండవ సంఅన్వేషణ అన్వేషణ ఆదేశాన్ని "
+"ఉపయోగిస్తుంది.రెండవ సంఅన్వేషణ "
+"యొక్క ఉపయోగార్ధం విషయసూచిక చేయబడనటువంటి ఫైలులను అన్వేషించుట.wildcards '*' "
+"మరియు '?' "
+"మద్దుతునిస్తాయి.అప్రమేయ విలువ /."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+msgid "Search Result Columns Order"
+msgstr "ఫలితాలను నిలువుపట్టీ క్రమములో అన్వేషణము"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"ఈ కీ అన్వేషించిన ఫలితాలలోని నిలువువరుసల క్రమాన్ని నిర్వచిస్తుంది.ఈ కీ వాడుకరి "
+"చేత మార్చబడకూడదు."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+msgid "Default Window Width"
+msgstr "అప్రమేయ విండో పొడవు"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+msgid ""
+"This key defines the window width, and it's used to remember the size of the "
+"search tool between sessions. Setting it to -1 will make the search tool use "
+"the default width."
+msgstr ""
+"ఈ మీట విండో వెడల్పును నిర్వచిస్తుంది మరియు సెషన్సు మద్య అన్వేషణ సాధనం యొక్క "
+"పరిమాణం ను "
+"గుర్తుంచుకొనుటకు ఉపయోగించబడుతుంది.-1 కు అమర్చుట అన్వేషణ సాధనంను అప్రమేయ "
+"వెడల్పును "
+"ఉపయోగించుకొనునట్లు చేస్తుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+msgid "Default Window Height"
+msgstr "అప్రమేయ విండో ఎత్తు"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"ఈ మీట విండో ఎత్తును నిర్వచిస్తుంది మరియు సెషన్సు మద్య అన్వేషణ సాధనం యొక్క "
+"పరిమాణం ను "
+"గుర్తుంచుకొనుటకు ఉపయోగించబడుతుంది.-1 కు అమర్చుట అన్వేషణ సాధనంను అప్రమేయ "
+"ఎత్తును "
+"ఉపయోగించుకొనునట్లు చేస్తుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+msgid "Default Window Maximized"
+msgstr "అప్రమేయ విండో పెద్దదిచేయబడింది"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr ""
+"అన్వేషణ సాధనం విండో పెద్దదైన స్థితి లో ప్రారంభించబడితే ఈ మీట "
+"నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+msgid "Look in Folder"
+msgstr "సంచయం నందు చూడుము"
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+msgid "This key defines the default value of the \"Look in Folder\" widget."
+msgstr "ఈ కీ \"సంచయం నందు చూడు\" విడ్జట్ యొక్క అప్రమేయ విలువను నిర్వచిస్తుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"పాఠము కలిగిఉన్న\" అన్వేషణ ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట "
+"నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"దీనికి తక్కువగా మార్చబడిన తారీఖు\" "
+"అన్వేషణ ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"దీనికి ఎక్కువగా మార్చబడిన తారీఖు\" "
+"అన్వేషణ ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"తక్కువలో ఉన్న పరిమాణం\" అన్వేషణ ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట "
+"నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"ఎక్కువలో ఉన్న పరిమాణం\" అన్వేషణ ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట "
+"నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"ఫైలు ఖాళీగా ఉంది\" అన్వేషణ ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట "
+"నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"ఈ వాడుకరికి స్వకీయమైన\" అన్వేషణ ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట "
+"నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"ఈ సమూహానికి స్వకీయమైన \" అన్వేషణ ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట "
+"నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"యజమాని గుర్తించబడుటలేదు\" అన్వేషణ "
+"ఐచ్చికం ఎంపికకాబడి‌వుంటే ఈ "
+"మీట నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"ఇది కలిగిలేని పేరు\" అన్వేషణ ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట "
+"నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"ఈ సాదారణ ఎక్సప్రెషన్ కు సరితూగిన పేరు\" "
+"అన్వేషణ ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"దాచబడిన ఫైళ్ళను మరియు సంచయాలను చూపుము\" "
+"అన్వేషణ ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"చిహ్నపూరిత లంకెలను అనుసరించు\" అన్వేషణ "
+"ఐచ్చికం "
+"ఎంపికకాబడి‌వుంటే ఈ మీట నిశ్చయించబడుతుంది."
+
+#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+msgid ""
+"This key determines if the \"Exclude other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"ఇతర ఫైలువ్యవస్థను తీసివేయి\" అన్వేషణ "
+"ఐచ్చికం ఎంపికకాబడాలేమో ఈ "
+"మీట నిశ్చయించుతుంది."
+
+#: ../src/gsearchtool.c:81
+msgid "Contains the _text"
+msgstr "పాఠమును కలిగివున్నది(_t)"
+
+#: ../src/gsearchtool.c:83
+msgid "_Date modified less than"
+msgstr "తేది కంటే తక్కువ మార్చబడినది(_D)"
+
+#: ../src/gsearchtool.c:83 ../src/gsearchtool.c:84
+msgid "days"
+msgstr "రోజులు"
+
+#: ../src/gsearchtool.c:84
+msgid "Date modified more than"
+msgstr "తేది కంటే ఎక్కువ మార్చబడినది"
+
+#: ../src/gsearchtool.c:86
+msgid "S_ize at least"
+msgstr "తక్కువ పరిమాణం వద్ద(_i)"
+
+#: ../src/gsearchtool.c:86 ../src/gsearchtool.c:87
+msgid "kilobytes"
+msgstr "కిలోబైట్స్"
+
+#: ../src/gsearchtool.c:87
+msgid "Si_ze at most"
+msgstr "చాలా పరిమాణం వద్ద(_z)"
+
+#: ../src/gsearchtool.c:88
+msgid "File is empty"
+msgstr "ఫైలు ఖాళీగావుంది"
+
+#: ../src/gsearchtool.c:90
+msgid "Owned by _user"
+msgstr "వాడుకరి ద్వారా స్వకీయమైన(_u)"
+
+#: ../src/gsearchtool.c:91
+msgid "Owned by _group"
+msgstr "సమూహం ద్వారా స్వకీయమైన(_g)"
+
+#: ../src/gsearchtool.c:92
+msgid "Owner is unrecognized"
+msgstr "యజమాని గుర్తింపులేనివాడు"
+
+#: ../src/gsearchtool.c:94
+msgid "Na_me does not contain"
+msgstr "పేరు కలిగి లేదు(_m)"
+
+#: ../src/gsearchtool.c:95
+msgid "Name matches regular e_xpression"
+msgstr "సాధారణ వ్యక్తీకరణ పేరు ఉపమించదు(_x)"
+
+#: ../src/gsearchtool.c:97
+msgid "Show hidden and backup files"
+msgstr "దాచబడిన మరియు భద్రపరచు ఫైళ్ళు చూపుము"
+
+#: ../src/gsearchtool.c:98
+msgid "Follow symbolic links"
+msgstr "చిహ్న పూరితలంకెలను అనుసరించు"
+
+#: ../src/gsearchtool.c:99
+msgid "Exclude other filesystems"
+msgstr "ఇతర ఫైలువ్యవస్థలను తీసివేయి"
+
+#: ../src/gsearchtool.c:157
+msgid "Show version of the application"
+msgstr "అనువర్తనముల వెర్షన్ ను చూపుము"
+
+#: ../src/gsearchtool.c:158 ../src/gsearchtool.c:163 ../src/gsearchtool.c:172
+msgid "STRING"
+msgstr "స్ట్రింగ్"
+
+#: ../src/gsearchtool.c:159
+msgid "PATH"
+msgstr "త్రోవ"
+
+#: ../src/gsearchtool.c:160
+msgid "VALUE"
+msgstr "విలువ"
+
+#: ../src/gsearchtool.c:164 ../src/gsearchtool.c:165
+msgid "DAYS"
+msgstr "రోజులు"
+
+#: ../src/gsearchtool.c:166 ../src/gsearchtool.c:167
+msgid "KILOBYTES"
+msgstr "కిలోబైట్సు"
+
+#: ../src/gsearchtool.c:169
+msgid "USER"
+msgstr "వినియోగదారి"
+
+#: ../src/gsearchtool.c:170
+msgid "GROUP"
+msgstr "సమూహం"
+
+#: ../src/gsearchtool.c:173
+msgid "PATTERN"
+msgstr "క్రమము"
+
+#: ../src/gsearchtool.c:384
+msgid "A locate database has probably not been created."
+msgstr "గుర్తించు దత్తాంశస్థానము బహుశా సృష్టించబడిఉండక పోవచ్చు"
+
+#: ../src/gsearchtool.c:486
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr "\"%s\" కొరకు అక్షర పరివర్తనం అమర్చు"
+
+#: ../src/gsearchtool.c:506
+msgid "Searching..."
+msgstr "అన్వేషణచున్నది..."
+
+#: ../src/gsearchtool.c:506 ../src/gsearchtool.c:1019
+#: ../src/gsearchtool.c:2987
+msgid "Search for Files"
+msgstr "ఫైళ్ళ కొరకు అన్వేషణ"
+
+#: ../src/gsearchtool.c:965 ../src/gsearchtool.c:994
+msgid "No files found"
+msgstr "ఎటువంటి ఫైళ్ళు దొరకలేదు"
+
+#: ../src/gsearchtool.c:987
+msgid "(stopped)"
+msgstr "(ఆపబడినది)"
+
+#: ../src/gsearchtool.c:993
+msgid "No Files Found"
+msgstr "ఎటువంటి ఫైళ్ళు దొరకలేదు"
+
+#: ../src/gsearchtool.c:998
+#, c-format
+msgid "%'d File Found"
+msgid_plural "%'d Files Found"
+msgstr[0] "%'d ఫైలు కనుగొనబడింది"
+msgstr[1] "%d ఫైళ్ళు కనుగొనబడినవి"
+
+#: ../src/gsearchtool.c:1002 ../src/gsearchtool.c:1040
+#, c-format
+msgid "%'d file found"
+msgid_plural "%'d files found"
+msgstr[0] "%'d ఫైలు కనుగొనబడింది"
+msgstr[1] "%'d ఫైళ్ళు కనుగొనబడినవి"
+
+#: ../src/gsearchtool.c:1131
+msgid "Entry changed called for a non entry option!"
+msgstr "ప్రవేశ పెట్టని ఐచ్చికం కొరకు ప్రవేశము మార్చి పిలవబడినది!"
+
+#: ../src/gsearchtool.c:1296
+msgid "Set the text of \"Name contains\" search option"
+msgstr "పాఠం అమర్చుట యొక్క \"పేరు కలిగివున్నది\" ఐచ్చికం అన్వేషణ"
+
+#: ../src/gsearchtool.c:1297
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "పాఠం అమర్చుట యొక్క \"సంచయములో చూడుము\"ఐచ్చికం  అన్వేషణ"
+
+#: ../src/gsearchtool.c:1298
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr ""
+"క్రింది ఇవ్వబడిన ఒక దాని ద్వారా ఫైళ్ళు చక్కదిద్దు: పేరు, సంచయము, పరిమాణం, "
+"రకము, లేదా తేది"
+
+#: ../src/gsearchtool.c:1299
+msgid "Set sort order to descending, the default is ascending"
+msgstr "చక్కదిద్దు క్రమంను అవరోహణ క్రమములో అమర్చు, అప్రమేయము ఆరోహణ"
+
+#: ../src/gsearchtool.c:1300
+msgid "Automatically start a search"
+msgstr "అన్వేషించుటను స్వయంచాలకంగా మొదలుపెట్టు"
+
+#: ../src/gsearchtool.c:1306
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr "\"%s\" అన్వేషణ ఐచ్చికం ఎంచుకొను"
+
+#: ../src/gsearchtool.c:1309
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr "\"%s\" అన్వేషణ ఐచ్చికం ఎంచుకొనుము మరియు అమర్చుము"
+
+#: ../src/gsearchtool.c:1416
+msgid "Invalid option passed to sortby command line argument."
+msgstr ""
+"చక్కదిద్దు ఆదేశ వాక్య క్రమానుగత సంకేతం కు నిస్సారమైన ఐచ్చికం పంపబడినది."
+
+#: ../src/gsearchtool.c:1710
+msgid ""
+"\n"
+"... Too many errors to display ..."
+msgstr ""
+"\n"
+"... ప్రదర్శించుటకు చాలా దోషములు ..."
+
+#: ../src/gsearchtool.c:1724
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr ""
+"అన్వేషించిన ఫలితం నిస్సారమై ఉండవచ్చు.  చేస్తున్నపుడు అక్కడ దోషములు ఏర్పడినవి "
+"అన్వేషణ."
+
+#: ../src/gsearchtool.c:1733 ../src/gsearchtool.c:1774
+msgid "Show more _details"
+msgstr "చాలా వివరింపులు చూపుము(_d)"
+
+#: ../src/gsearchtool.c:1763
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+"అన్వేషణ ఫలితాలు తారీఖు మించిపోయినవి లేదా విలువైనవికావు.  మీరు త్వరిత అన్వేషణ "
+"ప్రయోజనాన్ని అచేతనం "
+"చేయాలనుకుంటున్నారా?"
+
+#: ../src/gsearchtool.c:1785
+msgid "Disable _Quick Search"
+msgstr "తొందరగా అన్వేషించుట నిరుపయోగము(_Q)"
+
+#: ../src/gsearchtool.c:1812
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr "%d కు పురోగమన సముదాయ id యొక్క శిశువు అమర్చునపుడు విఫలమైంది: %s.\n"
+
+#: ../src/gsearchtool.c:1837
+msgid "Error parsing the search command."
+msgstr "అన్వేషణ ఆదేశంకు పార్సింగ్ దోషము. "
+
+#: ../src/gsearchtool.c:1866
+msgid "Error running the search command."
+msgstr "అన్వేషణ ఆదేశం నడుపుతున్నపుడు దోషము."
+
+#: ../src/gsearchtool.c:1982
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr "\"%s\" అన్వేషణ ఐచ్చికం కొరకు పాఠం విలువను చేర్చుము."
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#: ../src/gsearchtool.c:1987
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "\"%s\" లో %s"
+
+#: ../src/gsearchtool.c:1989
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr "\"%s\" అన్వేషణ ఐచ్చికం కొరకు %s లో విలువను చేర్చుము."
+
+#: ../src/gsearchtool.c:2047
+#, c-format
+msgid "Remove \"%s\""
+msgstr "\"%s\" తొలగించు"
+
+#: ../src/gsearchtool.c:2048
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "\"%s\" అన్వేషణ ఐచ్చికం తొలగించుటకు నొక్కుము."
+
+#: ../src/gsearchtool.c:2141
+msgid "A_vailable options:"
+msgstr "లభ్యత కల్గిన ఐచ్చికాలు(_v):"
+
+#: ../src/gsearchtool.c:2170
+msgid "Available options"
+msgstr "లభ్యత కల్గిన ఐచ్చికాలు"
+
+#: ../src/gsearchtool.c:2171
+msgid "Select a search option from the drop-down list."
+msgstr "కిందికి లాగు జాబితా నుండి అన్వేషణ ఐచ్చికంను ఎంచుకొను"
+
+#: ../src/gsearchtool.c:2183
+msgid "Add search option"
+msgstr "అన్వేషణ ఐచ్చికం చేర్చుము"
+
+#: ../src/gsearchtool.c:2184
+msgid "Click to add the selected available search option."
+msgstr "ఎంచుకొనబడిన లభ్యత కల్గిన అన్వేషణ ఐచ్చికంను చేర్చుటకు నొక్కుము. "
+
+#: ../src/gsearchtool.c:2273
+msgid "S_earch results:"
+msgstr "అన్వేషించిన ఫలితాలు(_e):"
+
+#: ../src/gsearchtool.c:2317
+msgid "List View"
+msgstr "జాబితా దర్శనం"
+
+#: ../src/gsearchtool.c:2377
+msgid "Name"
+msgstr "పేరు"
+
+#: ../src/gsearchtool.c:2401
+msgid "Folder"
+msgstr "సంచయము"
+
+#: ../src/gsearchtool.c:2414
+msgid "Size"
+msgstr "పరిమాణం"
+
+#: ../src/gsearchtool.c:2426
+msgid "Type"
+msgstr "విధం, రకము"
+
+#: ../src/gsearchtool.c:2438
+msgid "Date Modified"
+msgstr "తేది మార్చబడినది"
+
+#: ../src/gsearchtool.c:2757
+msgid "_Name contains:"
+msgstr "పేరు కలిగివున్నది(_N):"
+
+#: ../src/gsearchtool.c:2771 ../src/gsearchtool.c:2772
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr ""
+"wildcards తోగాని లేకుండాగాని ఫైలు పేరుతో లేదా పాక్షిక ఫైలు పేరుతో "
+"ప్రవేశపెట్టండి."
+
+#: ../src/gsearchtool.c:2772
+msgid "Name contains"
+msgstr "పేరు కలిగివున్నది"
+
+#: ../src/gsearchtool.c:2778
+msgid "_Look in folder:"
+msgstr "సంచయములో చూడుము(_L):"
+
+#: ../src/gsearchtool.c:2784
+msgid "Browse"
+msgstr "అన్వేషించు"
+
+#: ../src/gsearchtool.c:2793
+msgid "Look in folder"
+msgstr "సంచయం లో చూడుము"
+
+#: ../src/gsearchtool.c:2793
+msgid "Select the folder or device from which you want to begin the search."
+msgstr ""
+"దేనినుండైతే మీరు అన్వేషణ ప్రారంభించాలని అనుకుంటున్నారో ఆ ఫైలుని కాని లేదా "
+"పరికరాన్ని కాని ఎంపకచేసుకొనండి."
+
+#: ../src/gsearchtool.c:2811
+msgid "Select more _options"
+msgstr "చాలా ఐచ్చికాలు ఎంచుకొను(_o)"
+
+#: ../src/gsearchtool.c:2820
+msgid "Select more options"
+msgstr "చాలా ఐచ్చికాలు"
+
+#: ../src/gsearchtool.c:2820
+msgid "Click to expand or collapse the list of available options."
+msgstr ""
+"లభ్యత కల్గిన ఐచ్చికముల యొక్క జాబితాను పొడగించుటకు లేదా  నాశనము చేయుటకు "
+"నొక్కుము."
+
+#: ../src/gsearchtool.c:2844
+msgid "Click to display the help manual."
+msgstr "సహాయ నిర్థేశికత ప్రదర్శించుటకు నొక్కుము"
+
+#: ../src/gsearchtool.c:2852
+msgid "Click to close \"Search for Files\"."
+msgstr "మూయుటకు నొక్కుము \"ఫైళ్ళ కొరకు అన్వేషణ\"."
+
+#: ../src/gsearchtool.c:2878
+msgid "Click to perform a search."
+msgstr "అన్వేషించుటను నెరవేర్చుటకు నొక్కుము"
+
+#: ../src/gsearchtool.c:2879
+msgid "Click to stop a search."
+msgstr "అన్వేషించుటను ఆపివేయుటకు నొక్కుము"
+
+#: ../src/gsearchtool.c:2972
+msgid "- the GNOME Search Tool"
+msgstr "- GNOME అన్వేషణ సాధనం"
+
+#: ../src/gsearchtool.c:2981
+#, c-format
+msgid "Failed to parse command line arguments: %s\n"
+msgstr "%s:కమాండ్ లైన్ వాదనలు అన్వయించడం విఫలమైనది \n"
+
+#: ../src/gsearchtool-callbacks.c:197
+msgid "Could not open help document."
+msgstr "సహాయ పత్రమును తెరుచుటకు వీలుకాదు"
+
+#: ../src/gsearchtool-callbacks.c:344
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "మీరు %d పత్రమును తెరుచుటకు నిశ్చయమై ఉన్నారా?"
+msgstr[1] "మీరు %d పత్రములను తెరుచుటకు నిశ్చయమై ఉన్నారా?"
+
+#: ../src/gsearchtool-callbacks.c:349 ../src/gsearchtool-callbacks.c:534
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "ఇది %d ప్రత్యక విండోమును తెరుస్తుంది."
+msgstr[1] "ఇది %d ప్రత్యక విండోలను తెరుస్తుంది."
+
+#: ../src/gsearchtool-callbacks.c:385
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "\"%s\" పత్రమును తెరుచుటకు వీలుకాదు."
+
+#: ../src/gsearchtool-callbacks.c:410
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "\"%s\" సంచయమును తెరుచుటకు వీలుకాదు."
+
+#: ../src/gsearchtool-callbacks.c:418
+msgid "The nautilus file manager is not running."
+msgstr "నాటిలస్ ఫైలు నిర్వాహిక నడుచుటలేదు."
+
+#: ../src/gsearchtool-callbacks.c:491 ../src/gsearchtool-callbacks.c:814
+msgid "The document does not exist."
+msgstr "పత్రం కలిగిలేదు."
+
+#: ../src/gsearchtool-callbacks.c:506
+msgid "There is no installed viewer capable of displaying the document."
+msgstr "సామర్థ్యముగల పత్రమును ప్రదర్శించుటకు నెలకొల్పబడిన దర్శిని లేదు."
+
+#: ../src/gsearchtool-callbacks.c:529
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "మీరు %d సంచయమును తెరుచుటకు నిశ్చయమై ఉన్నారా?"
+msgstr[1] "మీరు %d సంచయములను తెరుచుటకు నిశ్చయమై ఉన్నారా?"
+
+#: ../src/gsearchtool-callbacks.c:678
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "\"%s\" ను చెత్తకుండి కి కదిపించలేము."
+
+#: ../src/gsearchtool-callbacks.c:705
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "\"%s\" ను నీవు శాశ్వతంగా తొలగించదలచుకున్నావా?"
+
+#: ../src/gsearchtool-callbacks.c:708
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr "చెత్తకుండి లభించలేదు. \"%s\" ను చెత్తకుండికి కదిపించలేము."
+
+#: ../src/gsearchtool-callbacks.c:743
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "\"%s\" ను తొలగించలేము."
+
+#: ../src/gsearchtool-callbacks.c:850
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "\"%s\" తొలగించుటకు విఫలమైనది : %s."
+
+#: ../src/gsearchtool-callbacks.c:862
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "\"%s\"ను కదిపించుట విఫలమైనది: %s."
+
+#. Popup menu item: Open
+#: ../src/gsearchtool-callbacks.c:990 ../src/gsearchtool-callbacks.c:1020
+msgid "_Open"
+msgstr "తెరచు(_O)"
+
+#. Popup menu item: Open with (default)
+#: ../src/gsearchtool-callbacks.c:1045
+#, c-format
+msgid "_Open with %s"
+msgstr "%s తో తెరువుము (_O)"
+
+#: ../src/gsearchtool-callbacks.c:1080
+#, c-format
+msgid "Open with %s"
+msgstr "%s తో తెరువుము"
+
+#. Popup menu item: Open With
+#: ../src/gsearchtool-callbacks.c:1113
+msgid "Open Wit_h"
+msgstr "దీనితో తెరువుము (_h)"
+
+#. Popup menu item: Open Containing Folder
+#: ../src/gsearchtool-callbacks.c:1158
+msgid "Open Containing _Folder"
+msgstr "సంచయం కలిగి ఉన్నదా తెరువు(_F)"
+
+#: ../src/gsearchtool-callbacks.c:1176
+msgid "Mo_ve to Trash"
+msgstr "చెత్తకుండి కి స్థానాన్ని మార్చుము(_v)"
+
+#: ../src/gsearchtool-callbacks.c:1198
+msgid "_Save Results As..."
+msgstr "లా ఫలితములు దాచు(_S)..."
+
+#: ../src/gsearchtool-callbacks.c:1580
+msgid "Save Search Results As..."
+msgstr "అన్వేషణ ఫలితాలను లా దాచు..."
+
+#: ../src/gsearchtool-callbacks.c:1611
+msgid "Could not save document."
+msgstr "పత్రమును దాచుటకు వీలుకాదు."
+
+#: ../src/gsearchtool-callbacks.c:1612
+msgid "You did not select a document name."
+msgstr "మీరు పత్ర పేరును ఎంచుకొనలేదు."
+
+#: ../src/gsearchtool-callbacks.c:1638
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "\"%s\" పత్రంకు \"%s\" ను దాచలేము."
+
+#: ../src/gsearchtool-callbacks.c:1668
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr ""
+"పత్రం \"%s\" ఇదివరకే కలిగివున్నది. మీరు దాన్ని పునఃస్థాపించుటకు "
+"ఇష్టపడుతున్నారా?"
+
+#: ../src/gsearchtool-callbacks.c:1672
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr ""
+"మీరు కలిగివున్న ఫైలును పునఃస్థాపించినట్టయితే, దాని విషయములు చెరిపిరాయబడును."
+
+#: ../src/gsearchtool-callbacks.c:1683
+msgid "_Replace"
+msgstr "పునఃస్థాపించు(_R)"
+
+#: ../src/gsearchtool-callbacks.c:1733
+msgid "The document name you selected is a folder."
+msgstr "మీరు ఎంచుకున్న పత్ర పేరు సంచయం"
+
+#: ../src/gsearchtool-callbacks.c:1771
+msgid "You may not have write permissions to the document."
+msgstr "మీకు పత్రమునకు వ్రాయుటకు అనుమతులు లేవు."
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../src/gsearchtool-support.c:452
+msgid "today at %-I:%M %p"
+msgstr "ఈ రోజు %-I:%M %p"
+
+#: ../src/gsearchtool-support.c:454
+msgid "yesterday at %-I:%M %p"
+msgstr "నిన్న %-I:%M %p"
+
+#: ../src/gsearchtool-support.c:456 ../src/gsearchtool-support.c:458
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%A, %B %-d %Y at %-I:%M:%S %p"
+
+#: ../src/gsearchtool-support.c:645
+msgid "link (broken)"
+msgstr "లంకె (విరిగినది)"
+
+#: ../src/gsearchtool-support.c:649
+#, c-format
+msgid "link to %s"
+msgstr "%s కు లంకె"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../src/gsearchtool-support.c:1268
+msgid " (copy)"
+msgstr "(నకలు)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../src/gsearchtool-support.c:1270
+msgid " (another copy)"
+msgstr "(వేరొక నకలు)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../src/gsearchtool-support.c:1273 ../src/gsearchtool-support.c:1275
+#: ../src/gsearchtool-support.c:1277 ../src/gsearchtool-support.c:1287
+msgid "th copy)"
+msgstr "th నకలు)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../src/gsearchtool-support.c:1280
+msgid "st copy)"
+msgstr "st నకలు)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../src/gsearchtool-support.c:1282
+msgid "nd copy)"
+msgstr "nd నకలు)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../src/gsearchtool-support.c:1284
+msgid "rd copy)"
+msgstr "rd నకలు)"
+
+#. localizers: appended to first file copy
+#: ../src/gsearchtool-support.c:1301
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (నకలు)%s"
+
+#. localizers: appended to second file copy
+#: ../src/gsearchtool-support.c:1303
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (వేరొక నకలు)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../src/gsearchtool-support.c:1306 ../src/gsearchtool-support.c:1308
+#: ../src/gsearchtool-support.c:1310 ../src/gsearchtool-support.c:1319
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (%dth నకలు)%s"
+
+#. localizers: appended to x1st file copy
+#: ../src/gsearchtool-support.c:1313
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (%dst నకలు)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../src/gsearchtool-support.c:1315
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (%dnd నకలు)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../src/gsearchtool-support.c:1317
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (%drd నకలు)%s"
+
+#: ../src/gsearchtool-support.c:1364
+msgid " (invalid Unicode)"
+msgstr "(నిస్సారమైన యునికోడ్)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../src/gsearchtool-support.c:1453
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../src/gsearchtool-support.c:1461
+#, c-format
+msgid " (%d"
+msgstr " (%d"
+
+#: ../libeggsmclient/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "ఫైలు చెల్లునటువంటి .desktop ఫైలు కాదు"
+
+#: ../libeggsmclient/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "గుర్తించబడని డెస్కుటాప్ ఫైల్ వర్షన్ '%s'"
+
+#: ../libeggsmclient/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "%s ప్రారంభించుచున్నది"
+
+#: ../libeggsmclient/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "అనువర్తనము ఆదేశ వరుసనందు పత్రములను ఆమోదించదు"
+
+#: ../libeggsmclient/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "గుర్తించబడని ఆరంభ ఐచ్చికము: %d"
+
+#: ../libeggsmclient/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "పత్రము URIలను 'Type=Link' డెస్కుటాప్ ప్రవేశమునకు పంపలేదు"
+
+#: ../libeggsmclient/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "ఆరంభించదగు అంశము కాదు"
+
+#: ../libeggsmclient/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "అనుసంధానమును సెషన్‌కు నిర్వాహికకు అచేతనముచేయి"
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "దాచిన ఆకృతీకరణను కలిగివున్న ఫైలును తెలుపుము"
+
+#: ../libeggsmclient/eggsmclient.c:228
+msgid "FILE"
+msgstr "ఫైలు"
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "సెషన్ నిర్వాహిక ID తెలుపుము"
+
+#: ../libeggsmclient/eggsmclient.c:231
+msgid "ID"
+msgstr "ID"
+
+#: ../libeggsmclient/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "సెషన్ నిర్వాహిక ఐచ్చికములు:"
+
+#: ../libeggsmclient/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "సెషన్ నిర్వాహిక ఐచ్చికములను చూపుము"
+
+#~ msgid "Select the search option \"Contains the text\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"పాఠం కల్గినటువంటి\""
+
+#~ msgid "Select the search option \"Date modified less than\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"తేది మార్చబడినదాని కన్నా తక్కువ\""
+
+#~ msgid "Select the search option \"Date modified more than\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"తేది మార్చబడినదాని కన్నా ఎక్కువ\""
+
+#~ msgid "Select the search option \"Exclude other filesystems\""
+#~ msgstr "అన్వేషణ ఐచ్చికము \"వేరే దస్త్ర వ్యవస్థలను తీసివేయి\"ను ఎంచుకొనుము"
+
+#~ msgid "Select the search option \"File is empty\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"ఫైలు ఖాళీగా ఉంది\""
+
+#~ msgid "Select the search option \"Follow symbolic links\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"చిహ్న పూరితలంకెని అనుసరించు\""
+
+#~ msgid "Select the search option \"Name does not contain\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"పేరులు కలిగిలేవు\""
+
+#~ msgid "Select the search option \"Name matches regular expression\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"సాధారణ వ్యక్తికరణ పేరు ఉపమించును\""
+
+#~ msgid "Select the search option \"Owned by group\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"సమూహం ద్వారా స్వకీయమైన\""
+
+#~ msgid "Select the search option \"Owned by user\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"వాడుకరి ద్వారా స్వకీయమైన\""
+
+#~ msgid "Select the search option \"Owner is unrecognized\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"యజమాని గుర్తింపులేనివాడు\""
+
+#~ msgid "Select the search option \"Show hidden files and folders\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"దాచబడిన సంచయములు మరియు ఫైళ్ళను చూపుము\""
+
+#~ msgid "Select the search option \"Size at least\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"తక్కువ పరిమాణం వద్ద\""
+
+#~ msgid "Select the search option \"Size at most\""
+#~ msgstr "అన్వేషణ ఐచ్చికమును ఎంచుకొనుము \"చాలా పరిమాణం వద్ద\""
+
+#~ msgid ""
+#~ "This key determines if the \"Select more options\" section is expanded "
+#~ "when the search tool is started."
+#~ msgstr ""
+#~ "అన్వేషణ సాధనం ప్రారంభించబడినప్పుడు \"ఎక్కువ ఐచ్చికాలను ఎంపికచేసుకొనుము\" ప్రకరణము "
+#~ "విస్తరించబడిఉంటే ఈ మీట నిశ్చయించబడుతుంది."
+
+#~ msgid ""
+#~ "GConf error:\n"
+#~ "  %s"
+#~ msgstr ""
+#~ "GConf దోషము:\n"
+#~ "  %s"
