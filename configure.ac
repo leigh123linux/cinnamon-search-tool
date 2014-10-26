@@ -1,9 +1,9 @@
 dnl -*- mode: m4 -*-
 AC_PREREQ([2.63])
-AC_INIT([gnome-search-tool],
+AC_INIT([cinnamon-search-tool],
         [3.6.1],
-        [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-search-tools],
-        [gnome-search-tool])
+        [http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-search-tools],
+        [cinnamon-search-tool])
 
 AC_CONFIG_HEADERS(config.h)
 AC_CONFIG_MACRO_DIR([m4])
@@ -69,9 +69,9 @@ AC_ARG_WITH([grep],
                            [Specify where to find the grep binary]),
             [
               AS_IF([test x$withval != x],
-                    [AC_MSG_RESULT(${withval} is used for gnome-search-tool.)],
+                    [AC_MSG_RESULT(${withval} is used for cinnamon-search-tool.)],
 
-                    [AC_MSG_RESULT(grep is used for gnome-search-tool.)]
+                    [AC_MSG_RESULT(grep is used for cinnamon-search-tool.)]
               )
             ])
 
@@ -108,7 +108,7 @@ AC_OUTPUT
 dnl ==========================================================================
 echo "
 
-        GNOME Search Tool $VERSION
+        CINNAMON Search Tool $VERSION
         ==========================
 
         prefix:    ${prefix}

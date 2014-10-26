@@ -1,6 +1,6 @@
 # translation of gnome-utils.gnome-2-14.ro.po to Română
 # translation of gnome-utils.HEAD.ro.po to
-# Romanian translation for GNOME Utils
+# Romanian translation for CINNAMON Utils
 # Copyright (C) 1999,2003, 2004, 2005, 2006 Free Software Foundation, Inc.
 # Iustin Pop <iusty@geocities.com>
 # Dan Damian <dand@dnttm.ro>, 1999, 2001.
@@ -23,146 +23,146 @@ msgstr ""
 "20)) ? 1 : 2);;\n"
 "X-Generator: Virtaal 0.6.1\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
 msgstr "Găsiți documente și dosare pe acest calculator după nume sau conținut"
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Search for Files..."
 msgstr "Căutare fișiere..."
 
-#: ../data/gnome-search-tool.schemas.in.h:1
+#: ../data/cinnamon-search-tool.schemas.in.h:1
 msgid "Default Window Height"
 msgstr "Înălțimea implicită a ferestrei"
 
-#: ../data/gnome-search-tool.schemas.in.h:2
+#: ../data/cinnamon-search-tool.schemas.in.h:2
 msgid "Default Window Maximized"
 msgstr "Fereastra implicită maximizată"
 
-#: ../data/gnome-search-tool.schemas.in.h:3
+#: ../data/cinnamon-search-tool.schemas.in.h:3
 msgid "Default Window Width"
 msgstr "Lățimea implicită a ferestrei"
 
-#: ../data/gnome-search-tool.schemas.in.h:4
+#: ../data/cinnamon-search-tool.schemas.in.h:4
 msgid "Disable Quick Search"
 msgstr "Dezactivare căutare rapidă"
 
-#: ../data/gnome-search-tool.schemas.in.h:5
+#: ../data/cinnamon-search-tool.schemas.in.h:5
 msgid "Disable Quick Search Second Scan"
 msgstr "Dezactivează a doua scanare pentru căutare rapidă"
 
-#: ../data/gnome-search-tool.schemas.in.h:6
+#: ../data/cinnamon-search-tool.schemas.in.h:6
 msgid "Look in Folder"
 msgstr "Caută în dosar"
 
-#: ../data/gnome-search-tool.schemas.in.h:7
+#: ../data/cinnamon-search-tool.schemas.in.h:7
 msgid "Quick Search Excluded Paths"
 msgstr "Căi excluse pentru căutări rapide"
 
-#: ../data/gnome-search-tool.schemas.in.h:8
+#: ../data/cinnamon-search-tool.schemas.in.h:8
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Căi excluse pentru a doua scanare pentru căutări rapide"
 
-#: ../data/gnome-search-tool.schemas.in.h:9
+#: ../data/cinnamon-search-tool.schemas.in.h:9
 msgid "Search Result Columns Order"
 msgstr "Ordinea coloanelor la rezultatul căutării"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:12
+#: ../data/cinnamon-search-tool.schemas.in.h:12
 msgid "Select the search option \"Contains the text\""
 msgstr "Selectează opțiunea de căutare „Conține textul”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:15
+#: ../data/cinnamon-search-tool.schemas.in.h:15
 msgid "Select the search option \"Date modified less than\""
 msgstr "Selectează opțiunea de căutare „Data modificării mai mică decât”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:18
+#: ../data/cinnamon-search-tool.schemas.in.h:18
 msgid "Select the search option \"Date modified more than\""
 msgstr "Selectează opțiunea de căutare „Data modificării mai mare decât”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:21
+#: ../data/cinnamon-search-tool.schemas.in.h:21
 msgid "Select the search option \"Exclude other filesystems\""
 msgstr "Selectează opțiunea de căutare „Exclude alte sisteme de fișiere”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:24
+#: ../data/cinnamon-search-tool.schemas.in.h:24
 msgid "Select the search option \"File is empty\""
 msgstr "Selectează opțiunea de căutare „Fișierul este gol”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:27
+#: ../data/cinnamon-search-tool.schemas.in.h:27
 msgid "Select the search option \"Follow symbolic links\""
 msgstr "Selectează opțiunea de căutare „Urmează legăturile simbolice”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:30
+#: ../data/cinnamon-search-tool.schemas.in.h:30
 msgid "Select the search option \"Name does not contain\""
 msgstr "Selectează opțiunea de căutare „Numele nu conține”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:33
+#: ../data/cinnamon-search-tool.schemas.in.h:33
 msgid "Select the search option \"Name matches regular expression\""
 msgstr ""
 "Selectează opțiunea de căutare „Fișierul corespunde expresiei regulate”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:36
+#: ../data/cinnamon-search-tool.schemas.in.h:36
 msgid "Select the search option \"Owned by group\""
 msgstr "Selectează opțiunea de căutare „Deținut de grup”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:39
+#: ../data/cinnamon-search-tool.schemas.in.h:39
 msgid "Select the search option \"Owned by user\""
 msgstr "Selectează opțiunea de căutare „Deținut de utilizator”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:42
+#: ../data/cinnamon-search-tool.schemas.in.h:42
 msgid "Select the search option \"Owner is unrecognized\""
 msgstr "Selectează opțiunea de căutare „Proprietarul nu a fost recunoscut”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:45
+#: ../data/cinnamon-search-tool.schemas.in.h:45
 msgid "Select the search option \"Show hidden files and folders\""
 msgstr "Selectează opțiunea de căutare „Arată fișierele și dosarele ascunse”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:48
+#: ../data/cinnamon-search-tool.schemas.in.h:48
 msgid "Select the search option \"Size at least\""
 msgstr "Selectează opțiunea de căutare „Mărimea de cel puțin”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:51
+#: ../data/cinnamon-search-tool.schemas.in.h:51
 msgid "Select the search option \"Size at most\""
 msgstr "Selectează opțiunea de căutare „Mărimea de cel mult”"
 
-#: ../data/gnome-search-tool.schemas.in.h:52
+#: ../data/cinnamon-search-tool.schemas.in.h:52
 msgid "Show Additional Options"
 msgstr "Afișează opțiuni suplimentare"
 
-#: ../data/gnome-search-tool.schemas.in.h:53
+#: ../data/cinnamon-search-tool.schemas.in.h:53
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr ""
 "Această cheie definește valoarea implicită pentru miniaplicația „Caută în "
 "dosar”"
 
-#: ../data/gnome-search-tool.schemas.in.h:54
+#: ../data/cinnamon-search-tool.schemas.in.h:54
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -170,7 +170,7 @@ msgstr ""
 "Această cheie definește ordinea coloanelor din rezultatele căutării. Această "
 "cheie nu ar trebui să fie modificată de către utilizator."
 
-#: ../data/gnome-search-tool.schemas.in.h:55
+#: ../data/cinnamon-search-tool.schemas.in.h:55
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -180,7 +180,7 @@ msgstr ""
 "la o căutare rapidă. Metacaracterele „*” și „?” sunt suportate. Valorile "
 "implicite sunt /mnt/* , /media/*, /dev/*, /tmp/*, /proc/*, și /var/*."
 
-#: ../data/gnome-search-tool.schemas.in.h:56
+#: ../data/cinnamon-search-tool.schemas.in.h:56
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -194,7 +194,7 @@ msgstr ""
 "de a găsi fișierele ce nu au fost indexate. Metacaracterele „*” și „?” sunt "
 "suportate. Valorile implicite /."
 
-#: ../data/gnome-search-tool.schemas.in.h:57
+#: ../data/cinnamon-search-tool.schemas.in.h:57
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -204,7 +204,7 @@ msgstr ""
 "memora dimensiunea aplicației de căutare între sesiuni. Setând-o la -1 veți "
 "determina aplicația să folosească înălțimea implicită."
 
-#: ../data/gnome-search-tool.schemas.in.h:58
+#: ../data/cinnamon-search-tool.schemas.in.h:58
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -214,7 +214,7 @@ msgstr ""
 "dimensiunea aplicației de căutare între sesiuni. Setând-o la -1 veți "
 "determina aplicația să folosească lățimea implicită."
 
-#: ../data/gnome-search-tool.schemas.in.h:59
+#: ../data/cinnamon-search-tool.schemas.in.h:59
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -222,7 +222,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Conține textul” este "
 "selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:60
+#: ../data/cinnamon-search-tool.schemas.in.h:60
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -230,7 +230,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Data modificării mai mică "
 "decât” este selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:61
+#: ../data/cinnamon-search-tool.schemas.in.h:61
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -238,7 +238,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Data modificării mai mare "
 "decât” este selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:62
+#: ../data/cinnamon-search-tool.schemas.in.h:62
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -246,7 +246,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Exclude alte sisteme de "
 "fișiere” este selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:63
+#: ../data/cinnamon-search-tool.schemas.in.h:63
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -254,7 +254,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Fișierul este gol” este "
 "selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:64
+#: ../data/cinnamon-search-tool.schemas.in.h:64
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -262,7 +262,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Urmează legăturile "
 "simbolice” este selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:65
+#: ../data/cinnamon-search-tool.schemas.in.h:65
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -270,7 +270,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Numele nu conține” este "
 "selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:66
+#: ../data/cinnamon-search-tool.schemas.in.h:66
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -278,7 +278,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Numele se potrivește "
 "expresiei regulate” este selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:67
+#: ../data/cinnamon-search-tool.schemas.in.h:67
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -286,7 +286,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Deținut de grupul” este "
 "selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:68
+#: ../data/cinnamon-search-tool.schemas.in.h:68
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -294,7 +294,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Deținut de utilizatorul” "
 "este selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:69
+#: ../data/cinnamon-search-tool.schemas.in.h:69
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -304,7 +304,7 @@ msgstr ""
 
 #. Translators: The quoted text is the label of the additional
 #. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:72
+#: ../data/cinnamon-search-tool.schemas.in.h:72
 msgid ""
 "This key determines if the \"Select more options\" section is expanded when "
 "the search tool is started."
@@ -312,7 +312,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Arată mai multe opțiuni” "
 "este selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:73
+#: ../data/cinnamon-search-tool.schemas.in.h:73
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -320,7 +320,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Arată fișierele și "
 "dosarele ascunse” este selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:74
+#: ../data/cinnamon-search-tool.schemas.in.h:74
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -328,7 +328,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Mărimea de cel puțin” este "
 "selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:75
+#: ../data/cinnamon-search-tool.schemas.in.h:75
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -336,7 +336,7 @@ msgstr ""
 "Această cheie determină dacă opțiunea de căutare „Mărimea de cel mult” este "
 "selectată la pornirea utilitarului de căutare."
 
-#: ../data/gnome-search-tool.schemas.in.h:76
+#: ../data/cinnamon-search-tool.schemas.in.h:76
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -344,7 +344,7 @@ msgstr ""
 "Această cheie determină dacă utilitarul de căutare dezactivează utilizarea "
 "comenzii find după o căutare rapidă."
 
-#: ../data/gnome-search-tool.schemas.in.h:77
+#: ../data/cinnamon-search-tool.schemas.in.h:77
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -352,7 +352,7 @@ msgstr ""
 "Această cheie determină dacă utilitarul de căutare dezativează folosirea "
 "comenzii locate pentru căutări simple de fișiere."
 
-#: ../data/gnome-search-tool.schemas.in.h:78
+#: ../data/cinnamon-search-tool.schemas.in.h:78
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr "Această cheie determină dacă utilitarul de căutare va porni maximizat."
@@ -1004,8 +1004,8 @@ msgid "Click to stop a search."
 msgstr "Clic pentru a opri o căutare."
 
 #: ../src/gsearchtool.c:2961
-msgid "- the GNOME Search Tool"
-msgstr "- unealta de căutare GNOME"
+msgid "- the CINNAMON Search Tool"
+msgstr "- unealta de căutare CINNAMON"
 
 #: ../src/gsearchtool.c:2970
 #, c-format

@@ -31,37 +31,37 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Search for Files..."
 msgstr "Nach Dateien suchen …"
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
 msgstr "Dateien und Ordner auf diesem Computer nach Namen oder Inhalt suchen"
 
-#: ../data/gnome-search-tool.desktop.in.h:3
+#: ../data/cinnamon-search-tool.desktop.in.h:3
 msgid "find;locate;look for;seek;"
 msgstr "finden;suchen;lokalisieren;"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:1
 msgid "Search history"
 msgstr "Suchchronik"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:2
 msgid "This key defines the items which were searched for in the past."
 msgstr ""
 "Dieser Schlüssel legt die Objekte fest, nach welchen in der Vergangenheit "
 "gesucht wurde."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
 msgstr "Zusätzliche Optionen anzeigen"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
 msgstr "Schnellsuche deaktivieren"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:5
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -69,11 +69,11 @@ msgstr ""
 "Dieser Schlüssel deaktiviert die Verwendung des locate-Befehls wenn eine "
 "einfache Suche nach Dateinamen durchgeführt wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "Ausgelassene Pfade bei schneller Suche"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:7
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -83,11 +83,11 @@ msgstr ""
 "ausgelassen werden. Die Joker-Zeichen »*« und »?« werden unterstützt. Der "
 "Standardwert ist »/mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, /var/*«."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "Zweiten Durchlauf der Schnellsuche deaktivieren"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:9
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -95,11 +95,11 @@ msgstr ""
 "Dieser Schlüssel deaktiviert die Verwendung des find-Befehls nach einer "
 "Schnellsuche."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Ausgelassene Pfade beim zweiten Suchlauf einer schnellen Suche"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:11
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -112,11 +112,11 @@ msgstr ""
 "find-Kommando, um auch Dateien zu finden, die nicht indiziert wurden. Die "
 "Joker-Zeichen »*« und »?« werden unterstützt. Der Standardwerte ist »/«."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "Reihenfolge der Spalten der Suchergebnisse"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:13
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -124,11 +124,11 @@ msgstr ""
 "Dieser Schlüssel legt die Reihenfolge der Spalten der Suchergebnisse fest. "
 "Dieser Schlüssel sollte nicht von Benutzern geändert werden."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "Vorgabebreite des Fensters"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:15
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -138,11 +138,11 @@ msgstr ""
 "bei weiteren Starts wiederhergestellt werden kann. Bei einem Wert von »-1« "
 "wird die Vorgabebreite verwendet."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "Vorgabehöhe des Fensters"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:17
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -152,25 +152,25 @@ msgstr ""
 "bei weiteren Starts wiederhergestellt werden kann. Bei einem Wert von »-1« "
 "wird die Vorgabehöhe verwendet."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "Fenster maximiert öffnen"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:19
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr "Dieser Schlüssel legt fest ob die Suchfunktion maximiert startet."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
 msgstr "Ordner durchsuchen"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr ""
 "Dieser Schlüssel definiert den Vorgabewert des »Ordner durchsuchen«-Widgets."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:22
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -178,7 +178,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Enthält den Text« ausgewählt ist, "
 "wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:23
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -186,7 +186,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Geändert vor weniger als« "
 "ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:24
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -194,7 +194,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Geändert vor mehr als« ausgewählt "
 "ist, wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:25
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -202,7 +202,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Mindestgröße« ausgewählt ist, "
 "wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:26
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -210,7 +210,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Maximale Größe« ausgewählt ist, "
 "wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:27
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -218,7 +218,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Datei ist leer« ausgewählt ist, "
 "wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:28
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -226,7 +226,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Gehört Benutzer« ausgewählt ist, "
 "wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:29
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -234,7 +234,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Gehört Gruppe« ausgewählt ist, "
 "wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:30
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -242,7 +242,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Besitzer ist unbekannt« "
 "ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:31
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -250,7 +250,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Name enthält nicht« ausgewählt "
 "ist, wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:32
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -258,7 +258,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Dateiname stimmt mit regulärem "
 "Ausdruck überein« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:33
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -266,7 +266,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Versteckte Dateien und Ordner "
 "anzeigen« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:34
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -274,7 +274,7 @@ msgstr ""
 "Dieser Schlüssel legt fest, ob die Option »Symbolischen Verknüpfungen "
 "folgen« ausgewählt ist, wenn das Suchwerkzeug gestartet wird."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:35
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -651,8 +651,8 @@ msgid "Click to stop a search."
 msgstr "Klicken Sie hier, um die Suche anzuhalten"
 
 #: ../src/gsearchtool.c:2972
-msgid "- the GNOME Search Tool"
-msgstr "- das GNOME-Suchwerkzeug"
+msgid "- the CINNAMON Search Tool"
+msgstr "- das CINNAMON-Suchwerkzeug"
 
 #: ../src/gsearchtool.c:2981
 #, c-format

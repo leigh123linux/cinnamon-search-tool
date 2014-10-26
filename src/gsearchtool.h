@@ -46,7 +46,7 @@ extern "C" {
 #define GSEARCH_WINDOW_GET_CLASS(obj) \
   (G_TYPE_INSTANCE_GET_CLASS ((obj), GSEARCH_TYPE_WINDOW, GSearchWindowClass))
 
-#define GNOME_SEARCH_TOOL_ICON "system-search"
+#define CINNAMON_SEARCH_TOOL_ICON "system-search"
 #define MINIMUM_WINDOW_WIDTH   420
 #define MINIMUM_WINDOW_HEIGHT  310
 #define DEFAULT_WINDOW_WIDTH   554
@@ -66,7 +66,7 @@ typedef enum {
 	SPEED_TRADEOFF_ALWAYS = 0,
 	SPEED_TRADEOFF_LOCAL_ONLY,
 	SPEED_TRADEOFF_NEVER
-} NautilusSpeedTradeoff;
+} NemoSpeedTradeoff;
 
 typedef enum {
 	COLUMN_ICON,
@@ -142,10 +142,10 @@ struct _GSearchWindow {
 
 	gchar                 * save_results_as_default_filename;
 
-	GSettings             * gnome_search_tool_settings;
-	GSettings             * gnome_search_tool_select_settings;
-	GSettings             * gnome_desktop_interface_settings;
-	GSettings             * nautilus_settings;
+	GSettings             * cinnamon_search_tool_settings;
+	GSettings             * cinnamon_search_tool_select_settings;
+	GSettings             * cinnamon_desktop_interface_settings;
+	GSettings             * nemo_settings;
 
 	GSearchCommandDetails * command_details;
 };

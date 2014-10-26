@@ -25,144 +25,144 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "Etsi asiakirjoja tai kansioita tietokoneelta nimen tai sisällön perusteella"
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Search for Files..."
 msgstr "Etsi tiedostoja…"
 
-#: ../data/gnome-search-tool.schemas.in.h:1
+#: ../data/cinnamon-search-tool.schemas.in.h:1
 msgid "Default Window Height"
 msgstr "Ikkunan oletuskorkeus"
 
-#: ../data/gnome-search-tool.schemas.in.h:2
+#: ../data/cinnamon-search-tool.schemas.in.h:2
 msgid "Default Window Maximized"
 msgstr "Onko ikkuna suurennettu oletuksena"
 
-#: ../data/gnome-search-tool.schemas.in.h:3
+#: ../data/cinnamon-search-tool.schemas.in.h:3
 msgid "Default Window Width"
 msgstr "Ikkunan oletusleveys"
 
-#: ../data/gnome-search-tool.schemas.in.h:4
+#: ../data/cinnamon-search-tool.schemas.in.h:4
 msgid "Disable Quick Search"
 msgstr "Poista pikaetsintä käytöstä"
 
-#: ../data/gnome-search-tool.schemas.in.h:5
+#: ../data/cinnamon-search-tool.schemas.in.h:5
 msgid "Disable Quick Search Second Scan"
 msgstr "Poista pikaetsinnän toinen haku käytöstä"
 
-#: ../data/gnome-search-tool.schemas.in.h:6
+#: ../data/cinnamon-search-tool.schemas.in.h:6
 msgid "Look in Folder"
 msgstr "Etsi kansiosta"
 
-#: ../data/gnome-search-tool.schemas.in.h:7
+#: ../data/cinnamon-search-tool.schemas.in.h:7
 msgid "Quick Search Excluded Paths"
 msgstr "Pikaetsinnästä pois jätettävät polut"
 
-#: ../data/gnome-search-tool.schemas.in.h:8
+#: ../data/cinnamon-search-tool.schemas.in.h:8
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Pikaetsinnän toisesta hausta pois jätettävät polut"
 
-#: ../data/gnome-search-tool.schemas.in.h:9
+#: ../data/cinnamon-search-tool.schemas.in.h:9
 msgid "Search Result Columns Order"
 msgstr "Hakutulosten sarakejärjestys"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:12
+#: ../data/cinnamon-search-tool.schemas.in.h:12
 msgid "Select the search option \"Contains the text\""
 msgstr "Valitse hakuehto ”sisältää tekstin”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:15
+#: ../data/cinnamon-search-tool.schemas.in.h:15
 msgid "Select the search option \"Date modified less than\""
 msgstr "Valitse hakuehto ”muokattu myöhemmin kuin”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:18
+#: ../data/cinnamon-search-tool.schemas.in.h:18
 msgid "Select the search option \"Date modified more than\""
 msgstr "Valitse hakuehto ”muokattu aiemmin kuin”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:21
+#: ../data/cinnamon-search-tool.schemas.in.h:21
 msgid "Select the search option \"Exclude other filesystems\""
 msgstr "Valitse hakuehto ”älä etsi muista tiedostojärjestelmistä”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:24
+#: ../data/cinnamon-search-tool.schemas.in.h:24
 msgid "Select the search option \"File is empty\""
 msgstr "Valitse hakuehto ”tiedosto on tyhjä”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:27
+#: ../data/cinnamon-search-tool.schemas.in.h:27
 msgid "Select the search option \"Follow symbolic links\""
 msgstr "Valitse hakuehto ”seuraa symbolisia linkkejä”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:30
+#: ../data/cinnamon-search-tool.schemas.in.h:30
 msgid "Select the search option \"Name does not contain\""
 msgstr "Valitse hakuehto ”nimi ei sisällä”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:33
+#: ../data/cinnamon-search-tool.schemas.in.h:33
 msgid "Select the search option \"Name matches regular expression\""
 msgstr "Valitse hakuehto ”nimi täsmää säännölliseen lausekkeeseen”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:36
+#: ../data/cinnamon-search-tool.schemas.in.h:36
 msgid "Select the search option \"Owned by group\""
 msgstr "Valitse hakuehto ”omistajaryhmä”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:39
+#: ../data/cinnamon-search-tool.schemas.in.h:39
 msgid "Select the search option \"Owned by user\""
 msgstr "Valitse hakuehto ”omistaja”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:42
+#: ../data/cinnamon-search-tool.schemas.in.h:42
 msgid "Select the search option \"Owner is unrecognized\""
 msgstr "Valitse hakuehto ”omistaja on tunnistamaton”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:45
+#: ../data/cinnamon-search-tool.schemas.in.h:45
 msgid "Select the search option \"Show hidden files and folders\""
 msgstr "Valitse hakuehto ”näytä piilotiedostot ja -kansiot”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:48
+#: ../data/cinnamon-search-tool.schemas.in.h:48
 msgid "Select the search option \"Size at least\""
 msgstr "Valitse hakuehto ”koko vähintään”"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:51
+#: ../data/cinnamon-search-tool.schemas.in.h:51
 msgid "Select the search option \"Size at most\""
 msgstr "Valitse hakuehto ”koko enintään”"
 
-#: ../data/gnome-search-tool.schemas.in.h:52
+#: ../data/cinnamon-search-tool.schemas.in.h:52
 msgid "Show Additional Options"
 msgstr "Näytä lisää ehtoja"
 
-#: ../data/gnome-search-tool.schemas.in.h:53
+#: ../data/cinnamon-search-tool.schemas.in.h:53
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr "Tämä avain määrittää ”Look in Folder”-elementin oletusarvon."
 
-#: ../data/gnome-search-tool.schemas.in.h:54
+#: ../data/cinnamon-search-tool.schemas.in.h:54
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -170,7 +170,7 @@ msgstr ""
 "Tämä avain määrittelee hakutulosten sarakkeiden järjestyksen. Käyttäjän ei "
 "ole tarkoitus muokata tätä avainta."
 
-#: ../data/gnome-search-tool.schemas.in.h:55
+#: ../data/cinnamon-search-tool.schemas.in.h:55
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -180,7 +180,7 @@ msgstr ""
 "pikaetsinnästä. Hahmoja ”*” ja ”?” voi käyttää. Oletusarvo on /mnt/*, /media/"
 "*, /dev/*, /tmp/*, /proc/*, ja /var/*."
 
-#: ../data/gnome-search-tool.schemas.in.h:56
+#: ../data/cinnamon-search-tool.schemas.in.h:56
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -193,7 +193,7 @@ msgstr ""
 "Toisen haun tarkoituksena on löytää tiedostot, joita pikahaku ei ole "
 "luetellut. Hahmoja ”*” ja ”?” voi käyttää. Oletusarvo on /."
 
-#: ../data/gnome-search-tool.schemas.in.h:57
+#: ../data/cinnamon-search-tool.schemas.in.h:57
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -203,7 +203,7 @@ msgstr ""
 "hakutyökalun koko istuntojen välillä. Jos arvoksi asetetaan -1, käytetään "
 "hakutyökalun oletuskorkeutta."
 
-#: ../data/gnome-search-tool.schemas.in.h:58
+#: ../data/cinnamon-search-tool.schemas.in.h:58
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -213,7 +213,7 @@ msgstr ""
 "hakutyökalun koko istuntojen välillä. Jos arvoksi asetetaan -1, käytetään "
 "hakutyökalun oletusleveyttä."
 
-#: ../data/gnome-search-tool.schemas.in.h:59
+#: ../data/cinnamon-search-tool.schemas.in.h:59
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -221,7 +221,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”sisältää tekstin” valittu "
 "etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:60
+#: ../data/cinnamon-search-tool.schemas.in.h:60
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -229,7 +229,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”muokattu myöhemmin kuin” valittu "
 "etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:61
+#: ../data/cinnamon-search-tool.schemas.in.h:61
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -237,7 +237,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”muokattu aiemmin kuin” valittu "
 "etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:62
+#: ../data/cinnamon-search-tool.schemas.in.h:62
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -245,7 +245,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”älä hae toisista "
 "tiedostojärjestelmistä” valittu etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:63
+#: ../data/cinnamon-search-tool.schemas.in.h:63
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -253,7 +253,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”tiedosto on tyhjä” valittu "
 "etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:64
+#: ../data/cinnamon-search-tool.schemas.in.h:64
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -261,7 +261,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”seuraa symbolisia linkkejä” valittu "
 "etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:65
+#: ../data/cinnamon-search-tool.schemas.in.h:65
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -269,7 +269,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”nimi ei sisällä” valittu "
 "etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:66
+#: ../data/cinnamon-search-tool.schemas.in.h:66
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -277,7 +277,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”nimi täsmää säännölliseen "
 "lausekkeeseen” valittu etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:67
+#: ../data/cinnamon-search-tool.schemas.in.h:67
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -285,7 +285,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”omistajaryhmä” valittu "
 "etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:68
+#: ../data/cinnamon-search-tool.schemas.in.h:68
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -293,7 +293,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”omistaja” valittu etsintätyökalun "
 "käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:69
+#: ../data/cinnamon-search-tool.schemas.in.h:69
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -303,7 +303,7 @@ msgstr ""
 
 #. Translators: The quoted text is the label of the additional
 #. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:72
+#: ../data/cinnamon-search-tool.schemas.in.h:72
 msgid ""
 "This key determines if the \"Select more options\" section is expanded when "
 "the search tool is started."
@@ -311,7 +311,7 @@ msgstr ""
 "Tämä avain määrittelee, onko osio ”Näytä lisää valintoja” laajennettu "
 "etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:73
+#: ../data/cinnamon-search-tool.schemas.in.h:73
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -319,7 +319,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”näytä piilotiedostot- ja kansiot” "
 "valittu etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:74
+#: ../data/cinnamon-search-tool.schemas.in.h:74
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -327,7 +327,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”koko vähintään” valittu "
 "etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:75
+#: ../data/cinnamon-search-tool.schemas.in.h:75
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -335,7 +335,7 @@ msgstr ""
 "Tämä avain määrittelee, onko hakuehto ”koko enintään” valittu "
 "etsintätyökalun käynnistyessä."
 
-#: ../data/gnome-search-tool.schemas.in.h:76
+#: ../data/cinnamon-search-tool.schemas.in.h:76
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -343,7 +343,7 @@ msgstr ""
 "Tämä avain määrittelee, jättääkö etsintätyökalu find-komennon käyttämättä "
 "pikahaun jälkeen."
 
-#: ../data/gnome-search-tool.schemas.in.h:77
+#: ../data/cinnamon-search-tool.schemas.in.h:77
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -351,7 +351,7 @@ msgstr ""
 "Tämä avain määrittelee, jättääkö etsintätyökalu locate-komennon käyttämättä "
 "tehtäessä yksinkertaisia hakuja tiedostonimien perusteella."
 
-#: ../data/gnome-search-tool.schemas.in.h:78
+#: ../data/cinnamon-search-tool.schemas.in.h:78
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr "Tämä avain määrittää, käynnistyykö hakuikkuna suurennetussa tilassa."
@@ -994,7 +994,7 @@ msgid "Click to stop a search."
 msgstr "Napsauta haun pysäyttämiseksi."
 
 #: ../src/gsearchtool.c:2961
-msgid "- the GNOME Search Tool"
+msgid "- the CINNAMON Search Tool"
 msgstr "- Gnomen hakutyökalu"
 
 #: ../src/gsearchtool.c:2970

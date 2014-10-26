@@ -1,6 +1,6 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
- * GNOME Search Tool
+ * CINNAMON Search Tool
  *
  *  File:  gsearchtool-support.c
  *
@@ -52,7 +52,7 @@ GtkTreeViewColumn *
 gsearchtool_gtk_tree_view_get_column_with_sort_column_id (GtkTreeView * treeview,
                                                           gint id);
 
-/* START OF GENERIC GNOME-SEARCH-TOOL FUNCTIONS */
+/* START OF GENERIC CINNAMON-SEARCH-TOOL FUNCTIONS */
 
 gboolean
 is_path_hidden (const gchar * path)
@@ -64,12 +64,12 @@ is_path_hidden (const gchar * path)
 	sub_str = g_strstr_len (path, strlen (path), hidden_path_substr);
 
 	if (sub_str != NULL) {
-		gchar * gnome_desktop_str;
+		gchar * cinnamon_desktop_str;
 
-		gnome_desktop_str = g_strconcat (G_DIR_SEPARATOR_S, ".gnome-desktop", G_DIR_SEPARATOR_S, NULL);
+		cinnamon_desktop_str = g_strconcat (G_DIR_SEPARATOR_S, ".cinnamon-desktop", G_DIR_SEPARATOR_S, NULL);
 
-		/* exclude the .gnome-desktop folder */
-		if (strncmp (sub_str, gnome_desktop_str, strlen (gnome_desktop_str)) == 0) {
+		/* exclude the .cinnamon-desktop folder */
+		if (strncmp (sub_str, cinnamon_desktop_str, strlen (cinnamon_desktop_str)) == 0) {
 			sub_str++;
 			results = (g_strstr_len (sub_str, strlen (sub_str), hidden_path_substr) != NULL);
 		}
@@ -77,7 +77,7 @@ is_path_hidden (const gchar * path)
 			results = TRUE;
 		}
 
-		g_free (gnome_desktop_str);
+		g_free (cinnamon_desktop_str);
 	}
 
 	g_free (hidden_path_substr);
@@ -93,7 +93,7 @@ is_quick_search_excluded_path (const gchar * path)
 	gboolean     results = FALSE;
 	gint         i;
 
-	settings = g_settings_new ("org.gnome.gnome-search-tool");
+	settings = g_settings_new ("org.cinnamon.cinnamon-search-tool");
 
 	dir = g_strdup (path);
 
@@ -170,7 +170,7 @@ is_second_scan_excluded_path (const gchar * path)
 	gboolean     results = FALSE;
 	gint         i;
 
-	settings = g_settings_new ("org.gnome.gnome-search-tool");
+	settings = g_settings_new ("org.cinnamon.cinnamon-search-tool");
 
 	dir = g_strdup (path);
 
@@ -1193,7 +1193,7 @@ gsearchtool_set_columns_order (GtkTreeView * treeview)
 	GSettings * settings;
 	GVariant * value;
 
-	settings = g_settings_new ("org.gnome.gnome-search-tool");
+	settings = g_settings_new ("org.cinnamon.cinnamon-search-tool");
 
 	value = g_settings_get_value (settings, "columns-order");
 
@@ -1238,7 +1238,7 @@ gsearchtool_get_stored_window_geometry (gint * width,
 		return;
 	}
 
-	settings = g_settings_new ("org.gnome.gnome-search-tool");
+	settings = g_settings_new ("org.cinnamon.cinnamon-search-tool");
 
 	saved_width = g_settings_get_int (settings, "default-window-width");
 	saved_height = g_settings_get_int (settings, "default-window-height");

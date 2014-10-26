@@ -1,6 +1,6 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
- * GNOME Search Tool
+ * CINNAMON Search Tool
  *
  *  File:  gsearchtool-support.h
  *

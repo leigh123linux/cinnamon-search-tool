@@ -6,7 +6,7 @@
 #    Finished! now, 700 messages fully translated.
 # simos: 780 messages, visual verification, 14Feb2001 (sgpbea).
 # simos: 483 messages, 30Oct2002, translation review.
-# kostas: 483 messages, 30Oct2002, completed translation for GNOME2.
+# kostas: 483 messages, 30Oct2002, completed translation for CINNAMON2.
 # kostas: 468 messages, unfuzzy 3, 07Jan2003, one more update.
 # Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 2000.
 # Simos Xenitellis <simos@hellug.gr>, 2000, 2001, 2002.
@@ -44,37 +44,37 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.6.5\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Search for Files..."
 msgstr "Αναζήτηση για αρχεία..."
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "Εντοπισμός εγγράφων και φακέλων σε αυτό τον υπολογιστή με βάση το όνομα ή το "
 "περιεχόμενο"
 
-#: ../data/gnome-search-tool.desktop.in.h:3
+#: ../data/cinnamon-search-tool.desktop.in.h:3
 msgid "find;locate;look for;seek;"
 msgstr "εύρεση;εντοπισμός;αναζήτηση για;αναζήτηση;find;locate;look for;seek;"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:1
 msgid "Search history"
 msgstr "Ιστορικό αναζήτησης"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:2
 msgid "This key defines the items which were searched for in the past."
 msgstr "Αυτό το κλειδί καθορίζει τα αντικείμενα που αναζητήθηκαν στο παρελθόν."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
 msgstr "Εμφάνιση πρόσθετων επιλογών"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
 msgstr "Απενεργοποίηση γρήγορης αναζήτησης"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:5
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -82,11 +82,11 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης απενεργοποιεί τη χρήση της "
 "εντολής locate (εντοπισμού), όταν εκτελεί  αναζήτηση απλού ονόματος αρχείου."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "Γρήγορη αναζήτηση διαδρομών που έχουν εξαιρεθεί"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:7
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -97,11 +97,11 @@ msgstr ""
 "υποστηρίζονται. Οι προεπιλεγμένες τιμές είναι  /mnt/*, /media/*, /dev/*, /"
 "tmp/*, /proc/*, and /var/*."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "Απενεργοποίηση γρήγορης αναζήτησης δευτερεύουσας σάρωσης"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:9
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -109,11 +109,11 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης απενεργοποιεί τη χρήση της "
 "εντολής find όταν εκτελεί μια γρήγορη αναζήτηση."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Γρήγορη αναζήτηση αποκλεισμένων διαδρομών δεύτερης σάρωσης"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:11
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -127,11 +127,11 @@ msgstr ""
 "της είναι να βρεθούν τα αρχεία που δεν έχουν ταξινομηθεί. Οι χαρακτήρες "
 "μπαλαντέρ '*' και '?' υποστηρίζονται. Η προεπιλεγμένη τιμή είναι /."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "Ταξινόμηση στηλών αποτελεσμάτων αναζήτησης:"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:13
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -139,11 +139,11 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει τη σειρά των στηλών στα αποτελέσματα αναζήτησης. "
 "Δεν πρέπει να τροποποιηθεί από το χρήστη."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "Προεπιλεγμένο πλάτος παραθύρου"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:15
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -154,11 +154,11 @@ msgstr ""
 "συνεδρίες. Ο ορισμός του σε -1 θα κάνει το εργαλείο αναζήτησης να "
 "χρησιμοποιεί το προεπιλεγμένο ύψος."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "Προεπιλεγμένο ύψος παραθύρου"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:17
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -169,28 +169,28 @@ msgstr ""
 "Ο ορισμός του σε -1 θα κάνει το εργαλείο αναζήτησης να χρησιμοποιεί το "
 "προεπιλεγμένο ύψος."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "Μεγιστοποίηση προεπιλεγμένου παραθύρου"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:19
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr ""
 "Αυτό το κλειδί καθορίζει αν το παράθυρο αναζήτησης θα ξεκινάει σε "
 "μεγιστοποίηση."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
 msgstr "Αναζήτηση σε φάκελο"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr ""
 "Αυτό το κλειδί καθορίζει την προεπιλεγμένη τιμή της λειτουργίας \"Αναζήτηση "
 "σε φάκελο\"."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:22
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -198,7 +198,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης  \"Περιέχει το κείμενο\" "
 "είναι επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:23
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -206,7 +206,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης  \"Ημερομηνία τροποποίησης "
 "μικρότερη από\" είναι επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:24
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -214,7 +214,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης  \"Ημερομηνία τροποποίησης "
 "μεγαλύτερη από\" είναι επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:25
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -222,7 +222,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης \"Μέγεθος τουλάχιστον\" "
 "είναι επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:26
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -230,7 +230,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης \"Μέγεθος το περισσότερο\" "
 "είναι επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:27
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -238,7 +238,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης  \"Το αρχείο είναι κενό\" "
 "είναι επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:28
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -246,7 +246,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης \"Ανήκει σε χρήστη\" είναι "
 "επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:29
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -254,7 +254,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης \"Ανήκει σε ομάδα\" είναι "
 "επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:30
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -262,7 +262,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης \"Μη αναγνωρίσιμος χρήστης"
 "\" είναι επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:31
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -270,7 +270,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης \"Όνομα δεν περιέχει\" "
 "είναι επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:32
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -278,7 +278,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης  \"'Όνομα ταιριάζει με "
 "κανονική έκφραση\" είναι επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:33
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -286,7 +286,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης \"Εμφάνιση κρυφών αρχείων "
 "και φακέλων\" είναι επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:34
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -294,7 +294,7 @@ msgstr ""
 "Αυτό το κλειδί καθορίζει αν η επιλογή αναζήτησης \"Ακολούθηση συμβολικών "
 "δεσμών\" είναι επιλεγμένη όταν εκκινείται το εργαλείο αναζήτησης."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:35
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -669,8 +669,8 @@ msgid "Click to stop a search."
 msgstr "Πατήστε για να διακόψετε την αναζήτηση"
 
 #: ../src/gsearchtool.c:2971
-msgid "- the GNOME Search Tool"
-msgstr "- το εργαλείο αναζήτησης του GNOME"
+msgid "- the CINNAMON Search Tool"
+msgstr "- το εργαλείο αναζήτησης του CINNAMON"
 
 #: ../src/gsearchtool.c:2980
 #, c-format

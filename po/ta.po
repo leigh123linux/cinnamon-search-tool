@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master.ta\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=gnome-search-tool&keywords=I18N+L10N&component=general\n"
+"cgi?product=cinnamon-search-tool&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2013-01-20 20:10+0000\n"
 "PO-Revision-Date: 2013-03-22 16:24+0530\n"
 "Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
@@ -34,36 +34,36 @@ msgstr ""
 "\n"
 "\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Search for Files..."
 msgstr "கோப்புகளை தேடவும்..."
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "இந்த கணினியில் உள்ள ஆவணங்கள் அல்லது அடைவுகளை பெயராலோ உள்ளடக்கத்தாலோ கண்டுபிடிக்கவும்"
 
-#: ../data/gnome-search-tool.desktop.in.h:3
+#: ../data/cinnamon-search-tool.desktop.in.h:3
 msgid "find;locate;look for;seek;"
 msgstr "find;locate;look for;seek;"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:1
 msgid "Search history"
 msgstr "வரலாற்றைத் தேடு"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:2
 msgid "This key defines the items which were searched for in the past."
 msgstr "இந்த விசையானது கடந்தகாலத்தில் தேடப்பட்ட உருப்படிகளை வரையறுக்கும்."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
 msgstr "கூடுதல் விருப்பங்களை காட்டு"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
 msgstr "விரைவு தேடலை செயல்நீக்கு"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:5
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -71,11 +71,11 @@ msgstr ""
 "இந்த விசை தேடல் கருவி இடத்தை கண்டுபிடி கட்டளையை எளிய கோப்பு தேடல்கள் முடிந்ததும் "
 "செயலிழக்கச்செய்யுமா என நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "பாதைகளை சேர்க்காமல் விரைவாக தேடவும்"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:7
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -85,11 +85,11 @@ msgstr ""
 "குறியும், '?' உம் ஆதரிக்கப்படும். முன்னிருப்பு மதிப்புகள் /mnt/*, /media/*, /dev/*, /"
 "tmp/*, /proc/*, மற்றும் /var/*."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "விரைவு தேடல் இரண்டாம் வருடலை செயல்நீக்கு"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:9
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -97,11 +97,11 @@ msgstr ""
 "இந்த விசை தேடல் கருவி தேடு கட்டளையை விரைவு தேடல் முடிந்ததும் செயலிழக்கச்செய்யுமா என "
 "நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "பாதைகளை சேர்க்காமல் இரண்டாவது வருடலுக்கு விரைவாக தேடவும்"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:11
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -114,11 +114,11 @@ msgstr ""
 "இதன் நோக்கம் இதுவரை பட்டியலிடாத கோப்புகளை தேடுவது. குறியில் குறியும், '?' உம் "
 "ஆதரிக்கப்படும். முன்னிருப்பு மதிப்பு /."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "தேடல் முடிவு நிரல்கள் வரிசை"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:13
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -126,11 +126,11 @@ msgstr ""
 "இந்த விசை தேடல் விடைகளில் உள்ள நெடுவரிசைகள் வரிசையை நிர்ணயிக்கிறது. இந்த விசை பயனரால் "
 "மாற்றப்படக்கூடாது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "முன்னிருப்பு சாளர அகலம்"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:15
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -140,11 +140,11 @@ msgstr ""
 "அளவை நினைவு கொள்ள  பயன்படுகிறது. அதை -1 என அமைத்தால் தேடல் கருவியை முன்னிருப்பு "
 "அகலத்தை பயன்படுத்தச்செய்யும்."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "முன்னிருப்பு சாளர உயரம்"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:17
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -154,23 +154,23 @@ msgstr ""
 "அளவை நினைவு கொள்ள  பயன்படுகிறது. அதை -1 என அமைத்தால் தேடல் கருவியை முன்னிருப்பு "
 "உயரத்தை பயன்படுத்தச்செய்யும்."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "முன்னிருப்பு சாளர முழு அளவு"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:19
 msgid "This key determines if the search tool window starts in a maximized state."
 msgstr "இந்த விசை தேடல் கருவி சாளரம் பெரிதாக்கிய நிலையில் துவங்குமா என நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
 msgstr "அடைவில் பார்க்கவும்"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr "இந்த விசை  \"அடைவில் காண்க\" விட்செட்டின் முன்னிருப்பு மதிப்பை வரையறுக்கிறது "
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:22
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -178,7 +178,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"உரை உள்ளடக்கியது\" தேடல் விருப்பம் "
 "தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:23
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -186,7 +186,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"தேதி மாற்றப்பட்டது இதை விட குறைந்தது\" தேடல் "
 "விருப்பம் தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:24
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -194,7 +194,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"தேதி மாற்றப்பட்டது இதை விட அதிகம்\" தேடல் "
 "விருப்பம் தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:25
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -202,7 +202,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"அளவு குறைந்தது\"  தேடல் விருப்பம் "
 "தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:26
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -210,7 +210,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"அளவு அதிக பட்சம்\"  தேடல் விருப்பம் "
 "தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:27
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -218,7 +218,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"கோப்பு காலி\" தேடல் விருப்பம் "
 "தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:28
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -226,7 +226,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"பயனருக்கு சொந்தம்\"  தேடல் விருப்பம் "
 "தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது. "
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:29
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -234,7 +234,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"குழுக்கு சொந்தம்\" தேடல் விருப்பம் "
 "தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது. "
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:30
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -242,7 +242,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"பயனர் அடையாளம் தெரியாது\"  தேடல் விருப்பம் "
 "தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது. "
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:31
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -250,7 +250,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"பெயரில் இது இல்லை\" தேடல் விருப்பம் "
 "தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:32
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -258,7 +258,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"பெயர் வழக்கமான தொடருக்கு பொருந்தம்\" தேடல் "
 "விருப்பம் தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:33
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -266,7 +266,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"மறைந்த கோப்புகள் மற்றும் கோப்புகளை காட்டு\"  "
 "தேடல் விருப்பம் தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது. "
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:34
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -274,7 +274,7 @@ msgstr ""
 "இந்த விசை தேடல் கருவி துவங்கும் போது \"சிம் இணைப்புகளை தொடர்\" தேடல் விருப்பம் "
 "தேர்ந்தெடுக்கப்படுமா என நிர்ணயிக்கிறது."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:35
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -641,7 +641,7 @@ msgid "Click to stop a search."
 msgstr "தேடுதலை முடிக்க சொடுக்கவும்."
 
 #: ../src/gsearchtool.c:2972
-msgid "- the GNOME Search Tool"
+msgid "- the CINNAMON Search Tool"
 msgstr "-க்னோம் தேடல் கருவி"
 
 #: ../src/gsearchtool.c:2981

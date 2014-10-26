@@ -1,11 +1,11 @@
-# Vietnamese Translation for GNOME Utils.
-# Copyright © 2009 GNOME i18n Project for Vietnamese.
+# Vietnamese Translation for CINNAMON Utils.
+# Copyright © 2009 CINNAMON i18n Project for Vietnamese.
 # Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2002,2007,2011-2012.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils GNOME TRUNK\n"
+"Project-Id-Version: gnome-utils CINNAMON TRUNK\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2012-08-06 17:31+0000\n"
@@ -19,32 +19,32 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: LocFactoryEditor 1.8\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Search for Files..."
 msgstr "Tìm kiếm tập tin..."
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
 msgstr "Trên máy tính này, tìm tài liệu và thư mục theo tên hay nội dung"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:1
 #| msgid "Search for Files"
 msgid "Search history"
 msgstr "Lịch sử tìm"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:2
 msgid "This key defines the items which were searched for in the past."
 msgstr "Khoá này định nghĩa mục được tìm trước đây"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
 msgstr "Hiện tùy chọn thêm"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
 msgstr "Tắt Tìm nhanh"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:5
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -52,11 +52,11 @@ msgstr ""
 "Khóa này định nghĩa nếu công cụ tìm kiếm vô hiệu hóa sử dụng lệnh « Locate  "
 "» (định vị) sau khi tìm kiếm tên tập tin cách đơn giản."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "Đường dẫn bị Loại trừ Tìm nhanh"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:7
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -67,11 +67,11 @@ msgstr ""
 "trị mặc định là /mnt/* (gắn), /media/* (môi giới), /dev/* (phát hiện), /tmp/"
 "* (tạm thơi), /proc/* (tiến trình), và /var/* (biến)."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "Tắt Việc Ra Quét Thứ hai Tìm Nhanh"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:9
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -79,11 +79,11 @@ msgstr ""
 "Khóa này định nghĩa nếu công cụ tìm kiếm vô hiệu hóa sử dụng lệnh « Find  "
 "» (tìm) sau khi Tìm nhanh."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Đường dẫn bị Loại trừ Việc Ra Quét Thứ hai Tìm Nhanh"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:11
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -97,11 +97,11 @@ msgstr ""
 "trợ hai ký tự đại diện « * » (dấu sao) và « ? » (dấu hỏi). Giá trị mặc định "
 "là /."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "Thứ tự cột kết quả tìm kiếm"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:13
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -109,11 +109,11 @@ msgstr ""
 "Khóa này định nghĩa thứ tự các cột trong kết quả tìm kiếm. Người dùng không "
 "nên sửa đổi khóa này."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "Độ rộng cửa sổ mặc định"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:15
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -123,11 +123,11 @@ msgstr ""
 "cụ tìm kiếm giữa hai phiên chạy. Lập nó thành -1 sẽ làm cho công cụ tìm kiếm "
 "dùng độ rộng mặc định."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "Cao cửa sổ mặc định"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:17
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -137,26 +137,26 @@ msgstr ""
 "tìm kiếm giữa hai phiên chạy. Lập nó thành -1 sẽ làm cho công cụ tìm kiếm "
 "dùng độ cao mặc định."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "Cửa sổ mặc định đã tối đa hóa"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:19
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr ""
 "Khóa này định nghĩa nếu công cụ tìm kiếm bắt đầu trong tính trạng đã tối đa "
 "hóa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
 msgstr "Tìm trong thư mục"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr "Khoá này định nghĩa giá trị mặc định của ô \"Tìm trong thư mục\"."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:22
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -164,7 +164,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Chứa đoạn » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:23
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -172,7 +172,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Có ngày sửa đổi trước » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:24
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -180,7 +180,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Có ngày sửa đổi sau » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:25
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -188,7 +188,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Kích thước ít nhất » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:26
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -196,7 +196,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Kích thước lớn nhất » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:27
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -204,7 +204,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Tập tin rỗng » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:28
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -212,7 +212,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Sở hữu bởi người dùng » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:29
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -220,7 +220,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Sở hữu bởi nhóm » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:30
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -228,7 +228,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Người sở hữu không nhận diện được » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:31
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -236,7 +236,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Tên không chứa » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:32
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -244,7 +244,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Tên khớp biểu thức chính quy » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:33
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -252,7 +252,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Hiển thị các tập tin và thư mục bị ẩn » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:34
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -260,7 +260,7 @@ msgstr ""
 "Khi công cụ tìm kiếm được khởi chạy, khóa này định nghĩa nếu tùy chọn tìm "
 "kiếm « Theo liên kết biểu tượng » được chọn chưa."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:35
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -628,8 +628,8 @@ msgid "Click to stop a search."
 msgstr "Nhấn để ngừng tìm."
 
 #: ../src/gsearchtool.c:2972
-msgid "- the GNOME Search Tool"
-msgstr "— Công cụ Tìm kiếm GNOME"
+msgid "- the CINNAMON Search Tool"
+msgstr "— Công cụ Tìm kiếm CINNAMON"
 
 #: ../src/gsearchtool.c:2981
 #, c-format

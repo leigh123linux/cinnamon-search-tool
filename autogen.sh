@@ -4,11 +4,11 @@
 srcdir=`dirname $0`
 test -z "$srcdir" && srcdir=.
 
-PKG_NAME="GNOME Search Tool"
+PKG_NAME="CINNAMON Search Tool"
 
 (test -f $srcdir/configure.ac) || {
     echo -n "**Error**: Directory "\`$srcdir\'" does not look like the"
-    echo " top-level GNOME Search Tool directory"
+    echo " top-level CINNAMON Search Tool directory"
     exit 1
 }
 

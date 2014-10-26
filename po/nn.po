@@ -22,86 +22,86 @@ msgstr ""
 "X-Generator: MagicPO 0.3\n"
 
 #
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
 msgstr "Finn dokument og mapper på denne datamaskinen etter namn eller innhald"
 
 #
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Search for Files..."
 msgstr "Søk etter filer..."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:1
+#: ../data/cinnamon-search-tool.schemas.in.h:1
 msgid "Default Window Height"
 msgstr "Standard vindusstorleik"
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:2
+#: ../data/cinnamon-search-tool.schemas.in.h:2
 msgid "Default Window Maximized"
 msgstr "Forvald vindauge maksimert"
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:3
+#: ../data/cinnamon-search-tool.schemas.in.h:3
 msgid "Default Window Width"
 msgstr "Standard vindusbreidd"
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:4
+#: ../data/cinnamon-search-tool.schemas.in.h:4
 msgid "Disable Quick Search"
 msgstr "Deaktiver snøggsøk"
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:5
+#: ../data/cinnamon-search-tool.schemas.in.h:5
 msgid "Disable Quick Search Second Scan"
 msgstr "Deaktiver andre gongs søk i snøggsøk"
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:6
+#: ../data/cinnamon-search-tool.schemas.in.h:6
 #, fuzzy
 msgid "Look in Folder"
 msgstr "Sjå i mappe"
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:7
+#: ../data/cinnamon-search-tool.schemas.in.h:7
 msgid "Quick Search Excluded Paths"
 msgstr "Utelatte stigar for snøggsøk"
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:8
+#: ../data/cinnamon-search-tool.schemas.in.h:8
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Utelatte stigar for andre gongs søk ved snøggsøk"
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:9
+#: ../data/cinnamon-search-tool.schemas.in.h:9
 msgid "Search Result Columns Order"
 msgstr "Rekkjefølgja for kolonne for søkjeresultat"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:12
+#: ../data/cinnamon-search-tool.schemas.in.h:12
 msgid "Select the search option \"Contains the text\""
 msgstr "Vel søkjealternativet «Innhaldar tekst»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:15
+#: ../data/cinnamon-search-tool.schemas.in.h:15
 msgid "Select the search option \"Date modified less than\""
 msgstr "Vel søkjealternativet «Endringsdato nyere enn»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:18
+#: ../data/cinnamon-search-tool.schemas.in.h:18
 msgid "Select the search option \"Date modified more than\""
 msgstr "Vel søkjealternativet «Endringsdato eldre enn»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:21
+#: ../data/cinnamon-search-tool.schemas.in.h:21
 #, fuzzy
 msgid "Select the search option \"Exclude other filesystems\""
 msgstr "Vel søkjealternativet «Ta med andre filsystemer»"
@@ -109,84 +109,84 @@ msgstr "Vel søkjealternativet «Ta med andre filsystemer»"
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:24
+#: ../data/cinnamon-search-tool.schemas.in.h:24
 msgid "Select the search option \"File is empty\""
 msgstr "Vel søkjealternativet «Fila er tom»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:27
+#: ../data/cinnamon-search-tool.schemas.in.h:27
 msgid "Select the search option \"Follow symbolic links\""
 msgstr "Vel søkjealternativet «Følg symbolske lenkjer»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:30
+#: ../data/cinnamon-search-tool.schemas.in.h:30
 msgid "Select the search option \"Name does not contain\""
 msgstr "Vel søkjealternativet «Namn inneheld ikkje»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:33
+#: ../data/cinnamon-search-tool.schemas.in.h:33
 msgid "Select the search option \"Name matches regular expression\""
 msgstr "Vel søkjealternativet «Namn har treff på vanleg uttrykk»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:36
+#: ../data/cinnamon-search-tool.schemas.in.h:36
 msgid "Select the search option \"Owned by group\""
 msgstr "Vel søkjealternativet «Eies av gruppe»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:39
+#: ../data/cinnamon-search-tool.schemas.in.h:39
 msgid "Select the search option \"Owned by user\""
 msgstr "Vel søkjealternativet «Eies av brukar»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:42
+#: ../data/cinnamon-search-tool.schemas.in.h:42
 msgid "Select the search option \"Owner is unrecognized\""
 msgstr "Vel søkjealternativet «Eigar gjenkjennes ikkje»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:45
+#: ../data/cinnamon-search-tool.schemas.in.h:45
 msgid "Select the search option \"Show hidden files and folders\""
 msgstr "Vel søkjealternativet «Vis skjulte filer og mapper»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:48
+#: ../data/cinnamon-search-tool.schemas.in.h:48
 msgid "Select the search option \"Size at least\""
 msgstr "Vel søkjealternativet «Minste storleik»"
 
 #
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:51
+#: ../data/cinnamon-search-tool.schemas.in.h:51
 msgid "Select the search option \"Size at most\""
 msgstr "Vel søkjealternativet «Største storleik»"
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:52
+#: ../data/cinnamon-search-tool.schemas.in.h:52
 msgid "Show Additional Options"
 msgstr "Vis fleire alternativ"
 
-#: ../data/gnome-search-tool.schemas.in.h:53
+#: ../data/cinnamon-search-tool.schemas.in.h:53
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr ""
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:54
+#: ../data/cinnamon-search-tool.schemas.in.h:54
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -195,7 +195,7 @@ msgstr ""
 "burde ikkje endrast av brukaren."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:55
+#: ../data/cinnamon-search-tool.schemas.in.h:55
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -206,7 +206,7 @@ msgstr ""
 "media/*, /dev/*, /tmp/*, /proc/*, og /var/*."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:56
+#: ../data/cinnamon-search-tool.schemas.in.h:56
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -221,7 +221,7 @@ msgstr ""
 "er /."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:57
+#: ../data/cinnamon-search-tool.schemas.in.h:57
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -232,7 +232,7 @@ msgstr ""
 "forvald breidd brukast."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:58
+#: ../data/cinnamon-search-tool.schemas.in.h:58
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -243,7 +243,7 @@ msgstr ""
 "forvald breidd brukast."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:59
+#: ../data/cinnamon-search-tool.schemas.in.h:59
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -252,7 +252,7 @@ msgstr ""
 "når søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:60
+#: ../data/cinnamon-search-tool.schemas.in.h:60
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -261,7 +261,7 @@ msgstr ""
 "gjelde når søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:61
+#: ../data/cinnamon-search-tool.schemas.in.h:61
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -270,7 +270,7 @@ msgstr ""
 "når søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:62
+#: ../data/cinnamon-search-tool.schemas.in.h:62
 #, fuzzy
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
@@ -280,7 +280,7 @@ msgstr ""
 "gjelde når søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:63
+#: ../data/cinnamon-search-tool.schemas.in.h:63
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -289,7 +289,7 @@ msgstr ""
 "søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:64
+#: ../data/cinnamon-search-tool.schemas.in.h:64
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -298,7 +298,7 @@ msgstr ""
 "gjelde når søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:65
+#: ../data/cinnamon-search-tool.schemas.in.h:65
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -307,7 +307,7 @@ msgstr ""
 "når søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:66
+#: ../data/cinnamon-search-tool.schemas.in.h:66
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -316,7 +316,7 @@ msgstr ""
 "når søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:67
+#: ../data/cinnamon-search-tool.schemas.in.h:67
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -325,7 +325,7 @@ msgstr ""
 "søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:68
+#: ../data/cinnamon-search-tool.schemas.in.h:68
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -334,7 +334,7 @@ msgstr ""
 "søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:69
+#: ../data/cinnamon-search-tool.schemas.in.h:69
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -345,7 +345,7 @@ msgstr ""
 #
 #. Translators: The quoted text is the label of the additional
 #. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:72
+#: ../data/cinnamon-search-tool.schemas.in.h:72
 msgid ""
 "This key determines if the \"Select more options\" section is expanded when "
 "the search tool is started."
@@ -354,7 +354,7 @@ msgstr ""
 "søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:73
+#: ../data/cinnamon-search-tool.schemas.in.h:73
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -363,7 +363,7 @@ msgstr ""
 "gjelde når søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:74
+#: ../data/cinnamon-search-tool.schemas.in.h:74
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -372,7 +372,7 @@ msgstr ""
 "søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:75
+#: ../data/cinnamon-search-tool.schemas.in.h:75
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -381,7 +381,7 @@ msgstr ""
 "søkjeverktøyet startar."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:76
+#: ../data/cinnamon-search-tool.schemas.in.h:76
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -390,7 +390,7 @@ msgstr ""
 "kommandoen etter å ha utført eit snøgt søk."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:77
+#: ../data/cinnamon-search-tool.schemas.in.h:77
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -399,7 +399,7 @@ msgstr ""
 "kommandoen under enkle filnamnsøk."
 
 #
-#: ../data/gnome-search-tool.schemas.in.h:78
+#: ../data/cinnamon-search-tool.schemas.in.h:78
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr "Denne nøkkelen bestemmer om søkjeverktøyet skal startast maksimert."
@@ -1087,8 +1087,8 @@ msgstr "Trykk for å stoppa eit søk."
 
 #
 #: ../src/gsearchtool.c:2961
-msgid "- the GNOME Search Tool"
-msgstr "- GNOME-søkjeverktøyet"
+msgid "- the CINNAMON Search Tool"
+msgstr "- CINNAMON-søkjeverktøyet"
 
 #: ../src/gsearchtool.c:2970
 #, fuzzy, c-format

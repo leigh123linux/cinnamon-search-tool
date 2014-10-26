@@ -2,7 +2,7 @@
 # Estonian translation of Gnome-utils.
 #
 # Copyright (C) 1999, 2002, 2005, 2006 Free Software Foundation, Inc.
-# Copyright (C) 2007–2012 The GNOME Project.
+# Copyright (C) 2007–2012 The CINNAMON Project.
 # This file is distributed under the same license as the gnome-utils package.
 #
 # Lauris Kaplinski <lauris ariman ee>, 1999.
@@ -505,8 +505,8 @@ msgstr "Klõpsa otsingu läbiviimiseks"
 msgid "Click to stop a search."
 msgstr "Klõpsa otsingu peatamiseks"
 
-msgid "- the GNOME Search Tool"
-msgstr "- GNOME otsimisvahend"
+msgid "- the CINNAMON Search Tool"
+msgstr "- CINNAMON otsimisvahend"
 
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"

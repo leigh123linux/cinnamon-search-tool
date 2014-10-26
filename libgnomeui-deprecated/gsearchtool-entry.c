@@ -467,7 +467,7 @@ gsearch_history_entry_init (GsearchHistoryEntry *entry)
 
 	priv->completion = NULL;
 	
-	priv->settings = g_settings_new ("org.gnome.gnome-search-tool");
+	priv->settings = g_settings_new ("org.cinnamon.cinnamon-search-tool");
 }
 
 void

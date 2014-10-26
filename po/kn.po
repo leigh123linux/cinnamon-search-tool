@@ -20,39 +20,39 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Search for Files..."
 msgstr "ಕಡತಗಳಿಗಾಗಿ ಹುಡುಕು..."
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "ಹೆಸರು ಅಥವ ವಿಷಯಗಳ ಆಧಾರದ ಮೇಲೆ ಈ ಗಣಕ ಯಂತ್ರದಲ್ಲಿನ ದಸ್ತಾವೇಜುಗಳನ್ನು ಮತ್ತು "
 "ಕಡತಕೋಶಗಳನ್ನು "
 "ಹುಡುಕಿ"
 
-#: ../data/gnome-search-tool.desktop.in.h:3
+#: ../data/cinnamon-search-tool.desktop.in.h:3
 msgid "find;locate;look for;seek;"
 msgstr "ಹುಡುಕು;ಪತ್ತೆಮಾಡು;ಶೋಧಿಸು;ಕೋರು;"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:1
 #| msgid "Search for Files"
 msgid "Search history"
 msgstr "ಹುಡುಕು ಇತಿಹಾಸ"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:2
 msgid "This key defines the items which were searched for in the past."
 msgstr "ಈ ಕೀಲಿಯು ಈ ಹಿಂದೆ ಹುಡುಕಲಾದ ಅಂಶಗಳನ್ನು ಸೂಚಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
 msgstr "ಹೆಚ್ಚುವರಿ ಆಯ್ಕೆಗಳನ್ನು ತೋರಿಸು"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
 msgstr "ಕ್ಷಿಪ್ರ ಹುಡುಕನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:5
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -61,11 +61,11 @@ msgstr ""
 "ಬಳಸದಂತೆ "
 "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ ಎನ್ನುವುದನ್ನು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "ಕ್ಷಿಪ್ರ ಹುಡುಕುವಿಕೆಯಿಂದ ಹೊರತಾಗಿಸಬೇಕಾದ ಮಾರ್ಗಗಳು"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:7
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -76,11 +76,11 @@ msgstr ""
 "ಪೂರ್ವನಿಯೋಜಿತ "
 "ಮೌಲ್ಯಗಳು /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /var/* ಆಗಿರುತ್ತವೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "ಕ್ಷಿಪ್ರ ಹುಡುಕು ಎರಡನೆಯ ಶೋಧನೆಯನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:9
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -88,11 +88,11 @@ msgstr ""
 "ಒಂದು ಕ್ಷಿಪ್ರವಾದ ಹುಡುಕಾಟವನ್ನು ನಿರ್ವಹಿಸಿದ ನಂತರ ಹುಡುಕು ಆಜ್ಞೆಯನ್ನು ಬಳಸದಂತೆ ಹುಡುಕು "
 "ಉಪಕರಣವನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ ಎನ್ನುವುದನ್ನು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "ಕ್ಷಿಪ್ರ ಹುಡುಕುವಿಕೆಯ ಎರಡನೆ ಬಾರಿ ಶೋಧಿಸುವಿಕೆಯಿಂದ ಹೊರತಾಗಿಸಬೇಕಾದ ಮಾರ್ಗಗಳು"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:11
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -108,11 +108,11 @@ msgstr ""
 "'?' ನಂತಹ ವೈಲ್ಡ್‌ಕಾರ್ಡುಗಳಿಗೆ ಇಲ್ಲಿ ಬೆಂಬಲವಿದೆ. ಪೂರ್ವನಿಯೋಜಿತ ಮೌಲ್ಯವು / "
 "ಆಗಿರುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "ಫಲಿತಾಂಶದ ಲಂಬಸಾಲುಗಳ ಕ್ರಮವನ್ನು ಹುಡುಕು"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:13
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -120,11 +120,11 @@ msgstr ""
 "ಹುಡುಕು ಫಲಿತಾಂಶಗಳಲ್ಲಿನ ಲಂಬಸಾಲುಗಳ ಕ್ರಮವನ್ನು ಈ ಕೀಲಿಯು ಸೂಚಿಸುತ್ತದೆ. ಈ ಕೀಲಿಯನ್ನು "
 "ಬಳಕೆದಾರರು ಮಾರ್ಪಡಿಸಬಾರದು."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "ವಿಂಡೋವಿನ ಪೂರ್ವನಿಯೋಜಿತ ಅಗಲ"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:15
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -135,11 +135,11 @@ msgstr ""
 "ಉಪಕರಣವು "
 "ಪೂರ್ವನಿಯೋಜಿತ ಅಗಲವನ್ನು ಬಳಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "ವಿಂಡೋವಿನ ಪೂರ್ವನಿಯೋಜಿತ ಉದ್ದ"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:17
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -150,11 +150,11 @@ msgstr ""
 "ಉಪಕರಣವು "
 "ಪೂರ್ವನಿಯೋಜಿತ ಎತ್ತರವನ್ನು ಬಳಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "ಪೂರ್ವನಿಯೋಜಿತ ವಿಂಡೋವನ್ನು ಹಿಗ್ಗಿಸಲಾಗಿದೆ"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:19
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr ""
@@ -162,16 +162,16 @@ msgstr ""
 "ಕೀಲಿಯು "
 "ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
 msgstr "ಕಡತಕೋಶದಲ್ಲಿ ನೋಡು"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr ""
 "ಈ ಕೀಲಿಯು \"ಕಡತಕೋಶದಲ್ಲಿ ಹುಡುಕು\" ವಿಜೆಟ್‌ನ ಪೂರ್ವನಿಯೋಜಿತ ಮೌಲ್ಯವನ್ನು ಸೂಚಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:22
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -179,7 +179,7 @@ msgstr ""
 "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಈ ಪಠ್ಯವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು "
 "ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:23
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -187,7 +187,7 @@ msgstr ""
 "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಈ ದಿನಾಂಕಕ್ಕಿಂತ ಮೊದಲು ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು\" ಹುಡುಕು "
 "ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:24
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -195,7 +195,7 @@ msgstr ""
 "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಈ ದಿನಾಂಕಕ್ಕಿಂತ ನಂತರ ಮಾರ್ಪಡಿಸಲಾಗಿದ್ದು\" ಹುಡುಕು "
 "ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:25
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -204,7 +204,7 @@ msgstr ""
 "ಎಂದು "
 "ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:26
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -213,7 +213,7 @@ msgstr ""
 "ಎಂದು "
 "ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:27
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -222,7 +222,7 @@ msgstr ""
 "ಆರಿಸಲಾಗಿದೆಯೆ "
 "ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:28
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -230,7 +230,7 @@ msgstr ""
 "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಬಳಕೆದಾರರಿಂದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು "
 "ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:29
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -238,7 +238,7 @@ msgstr ""
 "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಸಮೂಹದಿಂದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು "
 "ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:30
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -246,7 +246,7 @@ msgstr ""
 "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಗುರುತಿಸಲಾಗದ ಮಾಲಿಕತ್ವವನ್ನು ಹೊಂದಿರುವ\" ಹುಡುಕು "
 "ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:31
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -254,7 +254,7 @@ msgstr ""
 "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಹೆಸರು ಇದನ್ನು ಹೊಂದಿಲ್ಲ\" ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು "
 "ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:32
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -262,7 +262,7 @@ msgstr ""
 "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಸಾಮಾನ್ಯ ಗಣಿತೋಕ್ತಿಗೆ ತಾಳೆಯಾಗುವ ಹೆಸರು\" ಹುಡುಕು "
 "ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:33
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -270,7 +270,7 @@ msgstr ""
 "ಹುಡುಕು ಉಪಕರಣವನ್ನು ಆರಂಭಿಸಿದಾಗ \"ಅಡಗಿಸಲಾದ ಕಡತಗಳು ಹಾಗು ಕಡತಕೋಶಗಳನ್ನು ತೋರಿಸು\" "
 "ಹುಡುಕು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:34
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -279,7 +279,7 @@ msgstr ""
 "ಆಯ್ಕೆಯನ್ನು "
 "ಆರಿಸಲಾಗಿದೆಯೆ ಎಂದು ಈ ಕೀಲಿಯು ನಿರ್ಧರಿಸುತ್ತದೆ."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:35
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -653,8 +653,8 @@ msgid "Click to stop a search."
 msgstr "ಒಂದು ಹುಡುಕನ್ನು ನಿಲ್ಲಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
 
 #: ../src/gsearchtool.c:2971
-msgid "- the GNOME Search Tool"
-msgstr "- GNOME ಹುಡುಕು ಉಪಕರಣ"
+msgid "- the CINNAMON Search Tool"
+msgstr "- CINNAMON ಹುಡುಕು ಉಪಕರಣ"
 
 #: ../src/gsearchtool.c:2980
 #, c-format

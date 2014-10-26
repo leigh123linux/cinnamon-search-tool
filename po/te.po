@@ -27,36 +27,36 @@ msgstr ""
 "\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Search for Files..."
 msgstr "ఫైళ్ళ కొరకు అన్వేషణము..."
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "పేరు లేదా విషయముల ద్వారా పత్రములను మరియు సంచయాలను ఈ కంప్యూటర్ లో గుర్తించండి"
 
-#: ../data/gnome-search-tool.desktop.in.h:3
+#: ../data/cinnamon-search-tool.desktop.in.h:3
 msgid "find;locate;look for;seek;"
 msgstr "find;locate;look for;seek;"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:1
 msgid "Search history"
 msgstr "చరిత్ర శోధించు"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:2
 msgid "This key defines the items which were searched for in the past."
 msgstr "గతంలో దేని కొరకు అంశాలు శోధించబడెనో వాటిని యీ కీ నిర్వచించును."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
 msgstr "అత్యధికముగా చేర్పబడిన ఐచ్చికములు చూపుము"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
 msgstr "తొందరగా అన్వేషించుటను అచేతనపరచు"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:5
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -65,11 +65,11 @@ msgstr ""
 "ఉపయోగంను అచేతనం చేస్తే ఈ "
 "మీట నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "తొందరగా అన్వేషించుట త్రోవలను బహిష్కరించినది"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:7
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -81,11 +81,11 @@ msgstr ""
 "/proc/*, and /"
 "var/*."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "రెండవ సంఅన్వేషణను తొందరగా అన్వేషించుటను అచేతనపరచు"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:9
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -94,11 +94,11 @@ msgstr ""
 "చేస్తే ఈ మీట "
 "నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "రెండవ సంఅన్వేషణను తొందరగా అన్వేషించుటను బహిష్కరించినది"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:11
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -114,11 +114,11 @@ msgstr ""
 "మరియు '?' "
 "మద్దుతునిస్తాయి.అప్రమేయ విలువ /."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "ఫలితాలను నిలువుపట్టీ క్రమములో అన్వేషణము"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:13
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -126,11 +126,11 @@ msgstr ""
 "ఈ కీ అన్వేషించిన ఫలితాలలోని నిలువువరుసల క్రమాన్ని నిర్వచిస్తుంది.ఈ కీ వాడుకరి "
 "చేత మార్చబడకూడదు."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "అప్రమేయ విండో పొడవు"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:15
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -142,11 +142,11 @@ msgstr ""
 "వెడల్పును "
 "ఉపయోగించుకొనునట్లు చేస్తుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "అప్రమేయ విండో ఎత్తు"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:17
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -158,26 +158,26 @@ msgstr ""
 "ఎత్తును "
 "ఉపయోగించుకొనునట్లు చేస్తుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "అప్రమేయ విండో పెద్దదిచేయబడింది"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:19
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr ""
 "అన్వేషణ సాధనం విండో పెద్దదైన స్థితి లో ప్రారంభించబడితే ఈ మీట "
 "నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
 msgstr "సంచయం నందు చూడుము"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr "ఈ కీ \"సంచయం నందు చూడు\" విడ్జట్ యొక్క అప్రమేయ విలువను నిర్వచిస్తుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:22
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -186,7 +186,7 @@ msgstr ""
 "ఎంపికకాబడి‌వుంటే ఈ మీట "
 "నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:23
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -195,7 +195,7 @@ msgstr ""
 "అన్వేషణ ఐచ్చికం "
 "ఎంపికకాబడి‌వుంటే ఈ మీట నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:24
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -204,7 +204,7 @@ msgstr ""
 "అన్వేషణ ఐచ్చికం "
 "ఎంపికకాబడి‌వుంటే ఈ మీట నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:25
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -213,7 +213,7 @@ msgstr ""
 "ఎంపికకాబడి‌వుంటే ఈ మీట "
 "నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:26
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -222,7 +222,7 @@ msgstr ""
 "ఎంపికకాబడి‌వుంటే ఈ మీట "
 "నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:27
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -231,7 +231,7 @@ msgstr ""
 "ఎంపికకాబడి‌వుంటే ఈ మీట "
 "నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:28
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -240,7 +240,7 @@ msgstr ""
 "ఎంపికకాబడి‌వుంటే ఈ మీట "
 "నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:29
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -249,7 +249,7 @@ msgstr ""
 "ఎంపికకాబడి‌వుంటే ఈ మీట "
 "నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:30
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -258,7 +258,7 @@ msgstr ""
 "ఐచ్చికం ఎంపికకాబడి‌వుంటే ఈ "
 "మీట నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:31
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -267,7 +267,7 @@ msgstr ""
 "ఎంపికకాబడి‌వుంటే ఈ మీట "
 "నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:32
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -276,7 +276,7 @@ msgstr ""
 "అన్వేషణ ఐచ్చికం "
 "ఎంపికకాబడి‌వుంటే ఈ మీట నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:33
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -285,7 +285,7 @@ msgstr ""
 "అన్వేషణ ఐచ్చికం "
 "ఎంపికకాబడి‌వుంటే ఈ మీట నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:34
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -294,7 +294,7 @@ msgstr ""
 "ఐచ్చికం "
 "ఎంపికకాబడి‌వుంటే ఈ మీట నిశ్చయించబడుతుంది."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:35
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -672,8 +672,8 @@ msgid "Click to stop a search."
 msgstr "అన్వేషించుటను ఆపివేయుటకు నొక్కుము"
 
 #: ../src/gsearchtool.c:2972
-msgid "- the GNOME Search Tool"
-msgstr "- GNOME అన్వేషణ సాధనం"
+msgid "- the CINNAMON Search Tool"
+msgstr "- CINNAMON అన్వేషణ సాధనం"
 
 #: ../src/gsearchtool.c:2981
 #, c-format

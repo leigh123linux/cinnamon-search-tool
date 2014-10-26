@@ -19,145 +19,145 @@ msgstr ""
 "X-Launchpad-Export-Date: 2008-05-27 22:39+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Search for Files..."
 msgstr "Tražite datoteke..."
 
-#: ../data/gnome-search-tool.schemas.in.h:1
+#: ../data/cinnamon-search-tool.schemas.in.h:1
 msgid "Default Window Height"
 msgstr "Uobičajena visina prozora"
 
-#: ../data/gnome-search-tool.schemas.in.h:2
+#: ../data/cinnamon-search-tool.schemas.in.h:2
 msgid "Default Window Maximized"
 msgstr "Uobičajeni prozor je maksimaliziran"
 
-#: ../data/gnome-search-tool.schemas.in.h:3
+#: ../data/cinnamon-search-tool.schemas.in.h:3
 msgid "Default Window Width"
 msgstr "Uobičajena širina prozora"
 
-#: ../data/gnome-search-tool.schemas.in.h:4
+#: ../data/cinnamon-search-tool.schemas.in.h:4
 msgid "Disable Quick Search"
 msgstr "Isključi brzu pretragu"
 
-#: ../data/gnome-search-tool.schemas.in.h:5
+#: ../data/cinnamon-search-tool.schemas.in.h:5
 msgid "Disable Quick Search Second Scan"
 msgstr "Isključi brzu pretragu drugog pregledavanja"
 
-#: ../data/gnome-search-tool.schemas.in.h:6
+#: ../data/cinnamon-search-tool.schemas.in.h:6
 #, fuzzy
 msgid "Look in Folder"
 msgstr "Potraži u mapi"
 
-#: ../data/gnome-search-tool.schemas.in.h:7
+#: ../data/cinnamon-search-tool.schemas.in.h:7
 msgid "Quick Search Excluded Paths"
 msgstr "Brza pretraga isključenih putanja"
 
-#: ../data/gnome-search-tool.schemas.in.h:8
+#: ../data/cinnamon-search-tool.schemas.in.h:8
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Brza pretraga drugog pregledavanja isključenih putanja"
 
-#: ../data/gnome-search-tool.schemas.in.h:9
+#: ../data/cinnamon-search-tool.schemas.in.h:9
 msgid "Search Result Columns Order"
 msgstr "Rezultati pretrage poretka stupaca"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:12
+#: ../data/cinnamon-search-tool.schemas.in.h:12
 msgid "Select the search option \"Contains the text\""
 msgstr "Odaberi opciju pretrage \"Sadrži tekst\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:15
+#: ../data/cinnamon-search-tool.schemas.in.h:15
 msgid "Select the search option \"Date modified less than\""
 msgstr "Odaberi opciju pretrage \"Datum promjene manji od\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:18
+#: ../data/cinnamon-search-tool.schemas.in.h:18
 msgid "Select the search option \"Date modified more than\""
 msgstr "Odaberi opciju pretrage \"Datum promijenjem prije više\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:21
+#: ../data/cinnamon-search-tool.schemas.in.h:21
 #, fuzzy
 msgid "Select the search option \"Exclude other filesystems\""
 msgstr "Odaberi opciju pretrage \"Uključi druge datotečne sustave\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:24
+#: ../data/cinnamon-search-tool.schemas.in.h:24
 msgid "Select the search option \"File is empty\""
 msgstr "Odaberi opciju pretrage \"Datoteka je prazna\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:27
+#: ../data/cinnamon-search-tool.schemas.in.h:27
 msgid "Select the search option \"Follow symbolic links\""
 msgstr "Odaberi opciju pretrage \"Slijedi simboličke linkove\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:30
+#: ../data/cinnamon-search-tool.schemas.in.h:30
 msgid "Select the search option \"Name does not contain\""
 msgstr "Odaberi opciju pretrage \"Ime ne sadrži\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:33
+#: ../data/cinnamon-search-tool.schemas.in.h:33
 msgid "Select the search option \"Name matches regular expression\""
 msgstr "Odaberi opciju pretrage \"Ime odgovara regularnom izrazu\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:36
+#: ../data/cinnamon-search-tool.schemas.in.h:36
 msgid "Select the search option \"Owned by group\""
 msgstr "Odaberi opciju pretrage \"U vlasništvu grupe\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:39
+#: ../data/cinnamon-search-tool.schemas.in.h:39
 msgid "Select the search option \"Owned by user\""
 msgstr "Odaberi opciju pretrage \"U vlasništvu korisnika\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:42
+#: ../data/cinnamon-search-tool.schemas.in.h:42
 msgid "Select the search option \"Owner is unrecognized\""
 msgstr "Odaberi opciju pretrage \"Vlasnik nije prepoznat\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:45
+#: ../data/cinnamon-search-tool.schemas.in.h:45
 msgid "Select the search option \"Show hidden files and folders\""
 msgstr "Odaberi opciju pretrage \"Prikaži skrivene datoteke i direktorije\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:48
+#: ../data/cinnamon-search-tool.schemas.in.h:48
 msgid "Select the search option \"Size at least\""
 msgstr "Odaberi opciju pretrage \"Minimalna veličina\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:51
+#: ../data/cinnamon-search-tool.schemas.in.h:51
 msgid "Select the search option \"Size at most\""
 msgstr "Odaberi opciju pretrage \"Maksimalna veličina\""
 
-#: ../data/gnome-search-tool.schemas.in.h:52
+#: ../data/cinnamon-search-tool.schemas.in.h:52
 msgid "Show Additional Options"
 msgstr "Prikaži dodatne postavke"
 
-#: ../data/gnome-search-tool.schemas.in.h:53
+#: ../data/cinnamon-search-tool.schemas.in.h:53
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:54
+#: ../data/cinnamon-search-tool.schemas.in.h:54
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -165,7 +165,7 @@ msgstr ""
 "Ovaj ključ određuje poredak stupaca u rezultatima pretraživanja. Ovaj ključ "
 "ne bi trebao biti mijenjan od strane korisnika."
 
-#: ../data/gnome-search-tool.schemas.in.h:55
+#: ../data/cinnamon-search-tool.schemas.in.h:55
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -175,7 +175,7 @@ msgstr ""
 "pretrage. Zamjenski znakovi '*' i '?' su podržani. Uobičajene vrijednosti "
 "su /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
 
-#: ../data/gnome-search-tool.schemas.in.h:56
+#: ../data/cinnamon-search-tool.schemas.in.h:56
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -189,7 +189,7 @@ msgstr ""
 "da nađe datoteke koje nisu indeksirane. Zamjenski znakovi '*' i '?' su "
 "podržani. Uobičajena vrijednost je /."
 
-#: ../data/gnome-search-tool.schemas.in.h:57
+#: ../data/cinnamon-search-tool.schemas.in.h:57
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -198,7 +198,7 @@ msgstr ""
 "Ovaj ključ određuje visinu prozora, i koristi se za pamćenje veličine "
 "prozora između ponovljenih korištenja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:58
+#: ../data/cinnamon-search-tool.schemas.in.h:58
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -209,7 +209,7 @@ msgstr ""
 "te vrijednosti na -1 će imati za rezultat da će alat za pretraživanje "
 "koristiti uobičajenu širinu prozora."
 
-#: ../data/gnome-search-tool.schemas.in.h:59
+#: ../data/cinnamon-search-tool.schemas.in.h:59
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -217,7 +217,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Sadrži tekst\" odabrana "
 "prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:60
+#: ../data/cinnamon-search-tool.schemas.in.h:60
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -225,7 +225,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Datum promjene manji od\" "
 "odabrana prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:61
+#: ../data/cinnamon-search-tool.schemas.in.h:61
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -233,7 +233,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Datum promijenjem prije više"
 "\" odabrana prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:62
+#: ../data/cinnamon-search-tool.schemas.in.h:62
 #, fuzzy
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
@@ -242,7 +242,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Uključi druge datotečne "
 "sustave\" odabrana prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:63
+#: ../data/cinnamon-search-tool.schemas.in.h:63
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -250,7 +250,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Datoteka je prazna\" "
 "odabrana prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:64
+#: ../data/cinnamon-search-tool.schemas.in.h:64
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -258,7 +258,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Slijedi simboličke linkove"
 "\" odabrana prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:65
+#: ../data/cinnamon-search-tool.schemas.in.h:65
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -266,7 +266,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Ime ne sadrži\" odabrana "
 "prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:66
+#: ../data/cinnamon-search-tool.schemas.in.h:66
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -274,7 +274,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Ime odgovara regularnom "
 "izrazu\" odabrana prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:67
+#: ../data/cinnamon-search-tool.schemas.in.h:67
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -282,7 +282,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Pripada grupi\" odabrana "
 "prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:68
+#: ../data/cinnamon-search-tool.schemas.in.h:68
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -290,7 +290,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Pripada korisniku\" "
 "odabrana prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:69
+#: ../data/cinnamon-search-tool.schemas.in.h:69
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -300,7 +300,7 @@ msgstr ""
 
 #. Translators: The quoted text is the label of the additional
 #. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:72
+#: ../data/cinnamon-search-tool.schemas.in.h:72
 msgid ""
 "This key determines if the \"Select more options\" section is expanded when "
 "the search tool is started."
@@ -308,7 +308,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Prikaži više opcija\" "
 "raširena prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:73
+#: ../data/cinnamon-search-tool.schemas.in.h:73
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -316,7 +316,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Prikaži skrivene datoteke i "
 "direktorije\" odabrana prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:74
+#: ../data/cinnamon-search-tool.schemas.in.h:74
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -324,7 +324,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Minimalna veličina\" "
 "odabrana prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:75
+#: ../data/cinnamon-search-tool.schemas.in.h:75
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -332,7 +332,7 @@ msgstr ""
 "Ovaj ključ određuje je li opcija pretraživanja \"Maksimalna veličina\" "
 "odabrana prilikom pokretanja alata za pretraživanje."
 
-#: ../data/gnome-search-tool.schemas.in.h:76
+#: ../data/cinnamon-search-tool.schemas.in.h:76
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -340,7 +340,7 @@ msgstr ""
 "Ovaj ključ određuje isključuje li alat za pretragu korištenje naredbe za "
 "pretragu nakon obavljene brze pretrage."
 
-#: ../data/gnome-search-tool.schemas.in.h:77
+#: ../data/cinnamon-search-tool.schemas.in.h:77
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -348,7 +348,7 @@ msgstr ""
 "Ovaj ključ određuje isključuje li alat za pretragu korištenje naredbe za "
 "nalaženje kada obavlja jednostavne pretrage imena datoteka."
 
-#: ../data/gnome-search-tool.schemas.in.h:78
+#: ../data/cinnamon-search-tool.schemas.in.h:78
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr ""
@@ -1006,7 +1006,7 @@ msgid "Click to stop a search."
 msgstr "Kliknite za prekid pretraživanja."
 
 #: ../src/gsearchtool.c:2961
-msgid "- the GNOME Search Tool"
+msgid "- the CINNAMON Search Tool"
 msgstr ""
 
 #: ../src/gsearchtool.c:2970

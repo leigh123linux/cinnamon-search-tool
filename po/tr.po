@@ -25,33 +25,33 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 1.4\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Search for Files..."
 msgstr "Dosya Ara..."
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "Bu bilgisayardaki dökümanları ve dizinleri ada veya içeriğe göre konumlandır"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:1
 #| msgid "Search for Files"
 msgid "Search history"
 msgstr "Arama geçmişi"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:2
 msgid "This key defines the items which were searched for in the past."
 msgstr "Bu anahtar, geçmişte aranan ögeleri tanımlar."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
 msgstr "İlave Seçenekleri Göster"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
 msgstr "Hızlı Aramayı Kapat"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:5
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -59,11 +59,11 @@ msgstr ""
 "Bu anahtar arama aracının basit dosya adı aramalarında 'locate' komutunun "
 "kullanımının iptal edilip edilmediğini gösterir."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "Harici Yollarda Hızlı Ara"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:7
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -73,11 +73,11 @@ msgstr ""
 "Maskeleme karakterleri '*' ve '?' desteklenmektedir. Öntanımlı değerler /mnt/"
 "*, /media/*, /dev/*, /tmp/*, /proc/*, ve /var/*."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "Hızlı Aramada İkincil Taramayı Kapat"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:9
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -85,11 +85,11 @@ msgstr ""
 "Bu anahtar arama aracının hızlı aramalardan sonra 'find' komutunun "
 "kullanımının iptal edilip edilmediğini gösterir."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Harici Yollarda İkincil Hızlı Ara"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:11
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -102,21 +102,21 @@ msgstr ""
 "amacı dizinlenmemiş dosyaları bulmaktadır. Maskeleme karakterleri '*' ve '?' "
 "desteklenmektedir. Öntanımlı değer /'dir."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "Arama Sonuçları Sütun Sırası"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:13
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
 msgstr "Bu anahtar arama sonuçları içinde sütunların sırasını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "Öntanımlı Pencere Genişliği"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:15
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -126,11 +126,11 @@ msgstr ""
 "boyutunu hatırlamakta kullanılır. Bunu -1 yapmak arama aracının öntanımlı "
 "genişliği kullanmasını sağlar."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "Öntanımlı Pencere Yüksekliği"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:17
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -139,27 +139,27 @@ msgstr ""
 "Bu anahtar pencere yüksekliğini tanımlar ve oturumlar arası arama aracının "
 "boyutunu hatırlamak için kullanılır."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "Öntanımlı Pencere Ekranı Kapladı"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:19
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr ""
 "Bu anahtar arama aracı penceresinin ekranı kaplamış durumda başlayıp "
 "başlamayacağını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
 msgstr "Klasör içinde Ara"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr ""
 "Bu anahtar \"Klasör içinde Ara\" parçasının öntanımlı değerini tanımlar."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:22
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -167,7 +167,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"İçerdiği metin\" arama seçeneğinin "
 "seçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:23
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -175,7 +175,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"En son ne kadar zaman önce "
 "değiştirildiği\" arama seçeneğinin seçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:24
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -183,7 +183,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"En son ne kadar zaman sonra "
 "değiştirildiği\" arama seçeneğinin seçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:25
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -191,7 +191,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"En küçük boyut\" arama seçeneğinin "
 "seçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:26
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -199,7 +199,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"En büyük boyut\" arama seçeneğinin "
 "seçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:27
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -207,7 +207,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"Dosya boş\" arama seçeneğinin seçili "
 "olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:28
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -215,7 +215,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"Ait olduğu kullanıcı\" arama "
 "seçeneğinin seçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:29
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -223,7 +223,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"Ait olduğu grup\" arama "
 "seçeneğininseçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:30
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -231,7 +231,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"Sahibi tanımsız\" arama seçeneğinin "
 "seçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:31
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -239,7 +239,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"İsim içinde bulunmaz\" arama "
 "seçeneğinin seçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:32
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -247,7 +247,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"İsim düzenli deyimlerle uyuşuyor\" "
 "arama seçeneğinin seçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:33
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -255,7 +255,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"Gizli dosya ve klasörleri göster\" "
 "arama seçeneğinin seçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:34
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -263,7 +263,7 @@ msgstr ""
 "Bu anahtar arama aracı başladığında \"Sembolik bağlantıları izle\" arama "
 "seçeneğinin seçili olup olmadığını belirler."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:35
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -631,8 +631,8 @@ msgid "Click to stop a search."
 msgstr "Aramayı durdurmak için tıklayın."
 
 #: ../src/gsearchtool.c:2972
-msgid "- the GNOME Search Tool"
-msgstr "- GNOME Arama Aracı"
+msgid "- the CINNAMON Search Tool"
+msgstr "- CINNAMON Arama Aracı"
 
 #: ../src/gsearchtool.c:2981
 #, c-format

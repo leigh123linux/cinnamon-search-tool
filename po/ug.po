@@ -18,146 +18,146 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 "بۇ كومپيۇتېردىكى پۈتۈك ۋە قىسقۇچلارنى ئاتى ياكى مەزمۇنى بويىچە ئورۇن بېكىتىدۇ"
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Search for Files..."
 msgstr "ھۆججەت ئىزدە…"
 
-#: ../data/gnome-search-tool.schemas.in.h:1
+#: ../data/cinnamon-search-tool.schemas.in.h:1
 msgid "Default Window Height"
 msgstr "كۆڭۈلدىكى كۆزنەك ئېگىزلىكى"
 
-#: ../data/gnome-search-tool.schemas.in.h:2
+#: ../data/cinnamon-search-tool.schemas.in.h:2
 msgid "Default Window Maximized"
 msgstr "كۆڭۈلدىكى كۆزنەك چوڭايتىلغان"
 
-#: ../data/gnome-search-tool.schemas.in.h:3
+#: ../data/cinnamon-search-tool.schemas.in.h:3
 msgid "Default Window Width"
 msgstr "كۆڭۈلدىكى كۆزنەك كەڭلىكى"
 
-#: ../data/gnome-search-tool.schemas.in.h:4
+#: ../data/cinnamon-search-tool.schemas.in.h:4
 msgid "Disable Quick Search"
 msgstr "تېز ئىزدەشنى چەكلە"
 
-#: ../data/gnome-search-tool.schemas.in.h:5
+#: ../data/cinnamon-search-tool.schemas.in.h:5
 msgid "Disable Quick Search Second Scan"
 msgstr "تېز ئىزدەشنىڭ ئىككىنچى قېتىملىق تەكشۈرۈشىنى چەكلە"
 
-#: ../data/gnome-search-tool.schemas.in.h:6
+#: ../data/cinnamon-search-tool.schemas.in.h:6
 msgid "Look in Folder"
 msgstr "قىسقۇچنى ئىزدە"
 
-#: ../data/gnome-search-tool.schemas.in.h:7
+#: ../data/cinnamon-search-tool.schemas.in.h:7
 msgid "Quick Search Excluded Paths"
 msgstr "تېز ئىزدەش سىرتىدىكى يول"
 
-#: ../data/gnome-search-tool.schemas.in.h:8
+#: ../data/cinnamon-search-tool.schemas.in.h:8
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "تېز ئىزدەشنى ئىككىنچى قېتىم تەكشۈرۈش سىرتىدىكى يول"
 
-#: ../data/gnome-search-tool.schemas.in.h:9
+#: ../data/cinnamon-search-tool.schemas.in.h:9
 msgid "Search Result Columns Order"
 msgstr "ئىزدەش نەتىجىسىنىڭ ئىستون تەرتىپى"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:12
+#: ../data/cinnamon-search-tool.schemas.in.h:12
 msgid "Select the search option \"Contains the text\""
 msgstr "«ئۆز ئىچىگە ئالغان تېكىست»ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:15
+#: ../data/cinnamon-search-tool.schemas.in.h:15
 msgid "Select the search option \"Date modified less than\""
 msgstr "«ئۆزگەرتكەن ۋاقتىدىن ئىلگىرى» ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:18
+#: ../data/cinnamon-search-tool.schemas.in.h:18
 msgid "Select the search option \"Date modified more than\""
 msgstr "«ئۆزگەرتكەن ۋاقتىدىن كېيىن» ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:21
+#: ../data/cinnamon-search-tool.schemas.in.h:21
 msgid "Select the search option \"Exclude other filesystems\""
 msgstr ""
 "«باشقا ھۆججەت سىستېمىسىنى ئۆز ئىچىگە ئالمايدۇ» ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:24
+#: ../data/cinnamon-search-tool.schemas.in.h:24
 msgid "Select the search option \"File is empty\""
 msgstr "«ھۆججەت بوش» ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:27
+#: ../data/cinnamon-search-tool.schemas.in.h:27
 msgid "Select the search option \"Follow symbolic links\""
 msgstr "«بەلگە ئۇلانمىغا ئەگەش» ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:30
+#: ../data/cinnamon-search-tool.schemas.in.h:30
 msgid "Select the search option \"Name does not contain\""
 msgstr "«ئات ئۆز ئىچىگە ئالمايدۇ» ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:33
+#: ../data/cinnamon-search-tool.schemas.in.h:33
 msgid "Select the search option \"Name matches regular expression\""
 msgstr "«ئات ماسلاشقان مۇنتىزىم ئىپادە»ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:36
+#: ../data/cinnamon-search-tool.schemas.in.h:36
 msgid "Select the search option \"Owned by group\""
 msgstr "«گۇرۇپپىغا تەۋە» ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:39
+#: ../data/cinnamon-search-tool.schemas.in.h:39
 msgid "Select the search option \"Owned by user\""
 msgstr "«ئىشلەتكۈچىگە تەۋە» ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:42
+#: ../data/cinnamon-search-tool.schemas.in.h:42
 msgid "Select the search option \"Owner is unrecognized\""
 msgstr "«ئىگىسى نامەلۇم» ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:45
+#: ../data/cinnamon-search-tool.schemas.in.h:45
 msgid "Select the search option \"Show hidden files and folders\""
 msgstr "«يوشۇرۇن ھۆججەت ۋە قىسقۇچنى كۆرسەت» ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:48
+#: ../data/cinnamon-search-tool.schemas.in.h:48
 msgid "Select the search option \"Size at least\""
 msgstr "«چوڭلۇقى ئاز دېگەندە» ئىزدەش تاللانمىنى تاللاڭ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:51
+#: ../data/cinnamon-search-tool.schemas.in.h:51
 msgid "Select the search option \"Size at most\""
 msgstr "«چوڭلۇقى كۆپ دېگەندە» ئىزدەش تاللانمىنى تاللاڭ"
 
-#: ../data/gnome-search-tool.schemas.in.h:52
+#: ../data/cinnamon-search-tool.schemas.in.h:52
 msgid "Show Additional Options"
 msgstr "قوشۇمچە تاللانما كۆرسەت"
 
-#: ../data/gnome-search-tool.schemas.in.h:53
+#: ../data/cinnamon-search-tool.schemas.in.h:53
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr ""
 "بۇ ھالقىلىق كود widget نىڭ «قىسقۇچ ئىزدە»نىڭ كۆڭۈلدىكى قىممىتىنى ئېنىقلايدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:54
+#: ../data/cinnamon-search-tool.schemas.in.h:54
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -165,7 +165,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش نەتىجىسىدىكى ھەر قايسى ئىستونلارنىڭ تەرتىپى ئېنىقلىنىدۇ. "
 "بۇ كۇنۇپكىنى ئىشلەتكۈچى ئۆزگەرتەلمەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:55
+#: ../data/cinnamon-search-tool.schemas.in.h:55
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -175,7 +175,7 @@ msgstr ""
 "ئېنىقلايدۇ. قوللايدىغان ئورتاق بەلگە '*' ۋە '?'. كۆڭۈلدىكى قىممىتى /mnt/*, /"
 "media/*, /dev/*, /tmp/*, /proc/*, /var/*."
 
-#: ../data/gnome-search-tool.schemas.in.h:56
+#: ../data/cinnamon-search-tool.schemas.in.h:56
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -188,7 +188,7 @@ msgstr ""
 "ئىشلىتىپ ھۆججەت ئىزدەيدۇ. ئىككىنچى قېتىم تەكشۈرۈشنىڭ مەقسىتى ئىندېكسقا "
 "كىرگۈزۈلمىگەن ھۆججەتنى ئىزدەش. قوللايدىغان ئورتاق بەلگە '*' ۋە '?'."
 
-#: ../data/gnome-search-tool.schemas.in.h:57
+#: ../data/cinnamon-search-tool.schemas.in.h:57
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -198,7 +198,7 @@ msgstr ""
 "ئىزدەش قورالىنىڭ چوڭلۇقىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئۇ -1 قىلىپ تەڭشەلسە "
 "ئىزدەش قورالى كۆڭۈلدىكى ئېگىزلىكنى ئىشلىتىدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:58
+#: ../data/cinnamon-search-tool.schemas.in.h:58
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -208,7 +208,7 @@ msgstr ""
 "ئىزدەش قورالىنىڭ چوڭلۇقىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئۇ -1 قىلىپ تەڭشەلسە "
 "ئىزدەش قورالى كۆڭۈلدىكى كەڭلىكنى ئىشلىتىدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:59
+#: ../data/cinnamon-search-tool.schemas.in.h:59
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -216,7 +216,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆز ئىچىگە ئالغان تېكىست»نى تاللىغان "
 "ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:60
+#: ../data/cinnamon-search-tool.schemas.in.h:60
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -224,7 +224,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆزگەرتكەن چېسلادىن ئىلگىرى»نى "
 "تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:61
+#: ../data/cinnamon-search-tool.schemas.in.h:61
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -232,7 +232,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆزگەرتكەن چېسلادىن كېيىن»نى تاللىغان "
 "تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:62
+#: ../data/cinnamon-search-tool.schemas.in.h:62
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -240,7 +240,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «باشقا ھۆججەت سىستېمىسىنى ئۆز ئىچىگە "
 "ئالمايدۇ»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:63
+#: ../data/cinnamon-search-tool.schemas.in.h:63
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -248,7 +248,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ھۆججەت بوش»نى تاللىغان ياكى "
 "تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:64
+#: ../data/cinnamon-search-tool.schemas.in.h:64
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -256,7 +256,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «بەلگە ئۇلانمىغا ئەگەش»نى تاللىغان ياكى "
 "تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:65
+#: ../data/cinnamon-search-tool.schemas.in.h:65
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -264,7 +264,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئات ئۆز ئىچىگە ئالمايدۇ»نى تاللىغان "
 "تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:66
+#: ../data/cinnamon-search-tool.schemas.in.h:66
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -272,7 +272,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئات ماسلاشقان مۇنتىزىم ئىپادە»نى "
 "تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:67
+#: ../data/cinnamon-search-tool.schemas.in.h:67
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -280,7 +280,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «گۇرۇپپىغا تەۋە»نى تاللىغان ياكى "
 "تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:68
+#: ../data/cinnamon-search-tool.schemas.in.h:68
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -288,7 +288,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئىشلەتكۈچىگە تەۋە»نى تاللىغان ياكى "
 "تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:69
+#: ../data/cinnamon-search-tool.schemas.in.h:69
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -298,7 +298,7 @@ msgstr ""
 
 #. Translators: The quoted text is the label of the additional
 #. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:72
+#: ../data/cinnamon-search-tool.schemas.in.h:72
 msgid ""
 "This key determines if the \"Select more options\" section is expanded when "
 "the search tool is started."
@@ -306,7 +306,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «تېخىمۇ كۆپ تاللانما تاللا»نى تاللىغان "
 "تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:73
+#: ../data/cinnamon-search-tool.schemas.in.h:73
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -314,7 +314,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «يوشۇرۇن ھۆججەت ۋە قىسقۇچنى كۆرسەت»نى "
 "تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:74
+#: ../data/cinnamon-search-tool.schemas.in.h:74
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -322,7 +322,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «چوڭلۇقى ئاز دېگەندە»نى تاللىغان ياكى "
 "تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:75
+#: ../data/cinnamon-search-tool.schemas.in.h:75
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -330,7 +330,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «چوڭلۇقى كۆپ دېگەندە»نى تاللىغان ياكى "
 "تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:76
+#: ../data/cinnamon-search-tool.schemas.in.h:76
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -338,7 +338,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى تېز ئىزدەشنى ئىجرا قىلغاندىن كېيىن find بۇيرۇقى "
 "ئىشلىتىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:77
+#: ../data/cinnamon-search-tool.schemas.in.h:77
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -346,7 +346,7 @@ msgstr ""
 "بۇ كۇنۇپكا ئىزدەش قورالى ئادەتتىكى ھۆججەت ئات  ئىزدەشنى ئىجرا قىلغاندىن "
 "كېيىن locate بۇيرۇقى ئىشلىتىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
 
-#: ../data/gnome-search-tool.schemas.in.h:78
+#: ../data/cinnamon-search-tool.schemas.in.h:78
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr ""
@@ -992,8 +992,8 @@ msgid "Click to stop a search."
 msgstr "چېكىلسە ئىزدەش توختايدۇ."
 
 #: ../src/gsearchtool.c:2961
-msgid "- the GNOME Search Tool"
-msgstr "- GNOME ئىزدەش قورالى"
+msgid "- the CINNAMON Search Tool"
+msgstr "- CINNAMON ئىزدەش قورالى"
 
 #: ../src/gsearchtool.c:2970
 #, c-format

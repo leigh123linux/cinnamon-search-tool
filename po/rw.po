@@ -25,166 +25,166 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 #, fuzzy
 msgid "Search for Files..."
 msgstr "kugirango"
 
-#: ../data/gnome-search-tool.schemas.in.h:1
+#: ../data/cinnamon-search-tool.schemas.in.h:1
 msgid "Default Window Height"
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:2
+#: ../data/cinnamon-search-tool.schemas.in.h:2
 msgid "Default Window Maximized"
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:3
+#: ../data/cinnamon-search-tool.schemas.in.h:3
 msgid "Default Window Width"
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:4
+#: ../data/cinnamon-search-tool.schemas.in.h:4
 msgid "Disable Quick Search"
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:5
+#: ../data/cinnamon-search-tool.schemas.in.h:5
 msgid "Disable Quick Search Second Scan"
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:6
+#: ../data/cinnamon-search-tool.schemas.in.h:6
 #, fuzzy
 msgid "Look in Folder"
 msgstr "in Ububiko"
 
-#: ../data/gnome-search-tool.schemas.in.h:7
+#: ../data/cinnamon-search-tool.schemas.in.h:7
 msgid "Quick Search Excluded Paths"
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:8
+#: ../data/cinnamon-search-tool.schemas.in.h:8
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:9
+#: ../data/cinnamon-search-tool.schemas.in.h:9
 #, fuzzy
 msgid "Search Result Columns Order"
 msgstr "ibisubizo by'ishakisha"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:12
+#: ../data/cinnamon-search-tool.schemas.in.h:12
 #, fuzzy
 msgid "Select the search option \"Contains the text\""
 msgstr "Gushaka Ihitamo Umwandiko"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:15
+#: ../data/cinnamon-search-tool.schemas.in.h:15
 #, fuzzy
 msgid "Select the search option \"Date modified less than\""
 msgstr "Gushaka Ihitamo Byahinduwe Birutwa"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:18
+#: ../data/cinnamon-search-tool.schemas.in.h:18
 #, fuzzy
 msgid "Select the search option \"Date modified more than\""
 msgstr "Gushaka Ihitamo Byahinduwe Birenzeho"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:21
+#: ../data/cinnamon-search-tool.schemas.in.h:21
 #, fuzzy
 msgid "Select the search option \"Exclude other filesystems\""
 msgstr "Gushaka Ihitamo Ikindi"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:24
+#: ../data/cinnamon-search-tool.schemas.in.h:24
 #, fuzzy
 msgid "Select the search option \"File is empty\""
 msgstr "Gushaka Ihitamo Idosiye ni ubusa"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:27
+#: ../data/cinnamon-search-tool.schemas.in.h:27
 #, fuzzy
 msgid "Select the search option \"Follow symbolic links\""
 msgstr "Gushaka Ihitamo amahuza"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:30
+#: ../data/cinnamon-search-tool.schemas.in.h:30
 #, fuzzy
 msgid "Select the search option \"Name does not contain\""
 msgstr "Gushaka Ihitamo OYA"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:33
+#: ../data/cinnamon-search-tool.schemas.in.h:33
 #, fuzzy
 msgid "Select the search option \"Name matches regular expression\""
 msgstr "Gushaka Ihitamo Ibisanzwe imvugo"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:36
+#: ../data/cinnamon-search-tool.schemas.in.h:36
 #, fuzzy
 msgid "Select the search option \"Owned by group\""
 msgstr "Gushaka Ihitamo ku Itsinda"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:39
+#: ../data/cinnamon-search-tool.schemas.in.h:39
 #, fuzzy
 msgid "Select the search option \"Owned by user\""
 msgstr "Gushaka Ihitamo ku Ukoresha:"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:42
+#: ../data/cinnamon-search-tool.schemas.in.h:42
 #, fuzzy
 msgid "Select the search option \"Owner is unrecognized\""
 msgstr "Gushaka Ihitamo ni"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:45
+#: ../data/cinnamon-search-tool.schemas.in.h:45
 #, fuzzy
 msgid "Select the search option \"Show hidden files and folders\""
 msgstr "Gushaka Ihitamo gihishwe Idosiye Na"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:48
+#: ../data/cinnamon-search-tool.schemas.in.h:48
 #, fuzzy
 msgid "Select the search option \"Size at least\""
 msgstr "Gushaka Ihitamo ku"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:51
+#: ../data/cinnamon-search-tool.schemas.in.h:51
 #, fuzzy
 msgid "Select the search option \"Size at most\""
 msgstr "Gushaka Ihitamo ku"
 
-#: ../data/gnome-search-tool.schemas.in.h:52
+#: ../data/cinnamon-search-tool.schemas.in.h:52
 msgid "Show Additional Options"
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:53
+#: ../data/cinnamon-search-tool.schemas.in.h:53
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:54
+#: ../data/cinnamon-search-tool.schemas.in.h:54
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:55
+#: ../data/cinnamon-search-tool.schemas.in.h:55
 #, fuzzy
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
@@ -194,7 +194,7 @@ msgstr ""
 "Urufunguzo Inzira Gushaka Bivuye a Gushaka Na Mburabuzi Uduciro "
 "Ibitangazamakuru Na VAR"
 
-#: ../data/gnome-search-tool.schemas.in.h:56
+#: ../data/cinnamon-search-tool.schemas.in.h:56
 #, fuzzy
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
@@ -207,21 +207,21 @@ msgstr ""
 "ISEGONDA Gusikana Gushaka Komandi: Kuri Gushaka kugirango Idosiye Intego Bya "
 "ISEGONDA Gusikana ni Kuri Gushaka Idosiye OYA Na Mburabuzi Agaciro ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:57
+#: ../data/cinnamon-search-tool.schemas.in.h:57
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
 "use the default height."
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:58
+#: ../data/cinnamon-search-tool.schemas.in.h:58
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
 "the default width."
 msgstr ""
 
-#: ../data/gnome-search-tool.schemas.in.h:59
+#: ../data/cinnamon-search-tool.schemas.in.h:59
 #, fuzzy
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
@@ -229,7 +229,7 @@ msgid ""
 msgstr ""
 "Urufunguzo NIBA Umwandiko Gushaka Ihitamo ni Byahiswemo Ryari: Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:60
+#: ../data/cinnamon-search-tool.schemas.in.h:60
 #, fuzzy
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
@@ -238,7 +238,7 @@ msgstr ""
 "Urufunguzo NIBA Byahinduwe Birutwa Gushaka Ihitamo ni Byahiswemo Ryari: "
 "Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:61
+#: ../data/cinnamon-search-tool.schemas.in.h:61
 #, fuzzy
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
@@ -247,14 +247,14 @@ msgstr ""
 "Urufunguzo NIBA Byahinduwe Birenzeho Gushaka Ihitamo ni Byahiswemo Ryari: "
 "Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:62
+#: ../data/cinnamon-search-tool.schemas.in.h:62
 #, fuzzy
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
 msgstr "Urufunguzo NIBA Ikindi Gushaka Ihitamo ni Byahiswemo Ryari: Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:63
+#: ../data/cinnamon-search-tool.schemas.in.h:63
 #, fuzzy
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
@@ -263,7 +263,7 @@ msgstr ""
 "Urufunguzo NIBA Idosiye ni ubusa Gushaka Ihitamo ni Byahiswemo Ryari: "
 "Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:64
+#: ../data/cinnamon-search-tool.schemas.in.h:64
 #, fuzzy
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
@@ -271,14 +271,14 @@ msgid ""
 msgstr ""
 "Urufunguzo NIBA amahuza Gushaka Ihitamo ni Byahiswemo Ryari: Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:65
+#: ../data/cinnamon-search-tool.schemas.in.h:65
 #, fuzzy
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
 msgstr "Urufunguzo NIBA OYA Gushaka Ihitamo ni Byahiswemo Ryari: Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:66
+#: ../data/cinnamon-search-tool.schemas.in.h:66
 #, fuzzy
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
@@ -287,7 +287,7 @@ msgstr ""
 "Urufunguzo NIBA Ibisanzwe imvugo Gushaka Ihitamo ni Byahiswemo Ryari: "
 "Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:67
+#: ../data/cinnamon-search-tool.schemas.in.h:67
 #, fuzzy
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
@@ -295,7 +295,7 @@ msgid ""
 msgstr ""
 "Urufunguzo NIBA ku Itsinda Gushaka Ihitamo ni Byahiswemo Ryari: Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:68
+#: ../data/cinnamon-search-tool.schemas.in.h:68
 #, fuzzy
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
@@ -303,7 +303,7 @@ msgid ""
 msgstr ""
 "Urufunguzo NIBA ku Ukoresha: Gushaka Ihitamo ni Byahiswemo Ryari: Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:69
+#: ../data/cinnamon-search-tool.schemas.in.h:69
 #, fuzzy
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
@@ -312,7 +312,7 @@ msgstr "Urufunguzo NIBA ni Gushaka Ihitamo ni Byahiswemo Ryari: Gushaka ni"
 
 #. Translators: The quoted text is the label of the additional
 #. options expander that is translated elsewhere.
-#: ../data/gnome-search-tool.schemas.in.h:72
+#: ../data/cinnamon-search-tool.schemas.in.h:72
 #, fuzzy
 msgid ""
 "This key determines if the \"Select more options\" section is expanded when "
@@ -320,7 +320,7 @@ msgid ""
 msgstr ""
 "Urufunguzo NIBA Birenzeho Amahitamo Icyiciro ni Cyagutse Ryari: Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:73
+#: ../data/cinnamon-search-tool.schemas.in.h:73
 #, fuzzy
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
@@ -329,28 +329,28 @@ msgstr ""
 "Urufunguzo NIBA gihishwe Idosiye Na Gushaka Ihitamo ni Byahiswemo Ryari: "
 "Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:74
+#: ../data/cinnamon-search-tool.schemas.in.h:74
 #, fuzzy
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
 msgstr "Urufunguzo NIBA ku Gushaka Ihitamo ni Byahiswemo Ryari: Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:75
+#: ../data/cinnamon-search-tool.schemas.in.h:75
 #, fuzzy
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
 msgstr "Urufunguzo NIBA ku Gushaka Ihitamo ni Byahiswemo Ryari: Gushaka ni"
 
-#: ../data/gnome-search-tool.schemas.in.h:76
+#: ../data/cinnamon-search-tool.schemas.in.h:76
 #, fuzzy
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
 msgstr "Urufunguzo NIBA Gushaka Gukoresha Bya Gushaka Komandi: Nyuma a Gushaka"
 
-#: ../data/gnome-search-tool.schemas.in.h:77
+#: ../data/cinnamon-search-tool.schemas.in.h:77
 #, fuzzy
 msgid ""
 "This key determines if the search tool disables the use of the locate "
@@ -359,7 +359,7 @@ msgstr ""
 "Urufunguzo NIBA Gushaka Gukoresha Bya Komandi: Ryari: Byoroheje IDOSIYE "
 "Izina:"
 
-#: ../data/gnome-search-tool.schemas.in.h:78
+#: ../data/cinnamon-search-tool.schemas.in.h:78
 #, fuzzy
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
@@ -1078,7 +1078,7 @@ msgid "Click to stop a search."
 msgstr "Kuri Guhagarara a Gushaka"
 
 #: ../src/gsearchtool.c:2961
-msgid "- the GNOME Search Tool"
+msgid "- the CINNAMON Search Tool"
 msgstr ""
 
 #: ../src/gsearchtool.c:2970

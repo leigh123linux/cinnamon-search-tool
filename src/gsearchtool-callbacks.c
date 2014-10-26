@@ -1,6 +1,6 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
- * GNOME Search Tool
+ * CINNAMON Search Tool
  *
  *  File:  gsearchtool-callbacks.c
  *
@@ -57,13 +57,13 @@ store_window_state_and_geometry (GSearchWindow *gsearch)
 	gsearch->window_width = MAX (gsearch->window_width, MINIMUM_WINDOW_WIDTH);
 	gsearch->window_height = MAX (gsearch->window_height, MINIMUM_WINDOW_HEIGHT);
 
-	g_settings_set_int (gsearch->gnome_search_tool_settings,
+	g_settings_set_int (gsearch->cinnamon_search_tool_settings,
 	                    "default-window-width",
 	                    gsearch->window_width);
-	g_settings_set_int (gsearch->gnome_search_tool_settings,
+	g_settings_set_int (gsearch->cinnamon_search_tool_settings,
 	                    "default-window-height",
 		            gsearch->window_height);
-	g_settings_set_boolean (gsearch->gnome_search_tool_settings,
+	g_settings_set_boolean (gsearch->cinnamon_search_tool_settings,
 	                        "default-window-maximized",
 	                        gsearch->is_window_maximized);
 }
@@ -184,7 +184,7 @@ click_help_cb (GtkWidget * widget,
 	GtkWidget * window = data;
 	GError * error = NULL;
 
-	gtk_show_uri (gtk_widget_get_screen (widget), "help:gnome-search-tool",
+	gtk_show_uri (gtk_widget_get_screen (widget), "help:cinnamon-search-tool",
 	              gtk_get_current_event_time (), &error);
 	if (error) {
 		GtkWidget * dialog;
@@ -324,7 +324,7 @@ look_in_folder_changed_cb (GtkWidget * widget,
 	value = gtk_file_chooser_get_filename (GTK_FILE_CHOOSER (gsearch->look_in_folder_button));
 
 	if (value != NULL) {
-		g_settings_set_string (gsearch->gnome_search_tool_settings, "look-in-folder", value);
+		g_settings_set_string (gsearch->cinnamon_search_tool_settings, "look-in-folder", value);
 	}
 	g_free (value);
 }
@@ -414,7 +414,7 @@ display_dialog_could_not_open_folder (GtkWidget * window,
 	                                 GTK_BUTTONS_OK,
 	                                 primary, NULL);
 	gtk_message_dialog_format_secondary_text (GTK_MESSAGE_DIALOG (dialog),
-	                                          _("The nautilus file manager is not running."));
+	                                          _("The nemo file manager is not running."));
 
 	g_signal_connect (G_OBJECT (dialog),
                		  "response",
@@ -1781,7 +1781,7 @@ save_session_cb (EggSMClient * client,
 	char ** argv;
 	int argc;
 
-	set_clone_command (gsearch, &argc, &argv, "gnome-search-tool", FALSE);
+	set_clone_command (gsearch, &argc, &argv, "cinnamon-search-tool", FALSE);
 	egg_sm_client_set_restart_command (client, argc, (const char **) argv);
 }
 
@@ -1854,7 +1854,7 @@ disable_quick_search_cb (GtkWidget * dialog,
 	gtk_widget_destroy (GTK_WIDGET (dialog));
 
 	if (response == GTK_RESPONSE_OK) {
-		g_settings_set_boolean (gsearch->gnome_search_tool_settings, "disable-quick-search", TRUE);
+		g_settings_set_boolean (gsearch->cinnamon_search_tool_settings, "disable-quick-search", TRUE);
 	}
 }
 
@@ -1890,7 +1890,7 @@ columns_changed_cb (GtkTreeView * treeview,
 		g_variant_builder_add (&array_builder, "i", GPOINTER_TO_INT (iter->data));
 
 	if (g_slist_length (order) == NUM_VISIBLE_COLUMNS) {
-		g_settings_set_value (gsearch->gnome_search_tool_settings, "columns-order", g_variant_new ("ai", &array_builder));
+		g_settings_set_value (gsearch->cinnamon_search_tool_settings, "columns-order", g_variant_new ("ai", &array_builder));
 	}
 	g_slist_free (order);
 }

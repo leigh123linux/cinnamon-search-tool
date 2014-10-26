@@ -1,6 +1,6 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 /*
- * GNOME Search Tool
+ * CINNAMON Search Tool
  *
  *  File:  gsearchtool.c
  *
@@ -49,9 +49,9 @@
 #include "gsearchtool-support.h"
 #include "gsearchtool-entry.h"
 
-#define GNOME_SEARCH_TOOL_DEFAULT_ICON_SIZE 16
-#define GNOME_SEARCH_TOOL_STOCK "panel-searchtool"
-#define GNOME_SEARCH_TOOL_REFRESH_DURATION  50000
+#define CINNAMON_SEARCH_TOOL_DEFAULT_ICON_SIZE 16
+#define CINNAMON_SEARCH_TOOL_STOCK "panel-searchtool"
+#define CINNAMON_SEARCH_TOOL_REFRESH_DURATION  50000
 #define LEFT_LABEL_SPACING "     "
 
 static GObjectClass * parent_class;
@@ -506,7 +506,7 @@ start_animation (GSearchWindow * gsearch, gboolean first_pass)
 		gtk_window_set_title (GTK_WINDOW (gsearch->window), title);
 
 		gtk_label_set_text (GTK_LABEL (gsearch->files_found_label), "");
-		if (g_settings_get_boolean (gsearch->gnome_desktop_interface_settings, "enable-animations")) {
+		if (g_settings_get_boolean (gsearch->cinnamon_desktop_interface_settings, "enable-animations")) {
 			gtk_spinner_start (GTK_SPINNER (gsearch->progress_spinner));
 			gtk_widget_show (gsearch->progress_spinner);
 		}
@@ -649,14 +649,14 @@ build_search_command (GSearchWindow * gsearch,
 		if (gsearch->command_details->is_command_first_pass == TRUE) {
 
 			gchar * locate;
-			NautilusSpeedTradeoff show_thumbnails_enum;
+			NemoSpeedTradeoff show_thumbnails_enum;
 			gboolean disable_quick_search;
 
 			locate = g_find_program_in_path ("locate");
-			disable_quick_search = g_settings_get_boolean (gsearch->gnome_search_tool_settings, "disable-quick-search");
-			gsearch->command_details->is_command_second_pass_enabled = !g_settings_get_boolean (gsearch->gnome_search_tool_settings, "disable-quick-search-second-scan");
+			disable_quick_search = g_settings_get_boolean (gsearch->cinnamon_search_tool_settings, "disable-quick-search");
+			gsearch->command_details->is_command_second_pass_enabled = !g_settings_get_boolean (gsearch->cinnamon_search_tool_settings, "disable-quick-search-second-scan");
 
-			show_thumbnails_enum = g_settings_get_enum (gsearch->nautilus_settings, "show-image-thumbnails");
+			show_thumbnails_enum = g_settings_get_enum (gsearch->nemo_settings, "show-image-thumbnails");
 			if (show_thumbnails_enum == SPEED_TRADEOFF_ALWAYS ||
 			    show_thumbnails_enum == SPEED_TRADEOFF_LOCAL_ONLY) {
 			    	GVariant * value;
@@ -664,7 +664,7 @@ build_search_command (GSearchWindow * gsearch,
 
 			    	gsearch->show_thumbnails = TRUE;
 
-			    	value = g_settings_get_value (gsearch->nautilus_settings, "thumbnail-limit");
+			    	value = g_settings_get_value (gsearch->nemo_settings, "thumbnail-limit");
 			    	if (value) {
 				    	size_limit = g_variant_get_uint64 (value);
 					g_variant_unref (value);
@@ -1161,7 +1161,7 @@ set_constraint_gsettings_boolean (gint constraint_id,
 {
 	GSettings * select_settings;
 
-	select_settings = g_settings_new ("org.gnome.gnome-search-tool.select");
+	select_settings = g_settings_new ("org.cinnamon.cinnamon-search-tool.select");
 
 	switch (constraint_id) {
 
@@ -1556,7 +1556,7 @@ handle_search_command_stdout_io (GIOChannel * ioc,
 
 			g_timer_elapsed (timer, &duration);
 
-			if (duration > GNOME_SEARCH_TOOL_REFRESH_DURATION) {
+			if (duration > CINNAMON_SEARCH_TOOL_REFRESH_DURATION) {
 				if (gtk_events_pending ()) {
 					intermediate_file_count_update (gsearch);
 					while (gtk_events_pending ()) {
@@ -1885,7 +1885,7 @@ spawn_search_command (GSearchWindow * gsearch,
 		gsearch->search_results_pixbuf_hash_table = g_hash_table_new_full (g_str_hash, g_str_equal, g_free, g_object_unref);
 		gsearch->search_results_filename_hash_table = g_hash_table_new_full (g_str_hash, g_str_equal, g_free, NULL);
 
-		/* Use default value of nautilus date_format key before it was removed */
+		/* Use default value of nemo date_format key before it was removed */
 		gsearch->search_results_date_format_string = g_strdup ("locale");
 
 		gtk_tree_view_scroll_to_point (GTK_TREE_VIEW (gsearch->search_results_tree_view), 0, 0);
@@ -2461,12 +2461,12 @@ register_gsearchtool_icon (GtkIconFactory * factory)
 
 	source = gtk_icon_source_new ();
 
-	gtk_icon_source_set_icon_name (source, GNOME_SEARCH_TOOL_ICON);
+	gtk_icon_source_set_icon_name (source, CINNAMON_SEARCH_TOOL_ICON);
 
 	icon_set = gtk_icon_set_new ();
 	gtk_icon_set_add_source (icon_set, source);
 
-	gtk_icon_factory_add (factory, GNOME_SEARCH_TOOL_STOCK, icon_set);
+	gtk_icon_factory_add (factory, CINNAMON_SEARCH_TOOL_STOCK, icon_set);
 
 	gtk_icon_set_unref (icon_set);
 
@@ -2480,8 +2480,8 @@ gsearchtool_init_stock_icons (void)
 	GtkIconSize gsearchtool_icon_size;
 
 	gsearchtool_icon_size = gtk_icon_size_register ("panel-menu",
-							GNOME_SEARCH_TOOL_DEFAULT_ICON_SIZE,
-							GNOME_SEARCH_TOOL_DEFAULT_ICON_SIZE);
+							CINNAMON_SEARCH_TOOL_DEFAULT_ICON_SIZE,
+							CINNAMON_SEARCH_TOOL_DEFAULT_ICON_SIZE);
 
 	factory = gtk_icon_factory_new ();
 	gtk_icon_factory_add_default (factory);
@@ -2626,66 +2626,66 @@ set_clone_command (GSearchWindow * gsearch,
 static void
 handle_gsettings_settings (GSearchWindow * gsearch)
 {
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_settings, "show-additional-options")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_settings, "show-additional-options")) {
 		if (gtk_widget_get_visible (gsearch->available_options_vbox) == FALSE) {
 			gtk_expander_set_expanded (GTK_EXPANDER (gsearch->show_more_options_expander), TRUE);
 			gtk_widget_show (gsearch->available_options_vbox);
 		}
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "contains-the-text")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "contains-the-text")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_CONTAINS_THE_TEXT, "", FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "date-modified-less-than")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "date-modified-less-than")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_DATE_MODIFIED_BEFORE, "", FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "date-modified-more-than")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "date-modified-more-than")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_DATE_MODIFIED_AFTER, "", FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "size-at-least")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "size-at-least")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_SIZE_IS_MORE_THAN, "", FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "size-at-most")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "size-at-most")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_SIZE_IS_LESS_THAN, "", FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "file-is-empty")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "file-is-empty")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_FILE_IS_EMPTY, NULL, FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "owned-by-user")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "owned-by-user")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_OWNED_BY_USER, "", FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "owned-by-group")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "owned-by-group")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_OWNED_BY_GROUP, "", FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "owner-is-unrecognized")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "owner-is-unrecognized")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_OWNER_IS_UNRECOGNIZED, NULL, FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "name-does-not-contain")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "name-does-not-contain")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_FILE_IS_NOT_NAMED, "", FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "name-matches-regular-expression")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "name-matches-regular-expression")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_FILE_MATCHES_REGULAR_EXPRESSION, "", FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "show-hidden-files-and-folders")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "show-hidden-files-and-folders")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_SHOW_HIDDEN_FILES_AND_FOLDERS, NULL, FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "follow-symbolic-links")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "follow-symbolic-links")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_FOLLOW_SYMBOLIC_LINKS, NULL, FALSE);
 	}
 
-	if (g_settings_get_boolean (gsearch->gnome_search_tool_select_settings, "exclude-other-filesystems")) {
+	if (g_settings_get_boolean (gsearch->cinnamon_search_tool_select_settings, "exclude-other-filesystems")) {
 		add_constraint (gsearch, SEARCH_CONSTRAINT_SEARCH_OTHER_FILESYSTEMS, NULL, FALSE);
 	}
 }
@@ -2713,13 +2713,13 @@ gsearch_app_create (GSearchWindow * gsearch)
 	GtkWidget * button;
 	GtkWidget * container;
 
-	gsearch->gnome_search_tool_settings = g_settings_new ("org.gnome.gnome-search-tool");
-	gsearch->gnome_search_tool_select_settings = g_settings_new ("org.gnome.gnome-search-tool.select");
-	gsearch->gnome_desktop_interface_settings = g_settings_new ("org.gnome.desktop.interface");
-	gsearch->nautilus_settings = g_settings_new ("org.gnome.nautilus.preferences");
+	gsearch->cinnamon_search_tool_settings = g_settings_new ("org.cinnamon.cinnamon-search-tool");
+	gsearch->cinnamon_search_tool_select_settings = g_settings_new ("org.cinnamon.cinnamon-search-tool.select");
+	gsearch->cinnamon_desktop_interface_settings = g_settings_new ("org.cinnamon.desktop.interface");
+	gsearch->nemo_settings = g_settings_new ("org.nemo.preferences");
 
 	gsearch->window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
-	gsearch->is_window_maximized = g_settings_get_boolean (gsearch->gnome_search_tool_settings, "default-window-maximized");
+	gsearch->is_window_maximized = g_settings_get_boolean (gsearch->cinnamon_search_tool_settings, "default-window-maximized");
 	g_signal_connect (G_OBJECT (gsearch->window), "size-allocate",
 			  G_CALLBACK (gsearch_window_size_allocate),
 			  gsearch);
@@ -2792,7 +2792,7 @@ gsearch_app_create (GSearchWindow * gsearch)
 		add_atk_namedesc (GTK_WIDGET (gsearch->look_in_folder_button), _("Look in folder"), _("Select the folder or device from which you want to begin the search."));
 	}
 
-	locale_string = g_settings_get_string (gsearch->gnome_search_tool_settings, "look-in-folder");
+	locale_string = g_settings_get_string (gsearch->cinnamon_search_tool_settings, "look-in-folder");
 
 	if ((g_file_test (locale_string, G_FILE_TEST_EXISTS) == FALSE) || 
 	    (g_file_test (locale_string, G_FILE_TEST_IS_DIR) == FALSE)) {
@@ -2934,8 +2934,8 @@ gsearchtool_setup_gsettings_notifications (GSearchWindow * gsearch)
 {
 	gchar * click_to_activate_pref;
 
-	/* Get value of nautilus click behavior (single or double click to activate items) */
-	click_to_activate_pref = g_settings_get_string (gsearch->nautilus_settings, "click-policy");
+	/* Get value of nemo click behavior (single or double click to activate items) */
+	click_to_activate_pref = g_settings_get_string (gsearch->nemo_settings, "click-policy");
 
 	if (click_to_activate_pref == NULL) {
 		gsearch->is_search_results_single_click_to_activate = FALSE;
@@ -2945,7 +2945,7 @@ gsearchtool_setup_gsettings_notifications (GSearchWindow * gsearch)
 	gsearch->is_search_results_single_click_to_activate =
 		(strncmp (click_to_activate_pref, "single", 6) == 0) ? TRUE : FALSE;
 
-	g_signal_connect (gsearch->nautilus_settings,
+	g_signal_connect (gsearch->nemo_settings,
 	                  "changed::click-policy",
 	                  G_CALLBACK (single_click_to_activate_key_changed_cb),
 	                  gsearch);
@@ -2964,11 +2964,11 @@ main (int argc,
 	EggSMClient * client;
 
 	setlocale (LC_ALL, "");
-	bindtextdomain (GETTEXT_PACKAGE, GNOMELOCALEDIR);
+	bindtextdomain (GETTEXT_PACKAGE, CINNAMONLOCALEDIR);
 	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 	textdomain (GETTEXT_PACKAGE);
 
-	context = g_option_context_new (N_("- the GNOME Search Tool"));
+	context = g_option_context_new (N_("- the CINNAMON Search Tool"));
 	g_option_context_set_translation_domain(context, GETTEXT_PACKAGE);
 	gsearch_setup_goption_descriptions ();
 	g_option_context_add_main_entries (context, GSearchGOptionEntries, GETTEXT_PACKAGE);
@@ -2984,14 +2984,14 @@ main (int argc,
 	g_option_context_free (context);
 
 	g_set_application_name (_("Search for Files"));
-	gtk_window_set_default_icon_name (GNOME_SEARCH_TOOL_ICON);
+	gtk_window_set_default_icon_name (CINNAMON_SEARCH_TOOL_ICON);
 
 	gsearchtool_init_stock_icons ();
 
 	window = g_object_new (GSEARCH_TYPE_WINDOW, NULL);
 	gsearch = GSEARCH_WINDOW (window);
 
-	gtk_window_set_wmclass (GTK_WINDOW (gsearch->window), "gnome-search-tool", "gnome-search-tool");
+	gtk_window_set_wmclass (GTK_WINDOW (gsearch->window), "cinnamon-search-tool", "cinnamon-search-tool");
 	gtk_window_set_resizable (GTK_WINDOW (gsearch->window), TRUE);
 
 	g_signal_connect (G_OBJECT (gsearch->window), "delete_event",

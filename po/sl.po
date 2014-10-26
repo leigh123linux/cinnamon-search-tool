@@ -1,4 +1,4 @@
-# Slovenian translations for gnome-search-tool.
+# Slovenian translations for cinnamon-search-tool.
 # Copyright (C) 2000-2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-utils package.
 #
@@ -8,13 +8,13 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-search-tool master\n"
+"Project-Id-Version: cinnamon-search-tool master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "search-tool&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2013-01-24 15:41+0000\n"
 "PO-Revision-Date: 2013-01-26 19:50+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
-"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language-Team: Slovenian CINNAMON Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,35 +23,35 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: ../data/gnome-search-tool.desktop.in.h:1
+#: ../data/cinnamon-search-tool.desktop.in.h:1
 msgid "Search for Files..."
 msgstr "Poišči datoteke ..."
 
-#: ../data/gnome-search-tool.desktop.in.h:2
+#: ../data/cinnamon-search-tool.desktop.in.h:2
 msgid "Locate documents and folders on this computer by name or content"
 msgstr "Krajevno iskanje dokumentov in map po imenu ali vsebini"
 
-#: ../data/gnome-search-tool.desktop.in.h:3
+#: ../data/cinnamon-search-tool.desktop.in.h:3
 msgid "find;locate;look for;seek;"
 msgstr "najdi;iskanje;lociraj;poišči;"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:1
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:1
 msgid "Search history"
 msgstr "Zgodovina iskanja"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:2
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:2
 msgid "This key defines the items which were searched for in the past."
 msgstr "Možnost določa predmete, ki so bili v preteklosti že iskani."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:3
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:3
 msgid "Show Additional Options"
 msgstr "Pokaži dodatne možnosti"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:4
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:4
 msgid "Disable Quick Search"
 msgstr "Onemogoči hitro iskanje"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:5
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:5
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
@@ -59,11 +59,11 @@ msgstr ""
 "Ključ določa, ali naj orodje za iskanje izključi uporabo ukaza locate po "
 "izvedenem enostavnem iskanju imena datoteke."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:6
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:6
 msgid "Quick Search Excluded Paths"
 msgstr "Iz hitrega iskanja izločene poti"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:7
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:7
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
@@ -73,11 +73,11 @@ msgstr ""
 "Podprta sta nadomestna znaka '*' in '?'.  Privzete vrednosti so /mnt/*, /"
 "media/*, /dev/*, /tmp/*, /proc/* in /var/*."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:8
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:8
 msgid "Disable Quick Search Second Scan"
 msgstr "Onemogoči drugo preiskovanje med hitrim iskanjem"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:9
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:9
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
@@ -85,11 +85,11 @@ msgstr ""
 "Ključ določa, ali naj orodje za iskanje izključi uporabo ukaza find po "
 "izvedenem hitrem iskanju."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:10
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:10
 msgid "Quick Search Second Scan Excluded Paths"
 msgstr "Iz drugega preiskovanja hitrega iskanja izločene poti"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:11
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:11
 msgid ""
 "This key defines the paths the search tool will exclude from a second scan "
 "when performing a quick search. The second scan uses the find command to "
@@ -102,11 +102,11 @@ msgstr ""
 "ukaz find za iskanje datotek. Namen drugega preiskovanja je poiskati nove "
 "datoteke. Podprta sta nadomestna znaka '*' in '?'. Privzeta vrednost je /."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:12
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:12
 msgid "Search Result Columns Order"
 msgstr "Vrstni red stolpcev z rezultati iskanja"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:13
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:13
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
@@ -114,11 +114,11 @@ msgstr ""
 "Ključ določa vrstni red stolpcev v rezultatih iskanja. Uporabniku tega "
 "ključa ni priporočljivo spreminjati."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:14
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:14
 msgid "Default Window Width"
 msgstr "Privzeta širina okna"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:15
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:15
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
@@ -128,11 +128,11 @@ msgstr ""
 "iskanje enaka med sejami. Če jo nastavite na -1, bo orodje za iskanje "
 "uporabilo privzeto širino."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:16
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:16
 msgid "Default Window Height"
 msgstr "Privzeta višina okna"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:17
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:17
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
@@ -142,25 +142,25 @@ msgstr ""
 "iskanje enaka med sejami. Če jo nastavite na -1, bo orodje za iskanje "
 "uporabilo privzeto višino."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:18
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:18
 msgid "Default Window Maximized"
 msgstr "Razpeto privzeto okno"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:19
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:19
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr ""
 "Ključ določa, ali naj bo okno orodja za iskanje zagnano v razpetem stanju."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:20
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:20
 msgid "Look in Folder"
 msgstr "Poglej v mapo"
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:21
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:21
 msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr "Ključ določa vrednost gradnika \"Poglej v mapo\"."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:22
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:22
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
@@ -168,7 +168,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Vsebuje besedilo\", ko "
 "je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:23
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:23
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
@@ -176,7 +176,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Datum spremembe mlajši "
 "kot\", ko je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:24
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:24
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
@@ -184,7 +184,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Datum spremembe "
 "starejši kot\", ko je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:25
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:25
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
@@ -192,7 +192,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Velikost najmanj\", ko "
 "je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:26
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:26
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
@@ -200,7 +200,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Velikost največ\", ko "
 "je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:27
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:27
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
@@ -208,7 +208,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Datoteka je prazna\", "
 "ko je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:28
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:28
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
@@ -216,7 +216,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Lastnik je uporabnik\", "
 "ko je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:29
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:29
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
@@ -224,7 +224,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Lastnik je skupina\", "
 "ko je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:30
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:30
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
@@ -232,7 +232,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Lastnik ni prepoznan\", "
 "ko je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:31
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:31
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
@@ -240,7 +240,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Ime ne vsebuje\", ko je "
 "zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:32
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:32
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
@@ -248,7 +248,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Ime ustreza logičnemu "
 "izrazu\", ko je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:33
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:33
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
@@ -256,7 +256,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Pokaži skrite datoteke "
 "in mape\", ko je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:34
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:34
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
@@ -264,7 +264,7 @@ msgstr ""
 "Ključ določa, ali naj bo vključena možnost iskanja \"Sledi simboličnim "
 "povezavam\", ko je zagnano orodje za iskanje."
 
-#: ../data/org.gnome.gnome-search-tool.gschema.xml.in.h:35
+#: ../data/org.cinnamon.cinnamon-search-tool.gschema.xml.in.h:35
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -640,8 +640,8 @@ msgid "Click to stop a search."
 msgstr "Kliknite za zaustavitev iskanja."
 
 #: ../src/gsearchtool.c:2972
-msgid "- the GNOME Search Tool"
-msgstr "- orodje za iskanje GNOME"
+msgid "- the CINNAMON Search Tool"
+msgstr "- orodje za iskanje CINNAMON"
 
 #: ../src/gsearchtool.c:2981
 #, c-format

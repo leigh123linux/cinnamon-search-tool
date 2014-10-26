@@ -1,7 +1,7 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
-data/gnome-search-tool.desktop.in
-data/org.gnome.gnome-search-tool.gschema.xml.in
+data/cinnamon-search-tool.desktop.in
+data/org.cinnamon.cinnamon-search-tool.gschema.xml.in
 src/gsearchtool.c
 src/gsearchtool-callbacks.c
 src/gsearchtool-support.c
